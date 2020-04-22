@@ -1,0 +1,209 @@
+\documentclass[12pt, a4paper,twoside]{tesi_upf}
+
+%CODIFICATION
+\usepackage[latin1]{inputenc}
+%LENGUAGE
+\usepackage[catalan,english]{babel}
+%ONLY TO OBTAIN MARK BANK INDEX INDICATION A4
+\usepackage[cam,a4,center,frame]{crop}
+%INCLUDE GRAPHICS AND THE LOGO OF THE UPF
+\usepackage{graphicx}
+%FONTS TIMES OR GARAMOND, 
+\usepackage{times}
+%\usepackage{garamond}
+%WITHOUT HEADINGS: NO MODIFICATION
+\pagestyle{plain}
+%FOR THE INDEX OF SUBJECTS
+\usepackage{makeidx}
+\makeindex
+%BIBLIOGRAPHY STYLE
+\bibliographystyle{apalike}
+%SELECT LANGUAGE
+\selectlanguage{catalan}
+
+\usepackage{url}
+%\usepackage{hyperref}
+
+%THE TABLE OF CONTENTS IS TITLE CONTENTS
+%\addto\captionscatalan
+\renewcommand{\contentsname}{\Large \sffamily Table of contents}
+
+%ADD YOUR DATA
+\title{Enabling Spatial Reuse in Future Wireless Local Area Networks:\\ a Machine Learning \& Game Theoretic Proposal}
+%\subtitle{The subtitle of the thesis: Required}
+\author{Francesc Wilhelmi Roca}
+\thyear{2020}
+\department{of Information and Communication Technologies}
+\supervisor{Boris Bellalta, Cristina Cano \& Anders Jonsson}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\cleardoublepage
+
+%%%%%% Dedication
+\noindent Write here your dedication
+\cleardoublepage
+%%%%%% End dedication
+
+%%%%%% Thanks
+\noindent {\Large \sffamily Acknowledgments} 
+\cleardoublepage
+%%%%%% End of thanks
+
+%ABSTRACT IN TWO LEGUAGES.
+\selectlanguage{english}
+\section*{\Large \sffamily Abstract}
+The Spatial Reuse (SR) operation is gaining momentum in the newest IEEE 802.11 family of standards due to the overwhelming requirements posed by next-generation wireless networks. In particular, the increasing traffic capacity and number of concurrent devices compromise the efficiency of Wireless Local Area Networks (WLANs) and throw into question their decentralized nature. The SR operation, initially introduced by the IEEE 802.11ax-2020/21 amendment and further studied in IEEE 802.11be-2024/25/26, is aimed at increasing the number of concurrent transmissions in an Overlapping Basic Service Set (OBSS), thus improving spectral efficiency. 
+
+The SR operation has been initially defined as a distributed mechanism, but it is evolving towards coordinated schemes. Nevertheless, coordination entails communication and synchronization procedures that have not been defined yet. The necessary overhead to carry out coordination has implications on the WLANs' performance and remains unknown. Moreover, the coordinated scheme is not compatible with IEEE 802.11 devices not implementing it.
+
+As a result, it is ...
+
+\selectlanguage{english}
+\vspace*{\fill}
+\section*{\Large \sffamily  Resum}
+
+\vspace*{\fill}
+
+\cleardoublepage
+%END OF ABSTRACT
+
+\section*{\Large \sffamily List of Publications}
+
+\begin{enumerate}
+	\item Wilhelmi, F., Muñoz, S. B., Cano, C., Selinis, I., \& Bellalta, B. (2019). \textit{Spatial Reuse in IEEE 802.11 ax WLANs.} arXiv preprint arXiv:1907.04141.
+	\item Wilhelmi, F., Barrachina-Muñoz, S., \& Bellalta, B. (2019, October). \textit{On the Performance of the Spatial Reuse Operation in IEEE 802.11 ax WLANs.} In 2019 IEEE Conference on Standards for Communications and Networking (CSCN) (pp. 1-6). IEEE.
+	\item Wilhelmi, F., Bellalta, B., Cano, C., \& Jonsson, A. (2017, October). \textit{Implications of decentralized Q-learning resource allocation in wireless networks}. In 2017 ieee 28th annual international symposium on personal, indoor, and mobile radio communications (pimrc) (pp. 1-5). IEEE.
+	\item Wilhelmi, F., Cano, C., Neu, G., Bellalta, B., Jonsson, A., \& Barrachina-Muñoz, S. (2019). \textit{Collaborative spatial reuse in wireless networks via selfish multi-armed bandits.} Ad Hoc Networks, 88, 129-141.
+	\item Wilhelmi Roca, F., Barrachina Muñoz, S., Bellalta, B., Cano Sandín, C., Jonsson, A., \& Neu, G. (2019). \textit{Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in WLANs.} Journal of Network and Computer Applications, 2019, 127.
+	\item Barrachina-Muñoz, S., Wilhelmi, F., Selinis, I., \& Bellalta, B. (2019, April). \textit{Komondor: a wireless network simulator for next-generation high-density WLANs.} In 2019 Wireless Days (WD) (pp. 1-8). IEEE.
+	\item Wilhelmi, F., Barrachina-Munoz, S., Bellalta, B., Cano, C., Jonsson, A., \& Ram, V. (2020). \textit{A Flexible Machine-Learning-Aware Architecture for Future WLANs. IEEE Communications Magazine, 58(3), 25-31.}	
+	\item Wilhelmi, F., Carrascosa, M., Cano, C., Ram, V., \& Bellalta, B. (2020). \textit{Usage of Network Simulators in Machine-Learning-Assisted 5G/6G Networks.}
+\end{enumerate}
+%Decentralized learning with cost in IEEE 802.11 WLANs
+%Survey MABs for communications
+
+%%PREFACE. 
+%{\bf Preface}
+
+\cleardoublepage
+%END OF PREFACE
+
+%TABLE OF CONTENTS: REQUIRED
+\tableofcontents
+
+%lIST OF FIGURES; ONLY IF THERE ARE FIGURES
+%\listoffigures
+%TO APPER THE LIST OF FIGURES IN THE TABLE OF CONTENTS 
+%\addcontentsline{toc}{chapter}{List of figures}
+
+%LIST OF TABLES; ONLY IF THERE ARE TABLES
+%\listoftables
+%TO APPEAR THE LIST OF TABLES IN THE TABLE OF CONTENTS
+%\addcontentsline{toc}{chapter}{List of tables}
+
+%START THE TEXT
+\mainmatter
+
+%%%%%%%%%%%%%%%%%
+% INTRODUCTION
+%%%%%%%%%%%%%%%%%
+\chapter{Introduction}
+
+% What is SR and what it is aimed to solve
+
+% Wich is the current situation of SR
+
+% How ML will be important in future networks
+
+% Proposal to use ML for SR
+
+%%%%%%%%%%%%%%%%%
+% TECHNOLOGY
+%%%%%%%%%%%%%%%%%
+\chapter{Spatial Reuse in IEEE 802.11 WLANs: Technology}
+
+\section{Related Work}
+
+\section{Spatial Reuse in IEEE 802.11ax}
+
+\section{Evolution path of Spatial Reuse in IEEE 802.11}
+
+%%%%%%%%%%%%%%%%%
+% MACHINE LEARNING
+%%%%%%%%%%%%%%%%%
+\chapter{Machine Learning in IEEE 802.11 WLANs}
+
+\section{Related Work}
+
+\section{Multi-Armed Bandits for Decentralized Spatial Reuse}
+
+%%%%%%%%%%%%%%%%%
+% METHODS
+%%%%%%%%%%%%%%%%%
+\chapter{Methodology and Enablers}
+
+\section{Model and Simulation of Spatial Reuse}
+
+\section{Architectural Aspects of Machine-Learning-Aware Networks}
+
+%%%%%%%%%%%%%%%%%
+% RESULTS
+%%%%%%%%%%%%%%%%%
+\chapter{Performance Evaluation}
+
+%%%%%%%%%%%%%%%%%
+% CONCLUSIONS
+%%%%%%%%%%%%%%%%%
+\chapter{Conclusions}
+
+%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+%%%%%%%%%%%%%%%%%
+\bibliography{bibliography}
+
+%%%%%%%%%%%%%%%%%
+% ATTACHED PUBLICATIONS
+%%%%%%%%%%%%%%%%%
+\chapter{Publications}
+
+\section{Spatial Reuse in IEEE 802.11 ax WLANs}
+
+\section{On the Performance of the Spatial Reuse Operation in IEEE 802.11 ax WLANs}
+
+\section{Implications of decentralized Q-learning resource allocation in wireless networks}
+
+\section{Collaborative spatial reuse in wireless networks via selfish multi-armed bandits}
+
+\section{Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in WLANs}
+
+\section{A Flexible Machine-Learning-Aware Architecture for Future WLANs. IEEE Communications Magazine}
+
+\section{Komondor: a wireless network simulator for next-generation high-density WLANs}
+
+\section{Usage of Network Simulators in Machine-Learning-Assisted 5G/6G Networks}
+
+\backmatter
+\printindex
+
+\end{document}
+
+%NUMBER OF THE EXTERNAL PAGE EXCEPT IN THE FIRST PAGE OF EACH CAPITAL
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyfoot[RO]{\thepage}
+\fancyfoot[LE]{\thepage}
+
+%MULTIPLE INDEX
+%In the preamble
+\usepackage{multind}
+\makeindex{authors}
+%Introduction to form entries
+\index{authors}{Einstein}
+%Situation of the Index
+\printindex{authors}{Author index}
+%The \ usepakage {makeidx} \ makeindex \ printindex commands must be removed
+%You need to exacute from the command line makeindex authors
