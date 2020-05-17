@@ -3,24 +3,31 @@
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{\numberline {1}{\MakeUppercase { Introduction}}}{1}
-\contentsline {chapter}{\numberline {2}{\MakeUppercase { Spatial Reuse in IEEE 802.11 WLANs: Technology}}}{3}
-\contentsline {section}{\numberline {2.1}Related Work}{3}
-\contentsline {section}{\numberline {2.2}Spatial Reuse in IEEE 802.11ax}{3}
-\contentsline {section}{\numberline {2.3}Evolution path of Spatial Reuse in IEEE 802.11}{3}
-\contentsline {chapter}{\numberline {3}{\MakeUppercase { Machine Learning in IEEE 802.11 WLANs}}}{5}
-\contentsline {section}{\numberline {3.1}Related Work}{5}
-\contentsline {section}{\numberline {3.2}Multi-Armed Bandits for Decentralized Spatial Reuse}{5}
-\contentsline {chapter}{\numberline {4}{\MakeUppercase { Methodology and Enablers}}}{7}
-\contentsline {section}{\numberline {4.1}Model and Simulation of Spatial Reuse}{7}
-\contentsline {section}{\numberline {4.2}Architectural Aspects of Machine-Learning-Aware Networks}{7}
-\contentsline {chapter}{\numberline {5}{\MakeUppercase { Performance Evaluation}}}{9}
-\contentsline {chapter}{\numberline {6}{\MakeUppercase { Conclusions}}}{11}
-\contentsline {chapter}{\numberline {7}{\MakeUppercase { Publications}}}{15}
-\contentsline {section}{\numberline {7.1}Spatial Reuse in IEEE 802.11 ax WLANs}{16}
-\contentsline {section}{\numberline {7.2}On the Performance of the Spatial Reuse Operation in IEEE 802.11 ax WLANs}{16}
-\contentsline {section}{\numberline {7.3}Implications of decentralized Q-learning resource allocation in wireless networks}{16}
-\contentsline {section}{\numberline {7.4}Collaborative spatial reuse in wireless networks via selfish multi-armed bandits}{16}
-\contentsline {section}{\numberline {7.5}Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in WLANs}{16}
-\contentsline {section}{\numberline {7.6}A Flexible Machine-Learning-Aware Architecture for Future WLANs. IEEE Communications Magazine}{16}
-\contentsline {section}{\numberline {7.7}Komondor: a wireless network simulator for next-generation high-density WLANs}{16}
-\contentsline {section}{\numberline {7.8}Usage of Network Simulators in Machine-Learning-Assisted 5G/6G Networks}{16}
+\contentsline {chapter}{\numberline {2}{\MakeUppercase { Spatial Reuse in IEEE 802.11 WLANs: Technology}}}{5}
+\contentsline {section}{\numberline {2.1}Related Work}{5}
+\contentsline {subsection}{\numberline {2.1.1}Spatial Reuse in Wireless Networks}{5}
+\contentsline {subsection}{\numberline {2.1.2}Spatial Reuse in IEEE 802.11 WLANs}{6}
+\contentsline {section}{\numberline {2.2}Spatial Reuse in IEEE 802.11ax}{6}
+\contentsline {subsection}{\numberline {2.2.1}OBSS/PD-based Spatial Reuse}{7}
+\contentsline {subsection}{\numberline {2.2.2}Parametrized Spatial Reuse}{7}
+\contentsline {section}{\numberline {2.3}Spatial Reuse in Future IEEE 802.11 WLANs}{8}
+\contentsline {chapter}{\numberline {3}{\MakeUppercase { Machine Learning in IEEE 802.11 WLANs}}}{11}
+\contentsline {section}{\numberline {3.1}Related Work}{11}
+\contentsline {section}{\numberline {3.2}Multi-Armed Bandits for Decentralized Spatial Reuse}{11}
+\contentsline {chapter}{\numberline {4}{\MakeUppercase { Methodology and Enablers}}}{13}
+\contentsline {section}{\numberline {4.1}Spatial Reuse through Continuous Time Markov Networks}{13}
+\contentsline {subsection}{\numberline {4.1.1}IEEE 802.11ax OBSS/PD-based Spatial Reuse}{13}
+\contentsline {subsection}{\numberline {4.1.2}IEEE 802.11be Coordinated Spatial Reuse}{13}
+\contentsline {section}{\numberline {4.2}System-level Simulation of Spatial Reuse}{13}
+\contentsline {section}{\numberline {4.3}Architectural Aspects of Machine-Learning-Aware Networks}{13}
+\contentsline {chapter}{\numberline {5}{\MakeUppercase { Main Findings}}}{15}
+\contentsline {chapter}{\numberline {6}{\MakeUppercase { Conclusions and Future Work}}}{17}
+\contentsline {chapter}{\numberline {7}{\MakeUppercase { Publications}}}{23}
+\contentsline {section}{\numberline {7.1}Spatial Reuse in IEEE 802.11 ax WLANs}{24}
+\contentsline {section}{\numberline {7.2}On the Performance of the Spatial Reuse Operation in IEEE 802.11 ax WLANs}{24}
+\contentsline {section}{\numberline {7.3}Implications of decentralized Q-learning resource allocation in wireless networks}{24}
+\contentsline {section}{\numberline {7.4}Collaborative spatial reuse in wireless networks via selfish multi-armed bandits}{24}
+\contentsline {section}{\numberline {7.5}Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in WLANs}{24}
+\contentsline {section}{\numberline {7.6}A Flexible Machine-Learning-Aware Architecture for Future WLANs. IEEE Communications Magazine}{24}
+\contentsline {section}{\numberline {7.7}Komondor: a wireless network simulator for next-generation high-density WLANs}{24}
+\contentsline {section}{\numberline {7.8}Usage of Network Simulators in Machine-Learning-Assisted 5G/6G Networks}{24}

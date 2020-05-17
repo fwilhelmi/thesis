@@ -1,3 +1,224 @@
 \begin{thebibliography}{}
 
+\bibitem[Afaqui et~al., 2016]{afaqui2016dynamic}
+Afaqui, M.~S., Garcia-Villegas, E., Lopez-Aguilera, E., and Camps-Mur, D.
+  (2016).
+\newblock {Dynamic sensitivity control of access points for IEEE 802.11 ax}.
+\newblock In {\em Communications (ICC), 2016 IEEE International Conference on},
+  pages 1--7. IEEE.
+
+\bibitem[Afaqui et~al., 2015]{afaqui2015evaluation}
+Afaqui, M.~S., Garcia-Villegas, E., Lopez-Aguilera, E., Smith, G., and Camps,
+  D. (2015).
+\newblock {Evaluation of dynamic sensitivity control algorithm for IEEE 802.11
+  ax}.
+\newblock In {\em Wireless Communications and Networking Conference (WCNC),
+  2015 IEEE}, pages 1060--1065. IEEE.
+
+\bibitem[Bankov et~al., 2018]{bankov2018ofdma}
+Bankov, D., Didenko, A., Khorov, E., and Lyakhov, A. (2018).
+\newblock {OFDMA Uplink Scheduling in IEEE 802.11 ax Networks}.
+\newblock In {\em 2018 IEEE International Conference on Communications (ICC)},
+  pages 1--6. IEEE.
+
+\bibitem[Bellalta, 2016]{bellalta2016ieee}
+Bellalta, B. (2016).
+\newblock Ieee 802.11 ax: High-efficiency wlans.
+\newblock {\em IEEE Wireless Communications}, 23(1):38--46.
+
+\bibitem[Cariou et~al., 2020]{cariou2020access}
+Cariou, L., Cordeiro, C., Yang, O., and Trainin, S.~B. (2020).
+\newblock Access point (ap), station (sta) and method of channel access for
+  spatial reuse.
+\newblock US Patent 10,582,537.
+
+\bibitem[Cariou et~al., 2019a]{cariou201911ax}
+Cariou, L., Ghosh, C., Huang, P.-K., and Stacey, R. (2019a).
+\newblock [11ax] conditions for spatial reuse using joint tpc and cca.
+\newblock US Patent 10,356,624.
+
+\bibitem[Cariou and Huang, 2017]{cariou201711ax}
+Cariou, L. and Huang, P.-K. (2017).
+\newblock [11ax] conditional spatial reuse.
+\newblock US Patent App. 14/969,415.
+
+\bibitem[Cariou and Huang, 2018]{cariou2018setting}
+Cariou, L. and Huang, P.-K. (2018).
+\newblock Setting parameters for spatial reuse proportional rule in non-perfect
+  managed environments.
+\newblock US Patent 10,039,115.
+
+\bibitem[Cariou et~al., 2019b]{cariou2019basic}
+Cariou, L., Huang, P.-K., Bravo, D.~F., and Ginsburg, N. (2019b).
+\newblock Basic service set identifications for using non-default spatial reuse
+  parameters.
+\newblock US Patent 10,366,064.
+
+\bibitem[Deng et~al., 2014]{deng2014ieee}
+Deng, D.-J., Chen, K.-C., and Cheng, R.-S. (2014).
+\newblock Ieee 802.11 ax: Next generation wireless local area networks.
+\newblock In {\em 10Th international conference on heterogeneous networking for
+  quality, reliability, security and robustness}, pages 77--82. IEEE.
+
+\bibitem[Dovelos and Bellalta, 2019]{dovelos2018optimal}
+Dovelos, K. and Bellalta, B. (2019).
+\newblock {Optimal Resource Allocation in IEEE 802.11ax Uplink OFDMA with
+  Scheduled Access}.
+\newblock {\em arXiv preprint arXiv:1811.00957}.
+
+\bibitem[Khorov et~al., 2018]{khorov2018tutorial}
+Khorov, E., Kiryanov, A., Lyakhov, A., and Bianchi, G. (2018).
+\newblock A tutorial on ieee 802.11 ax high efficiency wlans.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 21(1):197--216.
+
+\bibitem[Kulkarni and Cao, 2015]{kulkarni2015taming}
+Kulkarni, P. and Cao, F. (2015).
+\newblock {Taming the densification challenge in next generation wireless LANs:
+  An investigation into the use of dynamic sensitivity control}.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2015 IEEE 11th International Conference on}, pages 860--867. IEEE.
+
+\bibitem[Li et~al., 2016]{li2016discussion}
+Li, Y. et~al. (2016).
+\newblock Discussion on spatial reuse operations in 11ax.
+\newblock {\em Mar}, 14:11--16.
+
+\bibitem[Liao et~al., 2016]{liao2016mu}
+Liao, R., Bellalta, B., Oliver, M., and Niu, Z. (2016).
+\newblock {MU-MIMO MAC protocols for wireless local area networks: A survey}.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):162--183.
+
+\bibitem[Liu et~al., ]{liucollision}
+Liu, J., Hatanaka, M., and Onoye, T.
+\newblock A collision mitigation method on spatial reuse for wlan in a dense
+  residential environment.
+
+\bibitem[Malhotra et~al., 2019]{malhotra2019much}
+Malhotra, A., Maity, M., and Dutta, A. (2019).
+\newblock How much can we reuse? an empirical analysis of the performance
+  benefits achieved by spatial-reuse of ieee 802.11 ax.
+\newblock In {\em 2019 11th International Conference on Communication Systems
+  \& Networks (COMSNETS)}, pages 432--435. IEEE.
+
+\bibitem[Merlin et~al., 2015]{merlin2015tgax}
+Merlin, S., Barriac, G., Sampath, H., Cariou, L., Derham, T., Le~Rouzic, J.,
+  Stacey, R., Park, M., Porat, R., Jindal, N., et~al. (2015).
+\newblock Tgax simulation scenarios.
+\newblock {\em doc.: IEEE}, pages 802--11.
+
+\bibitem[Mori et~al., 2014]{mori2014performance}
+Mori, M. et~al. (2014).
+\newblock {Performance Analysis of BSS Color and DSC}.
+\newblock {\em Nov}, 3:11--14.
+
+\bibitem[Mvulla and Park, 2018]{mvulla2018enhanced}
+Mvulla, J. and Park, E.-C. (2018).
+\newblock Enhanced dual carrier sensing with transmission time control for fair
+  spatial reuse in heterogeneous and dense wlans.
+\newblock {\em IEEE Access}, 6:22140--22155.
+
+\bibitem[Nurchis and Bellalta, 2019]{nurchis2019target}
+Nurchis, M. and Bellalta, B. (2019).
+\newblock {Target wake time: scheduled access in IEEE 802.11 ax WLANs}.
+\newblock {\em IEEE Wireless Communications}, 26(2):142--150.
+
+\bibitem[Oteri et~al., 2015]{oteri2015improved}
+Oteri, O., La~Sita, F., Yang, R., Ghosh, M., and Olesen, R. (2015).
+\newblock Improved spatial reuse for dense 802.11 wlans.
+\newblock In {\em 2015 IEEE Globecom Workshops (GC Wkshps)}, pages 1--6. IEEE.
+
+\bibitem[Qu et~al., 2018]{qu2018survey}
+Qu, Q., Li, B., Yang, M., Yan, Z., Yang, A., Yu, J., Gan, M., Li, Y., Yang, X.,
+  Aboul-Magd, O., et~al. (2018).
+\newblock {Survey and Performance Evaluation of the Upcoming Next Generation
+  WLAN Standard-IEEE 802.11 ax}.
+\newblock {\em arXiv preprint arXiv:1806.05908}.
+
+\bibitem[Ropitault, 2018]{ropitault2018evaluation}
+Ropitault, T. (2018).
+\newblock Evaluation of rtot algorithm: A first implementation of
+  obss\_pd-based sr method for ieee 802.11 ax.
+\newblock In {\em 2018 15th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC)}, pages 1--7. IEEE.
+
+\bibitem[Ropitault and Golmie, 2017]{ropitault2017etp}
+Ropitault, T. and Golmie, N. (2017).
+\newblock Etp algorithm: Increasing spatial reuse in wireless lans dense
+  environment using etx.
+\newblock In {\em 2017 IEEE 28th Annual International Symposium on Personal,
+  Indoor, and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE.
+
+\bibitem[Selinis et~al., 2016]{selinis2016evaluation}
+Selinis, I., Filo, M., Vahid, S., Rodriguez, J., and Tafazolli, R. (2016).
+\newblock {Evaluation of the DSC algorithm and the BSS color scheme in dense
+  cellular-like IEEE 802.11 ax deployments}.
+\newblock In {\em Personal, Indoor, and Mobile Radio Communications (PIMRC),
+  2016 IEEE 27th Annual International Symposium on}, pages 1--7. IEEE.
+
+\bibitem[Selinis et~al., 2017]{selinis2017exploiting}
+Selinis, I., Katsaros, K., Vahid, S., and Tafazolli, R. (2017).
+\newblock {Exploiting the Capture Effect on DSC and BSS Color in Dense IEEE
+  802.11 ax Deployments}.
+\newblock In {\em Proceedings of the Workshop on ns-3}, pages 47--54. ACM.
+
+\bibitem[Selinis et~al., 2018]{selinis2018control}
+Selinis, I., Katsaros, K., Vahid, S., and Tafazolli, R. (2018).
+\newblock {Control OBSS/PD Sensitivity Threshold for IEEE 802.11 ax BSS Color}.
+\newblock In {\em 2018 IEEE 29th Annual International Symposium on Personal,
+  Indoor and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE.
+
+\bibitem[Shen et~al., 2018]{shen2018research}
+Shen, Z., Li, B., Yang, M., Yan, Z., Li, X., and Jin, Y. (2018).
+\newblock {Research and Performance Evaluation of Spatial Reuse Technology for
+  Next Generation WLAN}.
+\newblock In {\em International Wireless Internet Conference}, pages 41--51.
+  Springer.
+
+\bibitem[Smith, 2015]{smith2015dynamic}
+Smith, G. (2015).
+\newblock Dynamic sensitivity control-v2.
+\newblock {\em IEEE}, 802:802--11.
+
+\bibitem[TGbe, a]{tgbe_cofdma}
+TGbe.
+\newblock {11-18-1547-00-0eht-technology-features-for-802-11-eht}.
+
+\bibitem[TGbe, b]{tgbe_csr}
+TGbe.
+\newblock {11-18-1926-02-0eht-terminology-for-ap-coordination}.
+
+\bibitem[TGbe, c]{tgbe_cbf}
+TGbe.
+\newblock {11-19-0801-00-00be-ap-coordination-in-eht}.
+
+\bibitem[TGbe, d]{tgbe_psr_beamforming}
+TGbe.
+\newblock
+  11-19-1779-06-00be-downlink-spatial-reuse-parameter-framework-with-coordinated-beamforming-null-steering-for-802-11be.
+
+\bibitem[Valkanis et~al., 2019]{valkanis2019ieee}
+Valkanis, A., Iossifides, A., Chatzimisios, P., Angelopoulos, M., and Katos, V.
+  (2019).
+\newblock Ieee 802.11 ax spatial reuse improvement: An interference-based
+  channel-access algorithm.
+\newblock {\em IEEE Vehicular Technology Magazine}, 14(2):78--84.
+
+\bibitem[Wang et~al., 2017]{wang2017spatial}
+Wang, J. J.-M., Liu, J., Wang, C.-C., and Hsu, Y. (2017).
+\newblock Spatial reuse parameters for opportunistic adaptive tpc and cca.
+\newblock US Patent 9,749,967.
+
+\bibitem[Wilhelmi et~al., 2019a]{wilhelmi2019performance}
+Wilhelmi, F., Barrachina-Mu{\~n}oz, S., and Bellalta, B. (2019a).
+\newblock On the performance of the spatial reuse operation in ieee 802.11 ax
+  wlans.
+\newblock In {\em 2019 IEEE Conference on Standards for Communications and
+  Networking (CSCN)}, pages 1--6. IEEE.
+
+\bibitem[Wilhelmi et~al., 2019b]{wilhelmi2019spatial}
+Wilhelmi, F., Mu{\~n}oz, S.~B., Cano, C., Selinis, I., and Bellalta, B.
+  (2019b).
+\newblock Spatial reuse in ieee 802.11 ax wlans.
+\newblock {\em arXiv preprint arXiv:1907.04141}.
+
 \end{thebibliography}
