@@ -1,65 +1,116 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis_main_doc.aux
-The style file: apalike.bst
+The style file: unsrt.bst
+Illegal, another \bibstyle command---line 4 of file thesis_main_doc.aux
+ : \bibstyle
+ :          {abbrvnat}
+I'm skipping whatever remains of this command
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "li2011achieving"
-Warning--I didn't find a database entry for "jamil2016novel"
-Warning--I didn't find a database entry for "nakahira2014centralized"
-Warning--I didn't find a database entry for "chevillat2005dynamic"
-Warning--I didn't find a database entry for "tang2011improving"
-Warning--I didn't find a database entry for "chau2017effective"
-Warning--I didn't find a database entry for "wilhelmi2019collaborative"
-Warning--I didn't find a database entry for "wilhelmi2019potential"
-Warning--empty year in liucollision
+Repeated entry---line 700 of file bibliography.bib
+ : @article{klaine2017survey
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 970 of file bibliography.bib
+ : @article{lattimore2018bandit
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 977 of file bibliography.bib
+ : @article{slivkins2019introduction
+ :                                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1276 of file bibliography.bib
+ :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
+ :                                                                    \c"c"ois",
+I'm skipping whatever remains of this entry
+Repeated entry---line 1321 of file bibliography.bib
+ : @inproceedings{afaqui2015evaluation
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1330 of file bibliography.bib
+ : @inproceedings{afaqui2016dynamic
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1339 of file bibliography.bib
+ : @inproceedings{kulkarni2015taming
+ :                                  ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "itu2019data"
+Warning--empty journal in jamil2016novel
+Warning--empty year in jamil2016novel
 Warning--empty journal in liucollision
-Warning--empty year in tgbe_cofdma
-Warning--empty journal in tgbe_cofdma
-Warning--empty year in tgbe_csr
-Warning--empty journal in tgbe_csr
-Warning--empty year in tgbe_cbf
+Warning--empty year in liucollision
+Name 1 in "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." has a comma at the end for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Too many commas in name 1 of "Khorov, E., Kiryanov, A., Krotov, A., Gallo, P., Garlisi, D., and Tinnirello, I." for entry khorov2016joint
+while executing---line 944 of file unsrt.bst
+Name 1 in "Eloise de Carvalho Rodrigues, Adrian Garcia-Rodriguez, Lorenzo Galati Giordano, and Giovanni Geraci" has a comma at the end for entry carvalho2020latency
+while executing---line 944 of file unsrt.bst
+Warning--empty booktitle in carvalho2020latency
 Warning--empty journal in tgbe_cbf
-Warning--empty year in tgbe_psr_beamforming
+Warning--empty year in tgbe_cbf
+Warning--empty journal in tgbe_cofdma
+Warning--empty year in tgbe_cofdma
+Warning--empty journal in tgbe_csr
+Warning--empty year in tgbe_csr
 Warning--empty journal in tgbe_psr_beamforming
-You've used 38 entries,
-            1935 wiz_defined-function locations,
-            653 strings with 10879 characters,
-and the built_in function-call counts, 16466 in all, are:
-= -- 1644
-> -- 757
-< -- 31
-+ -- 269
-- -- 260
-* -- 1318
-:= -- 2812
-add.period$ -- 123
-call.type$ -- 38
-change.case$ -- 316
-chr.to.int$ -- 33
-cite$ -- 48
-duplicate$ -- 655
-empty$ -- 1080
-format.name$ -- 314
-if$ -- 3289
-int.to.chr$ -- 6
-int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 188
-num.names$ -- 114
-pop$ -- 332
+Warning--empty year in tgbe_psr_beamforming
+Warning--empty author in itu2019architecture
+Warning--empty journal in itu2019architecture
+Warning--empty year in itu2019architecture
+Warning--empty journal in 3gpp2019study
+Warning--empty journal in etsi2019architecture
+You've used 154 entries,
+            1791 wiz_defined-function locations,
+            1187 strings with 34102 characters,
+and the built_in function-call counts, 43868 in all, are:
+= -- 4176
+> -- 1812
+< -- 73
++ -- 663
+- -- 509
+* -- 2858
+:= -- 6446
+add.period$ -- 512
+call.type$ -- 154
+change.case$ -- 152
+chr.to.int$ -- 0
+cite$ -- 172
+duplicate$ -- 2085
+empty$ -- 4223
+format.name$ -- 509
+if$ -- 10193
+int.to.chr$ -- 0
+int.to.str$ -- 154
+missing$ -- 156
+newline$ -- 765
+num.names$ -- 153
+pop$ -- 582
 preamble$ -- 1
-purify$ -- 316
+purify$ -- 0
 quote$ -- 0
-skip$ -- 488
+skip$ -- 1126
 stack$ -- 0
-substring$ -- 1003
-swap$ -- 126
-text.length$ -- 15
+substring$ -- 3238
+swap$ -- 735
+text.length$ -- 73
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 228
-warning$ -- 10
-while$ -- 139
-width$ -- 0
-write$ -- 481
-(There were 18 warnings)
+type$ -- 0
+warning$ -- 18
+while$ -- 469
+width$ -- 157
+write$ -- 1704
+(There were 17 error messages)

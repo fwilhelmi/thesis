@@ -1,224 +1,983 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{100}
 
-\bibitem[Afaqui et~al., 2016]{afaqui2016dynamic}
-Afaqui, M.~S., Garcia-Villegas, E., Lopez-Aguilera, E., and Camps-Mur, D.
-  (2016).
-\newblock {Dynamic sensitivity control of access points for IEEE 802.11 ax}.
-\newblock In {\em Communications (ICC), 2016 IEEE International Conference on},
-  pages 1--7. IEEE.
-
-\bibitem[Afaqui et~al., 2015]{afaqui2015evaluation}
-Afaqui, M.~S., Garcia-Villegas, E., Lopez-Aguilera, E., Smith, G., and Camps,
-  D. (2015).
-\newblock {Evaluation of dynamic sensitivity control algorithm for IEEE 802.11
-  ax}.
-\newblock In {\em Wireless Communications and Networking Conference (WCNC),
-  2015 IEEE}, pages 1060--1065. IEEE.
-
-\bibitem[Bankov et~al., 2018]{bankov2018ofdma}
-Bankov, D., Didenko, A., Khorov, E., and Lyakhov, A. (2018).
-\newblock {OFDMA Uplink Scheduling in IEEE 802.11 ax Networks}.
-\newblock In {\em 2018 IEEE International Conference on Communications (ICC)},
-  pages 1--6. IEEE.
-
-\bibitem[Bellalta, 2016]{bellalta2016ieee}
-Bellalta, B. (2016).
+\bibitem{bellalta2016ieee}
+Boris Bellalta.
 \newblock Ieee 802.11 ax: High-efficiency wlans.
-\newblock {\em IEEE Wireless Communications}, 23(1):38--46.
+\newblock {\em IEEE Wireless Communications}, 23(1):38--46, 2016.
 
-\bibitem[Cariou et~al., 2020]{cariou2020access}
-Cariou, L., Cordeiro, C., Yang, O., and Trainin, S.~B. (2020).
-\newblock Access point (ap), station (sta) and method of channel access for
-  spatial reuse.
-\newblock US Patent 10,582,537.
-
-\bibitem[Cariou et~al., 2019a]{cariou201911ax}
-Cariou, L., Ghosh, C., Huang, P.-K., and Stacey, R. (2019a).
-\newblock [11ax] conditions for spatial reuse using joint tpc and cca.
-\newblock US Patent 10,356,624.
-
-\bibitem[Cariou and Huang, 2017]{cariou201711ax}
-Cariou, L. and Huang, P.-K. (2017).
-\newblock [11ax] conditional spatial reuse.
-\newblock US Patent App. 14/969,415.
-
-\bibitem[Cariou and Huang, 2018]{cariou2018setting}
-Cariou, L. and Huang, P.-K. (2018).
-\newblock Setting parameters for spatial reuse proportional rule in non-perfect
-  managed environments.
-\newblock US Patent 10,039,115.
-
-\bibitem[Cariou et~al., 2019b]{cariou2019basic}
-Cariou, L., Huang, P.-K., Bravo, D.~F., and Ginsburg, N. (2019b).
-\newblock Basic service set identifications for using non-default spatial reuse
-  parameters.
-\newblock US Patent 10,366,064.
-
-\bibitem[Deng et~al., 2014]{deng2014ieee}
-Deng, D.-J., Chen, K.-C., and Cheng, R.-S. (2014).
+\bibitem{deng2014ieee}
+Der-Jiunn Deng, Kwang-Cheng Chen, and Rung-Shiang Cheng.
 \newblock Ieee 802.11 ax: Next generation wireless local area networks.
 \newblock In {\em 10Th international conference on heterogeneous networking for
-  quality, reliability, security and robustness}, pages 77--82. IEEE.
+  quality, reliability, security and robustness}, pages 77--82. IEEE, 2014.
 
-\bibitem[Dovelos and Bellalta, 2019]{dovelos2018optimal}
-Dovelos, K. and Bellalta, B. (2019).
-\newblock {Optimal Resource Allocation in IEEE 802.11ax Uplink OFDMA with
-  Scheduled Access}.
-\newblock {\em arXiv preprint arXiv:1811.00957}.
-
-\bibitem[Khorov et~al., 2018]{khorov2018tutorial}
-Khorov, E., Kiryanov, A., Lyakhov, A., and Bianchi, G. (2018).
+\bibitem{khorov2018tutorial}
+Evgeny Khorov, Anton Kiryanov, Andrey Lyakhov, and Giuseppe Bianchi.
 \newblock A tutorial on ieee 802.11 ax high efficiency wlans.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 21(1):197--216.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 21(1):197--216, 2018.
 
-\bibitem[Kulkarni and Cao, 2015]{kulkarni2015taming}
-Kulkarni, P. and Cao, F. (2015).
-\newblock {Taming the densification challenge in next generation wireless LANs:
-  An investigation into the use of dynamic sensitivity control}.
-\newblock In {\em Wireless and Mobile Computing, Networking and Communications
-  (WiMob), 2015 IEEE 11th International Conference on}, pages 860--867. IEEE.
+\bibitem{merlin2015tgax}
+S~Merlin, G~Barriac, H~Sampath, L~Cariou, T~Derham, JP~Le~Rouzic, R~Stacey,
+  M~Park, R~Porat, N~Jindal, et~al.
+\newblock {TGax simulation scenarios}.
+\newblock {\em doc.: IEEE}, pages 802--11, 2015.
 
-\bibitem[Li et~al., 2016]{li2016discussion}
-Li, Y. et~al. (2016).
-\newblock Discussion on spatial reuse operations in 11ax.
-\newblock {\em Mar}, 14:11--16.
+\bibitem{kim2006improving}
+Tae-Suk Kim, Hyuk Lim, and Jennifer~C Hou.
+\newblock Improving spatial reuse through tuning transmit power, carrier sense
+  threshold, and data rate in multihop wireless networks.
+\newblock In {\em Proceedings of the 12th annual international conference on
+  Mobile computing and networking}, pages 366--377. ACM, 2006.
 
-\bibitem[Liao et~al., 2016]{liao2016mu}
-Liao, R., Bellalta, B., Oliver, M., and Niu, Z. (2016).
-\newblock {MU-MIMO MAC protocols for wireless local area networks: A survey}.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):162--183.
+\bibitem{alawieh2009improving}
+Basel Alawieh, Yongning Zhang, Chadi Assi, and Hussein Mouftah.
+\newblock Improving spatial reuse in multihop wireless networks-a survey.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 11(3), 2009.
 
-\bibitem[Liu et~al., ]{liucollision}
-Liu, J., Hatanaka, M., and Onoye, T.
+\bibitem{zhang2017survey}
+Lin Zhang, Ming Xiao, Gang Wu, Muhammad Alam, Ying-Chang Liang, and Shaoqian
+  Li.
+\newblock A survey of advanced techniques for spectrum sharing in 5g networks.
+\newblock {\em IEEE Wireless Communications}, 24(5):44--51, 2017.
+
+\bibitem{thorpe2014survey}
+Christina Thorpe and Liam Murphy.
+\newblock A survey of adaptive carrier sensing mechanisms for ieee 802.11
+  wireless networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 16(3):1266--1293,
+  2014.
+
+\bibitem{zhu2008optimal}
+Yanfeng Zhu, Qian Zhang, Zhisheng Niu, and Jing Zhu.
+\newblock {On optimal QoS-aware physical carrier sensing for IEEE 802.11 based
+  WLANs: Theoretical analysis and protocol design}.
+\newblock {\em IEEE transactions on wireless communications}, 7(4):1369--1378,
+  2008.
+
+\bibitem{ma2009optimizing}
+Hui Ma, Rajiv Vijayakumar, Sumit Roy, and Jing Zhu.
+\newblock Optimizing 802.11 wireless mesh networks based on physical carrier
+  sensing.
+\newblock {\em IEEE/ACM Transactions on Networking}, 17(5):1550--1563, 2009.
+
+\bibitem{deng2004tuning}
+Jing Deng, Ben Liang, and Pramod~K Varshney.
+\newblock Tuning the carrier sensing range of ieee 802.11 mac.
+\newblock In {\em IEEE Global Telecommunications Conference, 2004.
+  GLOBECOM'04.}, volume~5, pages 2987--2991. IEEE, 2004.
+
+\bibitem{yang2005physical}
+Xue Yang and Nitin Vaidya.
+\newblock On physical carrier sensing in wireless ad hoc networks.
+\newblock In {\em Proceedings IEEE 24th Annual Joint Conference of the IEEE
+  Computer and Communications Societies.}, volume~4, pages 2525--2535. IEEE,
+  2005.
+
+\bibitem{ma2005stochastic}
+Hui Ma, Hamed~MK Alazemi, and Sumit Roy.
+\newblock A stochastic model for optimizing physical carrier sensing and
+  spatial reuse in wireless ad hoc networks.
+\newblock In {\em IEEE International Conference on Mobile Adhoc and Sensor
+  Systems Conference, 2005.}, pages 8--pp. IEEE, 2005.
+
+\bibitem{tayamon2015analysis}
+Soma Tayamon, Gustav Wikstr{\"o}m, Kevin~Perez Moreno, Johan S{\"o}der,
+  Yu~Wang, and Filip Mestanov.
+\newblock Analysis of the potential for increased spectral reuse in wireless
+  lan.
+\newblock In {\em 2015 IEEE 26th Annual International Symposium on Personal,
+  Indoor, and Mobile Radio Communications (PIMRC)}, pages 1963--1967. IEEE,
+  2015.
+
+\bibitem{jamil2014improving}
+Imad Jamil, Laurent Cariou, and Jean-Francois Helard.
+\newblock Improving the capacity of future ieee 802.11 high efficiency wlans.
+\newblock In {\em 2014 21st International Conference on Telecommunications
+  (ICT)}, pages 303--307. IEEE, 2014.
+
+\bibitem{zhu2006adaptive}
+Jing Zhu, Benjamin Metzler, Xingang Guo, and York Liu.
+\newblock Adaptive csma for scalable network capacity in high-density wlan: A
+  hardware prototyping approach.
+\newblock In {\em Infocom}, 2006.
+
+\bibitem{haghani2010adaptive}
+Ehsan Haghani, Michael~N Krishnan, and Avideh Zakhor.
+\newblock Adaptive carrier-sensing for throughput improvement in ieee 802.11
+  networks.
+\newblock In {\em 2010 IEEE Global Telecommunications Conference GLOBECOM
+  2010}, pages 1--6. IEEE, 2010.
+
+\bibitem{thorpe2011ieee802}
+Christina Thorpe, Sean Murphy, and Liam Murphy.
+\newblock Ieee802. 11k enabled adaptive carrier sense management mechanism
+  (kapcs2).
+\newblock In {\em 12th IFIP/IEEE International Symposium on Integrated Network
+  Management (IM 2011) and Workshops}, pages 509--515. IEEE, 2011.
+
+\bibitem{fu2012effective}
+Liqun Fu, Soung~Chang Liew, and Jianwei Huang.
+\newblock Effective carrier sensing in csma networks under cumulative
+  interference.
+\newblock {\em IEEE Transactions on Mobile Computing}, 12(4):748--760, 2012.
+
+\bibitem{kim2013iterative}
+Dong~Min Kim and Seong-Lyun Kim.
+\newblock An iterative algorithm for optimal carrier sensing threshold in
+  random csma/ca wireless networks.
+\newblock {\em IEEE communications letters}, 17(11):2076--2079, 2013.
+
+\bibitem{yin2019learning}
+Bo~Yin, Koji Yamamoto, Takayuki Nishio, Masahiro Morikura, and Hirantha
+  Abeysekera.
+\newblock Learning-based spatial reuse for wlans with early identification of
+  interfering transmitters.
+\newblock {\em IEEE Transactions on Cognitive Communications and Networking},
+  6(1):151--164, 2019.
+
+\bibitem{schmidt2011advanced}
+Robert~K Schmidt, Achim Brakemeier, Tim Leinm{\"u}ller, Frank Kargl, and
+  G{\"u}nter Sch{\"a}fer.
+\newblock Advanced carrier sensing to resolve local channel congestion.
+\newblock In {\em Proceedings of the Eighth ACM international workshop on
+  Vehicular inter-networking}, pages 11--20, 2011.
+
+\bibitem{park2009noncooperative}
+Kyung-Joon Park, Jennifer~C Hou, Tamer Basar, and Hwangnam Kim.
+\newblock Noncooperative carrier sense game in wireless networks.
+\newblock {\em IEEE Transactions on Wireless Communications}, 8(10):5280--5289,
+  2009.
+
+\bibitem{murakami2015improving}
+Kodai Murakami, Tatsuya Ito, and Susumu Ishihara.
+\newblock Improving the spatial reuse of ieee 802.11 wlan by adaptive carrier
+  sense threshold of access points based on node positions.
+\newblock In {\em 2015 Eighth International Conference on Mobile Computing and
+  Ubiquitous Networking (ICMU)}, pages 132--137. IEEE, 2015.
+
+\bibitem{oni2015ap}
+Phillip~B Oni and Steven~D Blostein.
+\newblock Ap association optimization and cca threshold adjustment in dense
+  wlans.
+\newblock In {\em 2015 IEEE Globecom Workshops (GC Wkshps)}, pages 1--6. IEEE,
+  2015.
+
+\bibitem{nakahira2014centralized}
+{Nakahira, Toshiro and Ishihara, Koichi and Asai, Yusuke and Takatori, Yasushi
+  and Kudo, Riichi and Mizoguchi, Masato}.
+\newblock {Centralized control of carrier sense threshold and channel bandwidth
+  in high-density WLANs}.
+\newblock In {\em {Microwave Conference (APMC), 2014 Asia-Pacific}}, pages
+  {570--572}. {IEEE}, {2014}.
+
+\bibitem{afifi2016throughput}
+Wessam Afifi, Enrico-Henrik Rantala, Esa Tuomaala, Sayantan Choudhury, and
+  Marwan Krunz.
+\newblock Throughput-fairness tradeoff evaluation for next-generation wlans
+  with adaptive clear channel assessment.
+\newblock In {\em 2016 IEEE International Conference on Communications (ICC)},
+  pages 1--6. IEEE, 2016.
+
+\bibitem{li2014energy}
+Yuan Li, Ke~Li, Wenwen Li, Yan Zhang, Min Sheng, and Jianxiang Chu.
+\newblock An energy-efficient power control approach for ieee 802.11 n wireless
+  lans.
+\newblock In {\em 2014 IEEE International Conference on Computer and
+  Information Technology}, pages 49--53. IEEE, 2014.
+
+\bibitem{chevillat2005dynamic}
+{Chevillat, Pierre and Jelitto, Jens and Truong, Hong Linh}.
+\newblock {Dynamic data rate and transmit power adjustment in IEEE 802.11
+  wireless LANs}.
+\newblock {\em {International Journal of Wireless Information Networks}},
+  {12}({3}):{123--145}, {2005}.
+
+\bibitem{fang2017intelligent}
+Jun Fang, Xingjian Li, Wen Cheng, Zhi Chen, and Hongbin Li.
+\newblock Intelligent power control for spectrum sharing: A deep reinforcement
+  learning approach.
+\newblock {\em CoRR}, 2017.
+
+\bibitem{islam2019dynamic}
+Md~Manowarul Islam, Nobuo Funabiki, Rahardhita~Widyatra Sudibyo, Kwenga~Ismael
+  Munene, and Wen-Chung Kao.
+\newblock A dynamic access-point transmission power minimization method using
+  pi feedback control in elastic wlan system for iot applications.
+\newblock {\em Internet of Things}, 8:100089, 2019.
+
+\bibitem{chaves2014adaptive}
+Fabiano~S Chaves, Andr{\'e}~M Cavalcante, Erika~PL Almeida, Fuad~M Abinader,
+  Robson~D Vieira, Sayantan Choudhury, and Klaus Doppler.
+\newblock Adaptive transmit power for wi-fi dense deployments.
+\newblock In {\em 2014 IEEE 80th vehicular technology conference
+  (VTC2014-Fall)}, pages 1--6. IEEE, 2014.
+
+\bibitem{gandarillas2014dynamic}
+Carlos Gandarillas, Carlos Mart{\'\i}n-Enge{\~n}os, H{\'e}ctor~L{\'o}pez Pombo,
+  and Antonio~G Marques.
+\newblock Dynamic transmit-power control for wifi access points based on
+  wireless link occupancy.
+\newblock In {\em 2014 IEEE Wireless Communications and Networking Conference
+  (WCNC)}, pages 1093--1098. IEEE, 2014.
+
+\bibitem{chang2007power}
+Chih-Yung Chang and Hsu-Ruey Chang.
+\newblock Power control and fairness mac mechanisms for 802.11 wlans.
+\newblock {\em Computer communications}, 30(7):1527--1537, 2007.
+
+\bibitem{tang2011improving}
+Suhua Tang, Akio Hasegawa, Riichiro Nagareda, Akito Kitaura, Tatsuo Shibata,
+  and Sadao Obana.
+\newblock {Improving throughput of wireless LANs with transmit power control
+  and slotted channel access}.
+\newblock In {\em Personal Indoor and Mobile Radio Communications (PIMRC), 2011
+  IEEE 22nd International Symposium on}, pages 834--838. IEEE, 2011.
+
+\bibitem{kim2014distributed}
+Minseok Kim, Sungjin Shin, and Jong-Moon Chung.
+\newblock Distributed power control for enhanced spatial reuse in csma/ca based
+  wireless networks.
+\newblock {\em IEEE Transactions on Wireless Communications}, 13(9):5015--5027,
+  2014.
+
+\bibitem{shimizu2019joint}
+Hiroyasu Shimizu, Bo~Yin, Koji Yamamoto, Motoki Iwata, Takayuki Nishio,
+  Masahiro Morikura, and Hirantha Abeysekera.
+\newblock Joint channel selection and spatial reuse for starvation mitigation
+  in ieee 802.11 ax wlans.
+\newblock In {\em 2019 IEEE 90th Vehicular Technology Conference
+  (VTC2019-Fall)}, pages 1--6. IEEE, 2019.
+
+\bibitem{ebert2000energy}
+Jean-Pierre Ebert, Bj{\"o}rn Stremmel, Eckhardt Wiederhold, and Adam Wolisz.
+\newblock An energy-efficient power control approach for wlans.
+\newblock {\em Journal of Communications and Networks}, 2(3):197--206, 2000.
+
+\bibitem{lei2015performance}
+Xiaoying Lei and Seung~Hyong Rhee.
+\newblock Performance enhancement of overlapping bsss via dynamic transmit
+  power control.
+\newblock {\em EURASIP Journal on Wireless Communications and Networking},
+  2015(1):8, 2015.
+
+\bibitem{li2011achieving}
+Wei Li, Yong Cui, Xiuzhen Cheng, Mznah~A Al-Rodhaan, and Abdullah Al-Dhelaan.
+\newblock {Achieving proportional fairness via AP power control in multi-rate
+  WLANs}.
+\newblock {\em IEEE Transactions on Wireless Communications},
+  10(11):3784--3792, 2011.
+
+\bibitem{oteri2013advanced}
+Oghenekome Oteri, Pengfei Xia, Frank LaSita, and Robert Olesen.
+\newblock Advanced power control techniques for interference mitigation in
+  dense 802.11 networks.
+\newblock In {\em 2013 16th International symposium on wireless personal
+  multimedia communications (WPMC)}, pages 1--7. IEEE, 2013.
+
+\bibitem{tang2014joint}
+Suhua Tang, Hiroyuki Yomo, Akio Hasegawa, Tatsuo Shibata, and Masayoshi Ohashi.
+\newblock Joint transmit power control and rate adaptation for wireless lans.
+\newblock {\em Wireless personal communications}, 74(2):469--486, 2014.
+
+\bibitem{amiri2019reinforcement}
+Roohollah Amiri, Mojtaba~Ahmadi Almasi, Jeffrey~G Andrews, and Hani Mehrpouyan.
+\newblock Reinforcement learning for self organization and power control of
+  two-tier heterogeneous networks.
+\newblock {\em IEEE Transactions on Wireless Communications}, 18(8):3933--3947,
+  2019.
+
+\bibitem{liang2019towards}
+Fei Liang, Cong Shen, Wei Yu, and Feng Wu.
+\newblock Towards optimal power control via ensembling deep neural networks.
+\newblock {\em IEEE Transactions on Communications}, 2019.
+
+\bibitem{yamamoto2017analysis}
+Koji Yamamoto, Xuedan Yang, Takayuki Nishio, Masahiro Morikura, and Hirantha
+  Abeysekera.
+\newblock Analysis of inversely proportional carrier sense threshold and
+  transmission power setting.
+\newblock In {\em 2017 14th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC)}, pages 13--18. IEEE, 2017.
+
+\bibitem{iwata2019analysis}
+Motoki Iwata, Koji Yamamoto, Bo~Yin, Takayuki Nishio, Masahiro Morikura, and
+  Hirantha Abeysekera.
+\newblock Analysis of inversely proportional carrier sense threshold and
+  transmission power setting based on received power for ieee 802.11 ax.
+\newblock In {\em 2019 16th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC)}, pages 1--6. IEEE, 2019.
+
+\bibitem{fuemmeler2006selecting}
+Jason~A Fuemmeler, Nitin~H Vaidya, and Venugopal~V Veeravalli.
+\newblock Selecting transmit powers and carrier sense thresholds in csma
+  protocols for wireless ad hoc networks.
+\newblock In {\em Proceedings of the 2nd annual international workshop on
+  Wireless internet}, pages 15--es, 2006.
+
+\bibitem{jamil2015preserving}
+Imad Jamil, Laurent Cariou, and Jean-Fran{\c{c}}ois H{\'e}lard.
+\newblock Preserving fairness in super dense wlans.
+\newblock In {\em 2015 IEEE International Conference on Communication Workshop
+  (ICCW)}, pages 2276--2281. IEEE, 2015.
+
+\bibitem{mhatre2007interference}
+Vivek~P Mhatre, Konstantina Papagiannaki, and Francois Baccelli.
+\newblock Interference mitigation through power control in high density 802.11
+  wlans.
+\newblock In {\em IEEE INFOCOM 2007-26th IEEE International Conference on
+  Computer Communications}, pages 535--543. IEEE, 2007.
+
+\bibitem{iwai2019improving}
+Koki Iwai, Takanobu Ohnuma, Hiroshi Shigeno, and Yusuke Tanaka.
+\newblock Improving of fairness by dynamic sensitivity control and transmission
+  power control with access point cooperation in dense wlan.
+\newblock In {\em 2019 16th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC)}, pages 1--4. IEEE, 2019.
+
+\bibitem{jamil2015efficient}
+Imad Jamil, Laurent Cariou, and Jean-Fran{\c{c}}ois H{\'e}lard.
+\newblock Efficient mac protocols optimization for future high density wlans.
+\newblock In {\em 2015 IEEE Wireless Communications and Networking Conference
+  (WCNC)}, pages 1054--1059. IEEE, 2015.
+
+\bibitem{jamil2016novel}
+Imad Jamil, Laurent Cariou, and Jean-Fran H{\'e}lard.
+\newblock {Novel learning-based spatial reuse optimization in dense WLAN
+  deployments}.
+
+\bibitem{smith2015dynamic}
+G~Smith.
+\newblock Dynamic sensitivity control-v2.
+\newblock {\em IEEE}, 802:802--11, 2015.
+
+\bibitem{smith2017dsc}
+G~Smith.
+\newblock Dsc and obss\_pd.
+\newblock {\em Presentation doc. IEEE}, pages 802--11, 2017.
+
+\bibitem{mori2014performance}
+Masahito Mori et~al.
+\newblock Performance analysis of bss color and dsc.
+\newblock {\em Nov}, 3:11--14, 2014.
+
+\bibitem{oteri2015improved}
+Oghenekome Oteri, Frank La~Sita, Rui Yang, Monisha Ghosh, and Robert Olesen.
+\newblock Improved spatial reuse for dense 802.11 wlans.
+\newblock In {\em 2015 IEEE Globecom Workshops (GC Wkshps)}, pages 1--6. IEEE,
+  2015.
+
+\bibitem{liucollision}
+Jin Liu, Masahide Hatanaka, and Takao Onoye.
 \newblock A collision mitigation method on spatial reuse for wlan in a dense
   residential environment.
 
-\bibitem[Malhotra et~al., 2019]{malhotra2019much}
-Malhotra, A., Maity, M., and Dutta, A. (2019).
-\newblock How much can we reuse? an empirical analysis of the performance
-  benefits achieved by spatial-reuse of ieee 802.11 ax.
-\newblock In {\em 2019 11th International Conference on Communication Systems
-  \& Networks (COMSNETS)}, pages 432--435. IEEE.
+\bibitem{afaqui2015evaluation}
+M~Shahwaiz Afaqui, Eduard Garcia-Villegas, Elena Lopez-Aguilera, Graham Smith,
+  and Daniel Camps.
+\newblock {Evaluation of dynamic sensitivity control algorithm for IEEE 802.11
+  ax}.
+\newblock In {\em Wireless Communications and Networking Conference (WCNC),
+  2015 IEEE}, pages 1060--1065. IEEE, 2015.
 
-\bibitem[Merlin et~al., 2015]{merlin2015tgax}
-Merlin, S., Barriac, G., Sampath, H., Cariou, L., Derham, T., Le~Rouzic, J.,
-  Stacey, R., Park, M., Porat, R., Jindal, N., et~al. (2015).
-\newblock Tgax simulation scenarios.
-\newblock {\em doc.: IEEE}, pages 802--11.
+\bibitem{afaqui2016dynamic}
+M~Shahwaiz Afaqui, Eduard Garcia-Villegas, Elena Lopez-Aguilera, and Daniel
+  Camps-Mur.
+\newblock {Dynamic sensitivity control of access points for IEEE 802.11 ax}.
+\newblock In {\em Communications (ICC), 2016 IEEE International Conference on},
+  pages 1--7. IEEE, 2016.
 
-\bibitem[Mori et~al., 2014]{mori2014performance}
-Mori, M. et~al. (2014).
-\newblock {Performance Analysis of BSS Color and DSC}.
-\newblock {\em Nov}, 3:11--14.
+\bibitem{kulkarni2015taming}
+Parag Kulkarni and Fengming Cao.
+\newblock {Taming the densification challenge in next generation wireless LANs:
+  An investigation into the use of dynamic sensitivity control}.
+\newblock In {\em Wireless and Mobile Computing, Networking and Communications
+  (WiMob), 2015 IEEE 11th International Conference on}, pages 860--867. IEEE,
+  2015.
 
-\bibitem[Mvulla and Park, 2018]{mvulla2018enhanced}
-Mvulla, J. and Park, E.-C. (2018).
-\newblock Enhanced dual carrier sensing with transmission time control for fair
-  spatial reuse in heterogeneous and dense wlans.
-\newblock {\em IEEE Access}, 6:22140--22155.
+\bibitem{zhong2016promise}
+Zhenzhe Zhong, Fengming Cao, Parag Kulkarni, and Zhong Fan.
+\newblock Promise and perils of dynamic sensitivity control in ieee 802.11 ax
+  wlans.
+\newblock In {\em 2016 International Symposium on Wireless Communication
+  Systems (ISWCS)}, pages 439--444. IEEE, 2016.
 
-\bibitem[Nurchis and Bellalta, 2019]{nurchis2019target}
-Nurchis, M. and Bellalta, B. (2019).
-\newblock {Target wake time: scheduled access in IEEE 802.11 ax WLANs}.
-\newblock {\em IEEE Wireless Communications}, 26(2):142--150.
+\bibitem{khorov2016joint}
+Kiryanov A. Krotov A. Gallo P. Garlisi~D. Khorov, E. and I.~Tinnirello.
+\newblock Joint usage of dynamic sensitivity control and time division multiple
+  access in dense 802.11 ax networks.
+\newblock In {\em In International Workshop on Multiple Access Communications},
+  pages 57--71. Springer, Cham., 2016.
 
-\bibitem[Oteri et~al., 2015]{oteri2015improved}
-Oteri, O., La~Sita, F., Yang, R., Ghosh, M., and Olesen, R. (2015).
-\newblock Improved spatial reuse for dense 802.11 wlans.
-\newblock In {\em 2015 IEEE Globecom Workshops (GC Wkshps)}, pages 1--6. IEEE.
-
-\bibitem[Qu et~al., 2018]{qu2018survey}
-Qu, Q., Li, B., Yang, M., Yan, Z., Yang, A., Yu, J., Gan, M., Li, Y., Yang, X.,
-  Aboul-Magd, O., et~al. (2018).
-\newblock {Survey and Performance Evaluation of the Upcoming Next Generation
-  WLAN Standard-IEEE 802.11 ax}.
-\newblock {\em arXiv preprint arXiv:1806.05908}.
-
-\bibitem[Ropitault, 2018]{ropitault2018evaluation}
-Ropitault, T. (2018).
-\newblock Evaluation of rtot algorithm: A first implementation of
-  obss\_pd-based sr method for ieee 802.11 ax.
-\newblock In {\em 2018 15th IEEE Annual Consumer Communications \& Networking
-  Conference (CCNC)}, pages 1--7. IEEE.
-
-\bibitem[Ropitault and Golmie, 2017]{ropitault2017etp}
-Ropitault, T. and Golmie, N. (2017).
-\newblock Etp algorithm: Increasing spatial reuse in wireless lans dense
-  environment using etx.
-\newblock In {\em 2017 IEEE 28th Annual International Symposium on Personal,
-  Indoor, and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE.
-
-\bibitem[Selinis et~al., 2016]{selinis2016evaluation}
-Selinis, I., Filo, M., Vahid, S., Rodriguez, J., and Tafazolli, R. (2016).
+\bibitem{selinis2016evaluation}
+Ioannis Selinis, Marcin Filo, Seiamak Vahid, Jonathan Rodriguez, and Rahim
+  Tafazolli.
 \newblock {Evaluation of the DSC algorithm and the BSS color scheme in dense
   cellular-like IEEE 802.11 ax deployments}.
 \newblock In {\em Personal, Indoor, and Mobile Radio Communications (PIMRC),
-  2016 IEEE 27th Annual International Symposium on}, pages 1--7. IEEE.
+  2016 IEEE 27th Annual International Symposium on}, pages 1--7. IEEE, 2016.
 
-\bibitem[Selinis et~al., 2017]{selinis2017exploiting}
-Selinis, I., Katsaros, K., Vahid, S., and Tafazolli, R. (2017).
+\bibitem{selinis2017exploiting}
+Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli.
 \newblock {Exploiting the Capture Effect on DSC and BSS Color in Dense IEEE
   802.11 ax Deployments}.
-\newblock In {\em Proceedings of the Workshop on ns-3}, pages 47--54. ACM.
+\newblock In {\em Proceedings of the Workshop on ns-3}, pages 47--54. ACM,
+  2017.
 
-\bibitem[Selinis et~al., 2018]{selinis2018control}
-Selinis, I., Katsaros, K., Vahid, S., and Tafazolli, R. (2018).
+\bibitem{wen2017throughput}
+Yun Wen, Hiroshi Fujita, and Dai Kimura.
+\newblock Throughput-aware dynamic sensitivity control algorithm for next
+  generation wlan system.
+\newblock In {\em 2017 IEEE 28th Annual International Symposium on Personal,
+  Indoor, and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE, 2017.
+
+\bibitem{ropitault2017etp}
+Tanguy Ropitault and Nada Golmie.
+\newblock Etp algorithm: Increasing spatial reuse in wireless lans dense
+  environment using etx.
+\newblock In {\em 2017 IEEE 28th Annual International Symposium on Personal,
+  Indoor, and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE, 2017.
+
+\bibitem{selinis2018control}
+Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli.
 \newblock {Control OBSS/PD Sensitivity Threshold for IEEE 802.11 ax BSS Color}.
 \newblock In {\em 2018 IEEE 29th Annual International Symposium on Personal,
-  Indoor and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE.
+  Indoor and Mobile Radio Communications (PIMRC)}, pages 1--7. IEEE, 2018.
 
-\bibitem[Shen et~al., 2018]{shen2018research}
-Shen, Z., Li, B., Yang, M., Yan, Z., Li, X., and Jin, Y. (2018).
+\bibitem{ropitault2018evaluation}
+Tanguy Ropitault.
+\newblock Evaluation of rtot algorithm: A first implementation of
+  obss\_pd-based sr method for ieee 802.11 ax.
+\newblock In {\em 2018 15th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC)}, pages 1--7. IEEE, 2018.
+
+\bibitem{valkanis2019ieee}
+Anastasios Valkanis, Athanasios Iossifides, Periklis Chatzimisios, Marios
+  Angelopoulos, and Vasilis Katos.
+\newblock Ieee 802.11 ax spatial reuse improvement: An interference-based
+  channel-access algorithm.
+\newblock {\em IEEE Vehicular Technology Magazine}, 14(2):78--84, 2019.
+
+\bibitem{mvulla2018enhanced}
+Jaha Mvulla and Eun-Chan Park.
+\newblock Enhanced dual carrier sensing with transmission time control for fair
+  spatial reuse in heterogeneous and dense wlans.
+\newblock {\em IEEE Access}, 6:22140--22155, 2018.
+
+\bibitem{qu2018survey}
+Qiao Qu, Bo~Li, Mao Yang, Zhongjiang Yan, Annan Yang, Jian Yu, Ming Gan, Yunbo
+  Li, Xun Yang, Osama Aboul-Magd, et~al.
+\newblock {Survey and Performance Evaluation of the Upcoming Next Generation
+  WLAN Standard-IEEE 802.11 ax}.
+\newblock {\em arXiv preprint arXiv:1806.05908}, 2018.
+
+\bibitem{shen2018research}
+Zhao Shen, Bo~Li, Mao Yang, Zhongjiang Yan, Xiaobo Li, and Yi~Jin.
 \newblock {Research and Performance Evaluation of Spatial Reuse Technology for
   Next Generation WLAN}.
 \newblock In {\em International Wireless Internet Conference}, pages 41--51.
-  Springer.
+  Springer, 2018.
 
-\bibitem[Smith, 2015]{smith2015dynamic}
-Smith, G. (2015).
-\newblock Dynamic sensitivity control-v2.
-\newblock {\em IEEE}, 802:802--11.
+\bibitem{malhotra2019much}
+Arjun Malhotra, Mukulika Maity, and Avik Dutta.
+\newblock How much can we reuse? an empirical analysis of the performance
+  benefits achieved by spatial-reuse of ieee 802.11 ax.
+\newblock In {\em 2019 11th International Conference on Communication Systems
+  \& Networks (COMSNETS)}, pages 432--435. IEEE, 2019.
 
-\bibitem[TGbe, a]{tgbe_cofdma}
-TGbe.
-\newblock {11-18-1547-00-0eht-technology-features-for-802-11-eht}.
+\bibitem{carvalho2020latency}
+Lorenzo Galati~Giordano Eloise~de Carvalho~Rodrigues, Adrian Garcia-Rodriguez
+  and Giovanni Geraci.
+\newblock On the latency of ieee 802.11ax wlans with parameterized spatial
+  reuse.
+\newblock 2020.
 
-\bibitem[TGbe, b]{tgbe_csr}
-TGbe.
-\newblock {11-18-1926-02-0eht-terminology-for-ap-coordination}.
-
-\bibitem[TGbe, c]{tgbe_cbf}
+\bibitem{tgbe_cbf}
 TGbe.
 \newblock {11-19-0801-00-00be-ap-coordination-in-eht}.
 
-\bibitem[TGbe, d]{tgbe_psr_beamforming}
+\bibitem{tgbe_cofdma}
+TGbe.
+\newblock {11-18-1547-00-0eht-technology-features-for-802-11-eht}.
+
+\bibitem{tgbe_csr}
+TGbe.
+\newblock {11-18-1926-02-0eht-terminology-for-ap-coordination}.
+
+\bibitem{tgbe_psr_beamforming}
 TGbe.
 \newblock
   11-19-1779-06-00be-downlink-spatial-reuse-parameter-framework-with-coordinated-beamforming-null-steering-for-802-11be.
 
-\bibitem[Valkanis et~al., 2019]{valkanis2019ieee}
-Valkanis, A., Iossifides, A., Chatzimisios, P., Angelopoulos, M., and Katos, V.
-  (2019).
-\newblock Ieee 802.11 ax spatial reuse improvement: An interference-based
-  channel-access algorithm.
-\newblock {\em IEEE Vehicular Technology Magazine}, 14(2):78--84.
+\bibitem{bankov2018ofdma}
+Dmitry Bankov, Andre Didenko, Evgeny Khorov, and Andrey Lyakhov.
+\newblock {OFDMA Uplink Scheduling in IEEE 802.11 ax Networks}.
+\newblock In {\em 2018 IEEE International Conference on Communications (ICC)},
+  pages 1--6. IEEE, 2018.
 
-\bibitem[Wang et~al., 2017]{wang2017spatial}
-Wang, J. J.-M., Liu, J., Wang, C.-C., and Hsu, Y. (2017).
-\newblock Spatial reuse parameters for opportunistic adaptive tpc and cca.
-\newblock US Patent 9,749,967.
+\bibitem{dovelos2018optimal}
+Konstantinos Dovelos and Boris Bellalta.
+\newblock {Optimal Resource Allocation in IEEE 802.11ax Uplink OFDMA with
+  Scheduled Access}.
+\newblock {\em arXiv preprint arXiv:1811.00957}, 2019.
 
-\bibitem[Wilhelmi et~al., 2019a]{wilhelmi2019performance}
-Wilhelmi, F., Barrachina-Mu{\~n}oz, S., and Bellalta, B. (2019a).
-\newblock On the performance of the spatial reuse operation in ieee 802.11 ax
+\bibitem{liao2016mu}
+Ruizhi Liao, Boris Bellalta, Miquel Oliver, and Zhisheng Niu.
+\newblock {MU-MIMO MAC protocols for wireless local area networks: A survey}.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):162--183, 2016.
+
+\bibitem{nurchis2019target}
+Maddalena Nurchis and Boris Bellalta.
+\newblock {Target wake time: scheduled access in IEEE 802.11 ax WLANs}.
+\newblock {\em IEEE Wireless Communications}, 26(2):142--150, 2019.
+
+\bibitem{klaine2017survey}
+Paulo~Valente Klaine, Muhammad~Ali Imran, Oluwakayode Onireti, and Richard~Demo
+  Souza.
+\newblock A survey of machine learning techniques applied to self-organizing
+  cellular networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 19(4):2392--2431,
+  2017.
+
+\bibitem{bkassiny2013survey}
+Mario Bkassiny, Yang Li, and Sudharman~K Jayaweera.
+\newblock A survey on machine-learning techniques in cognitive radios.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 15(3):1136--1159,
+  2013.
+
+\bibitem{wang2016survey}
+Wenbo Wang, Andres Kwasinski, Dusit Niyato, and Zhu Han.
+\newblock A survey on applications of model-free strategy learning in cognitive
+  wireless networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(3):1717--1757,
+  2016.
+
+\bibitem{alsheikh2014machine}
+Mohammad~Abu Alsheikh, Shaowei Lin, Dusit Niyato, and Hwee-Pink Tan.
+\newblock Machine learning in wireless sensor networks: Algorithms, strategies,
+  and applications.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 16(4):1996--2018,
+  2014.
+
+\bibitem{forster2007machine}
+Anna Forster.
+\newblock Machine learning techniques applied to wireless ad-hoc networks:
+  Guide and survey.
+\newblock In {\em Intelligent Sensors, Sensor Networks and Information, 2007.
+  ISSNIP 2007. 3rd International Conference on}, pages 365--370. IEEE, 2007.
+
+\bibitem{mitchell1997machine}
+Tom~M Mitchell et~al.
+\newblock {``Machine learning"}.
+\newblock {\em Burr Ridge, IL: McGraw Hill}, 45(37):870--877, 1997.
+
+\bibitem{calvanese2019next}
+Update this.
+\newblock {6G: The Next Frontier}.
+\newblock {\em arXiv preprint arXiv:???}, 2019.
+
+\bibitem{shafin2020artificial}
+Rubayet Shafin, Lingjia Liu, Vikram Chandrasekhar, Hao Chen, Jeffrey Reed, and
+  Jianzhong~Charlie Zhang.
+\newblock Artificial intelligence-enabled cellular networks: A critical path to
+  beyond-5g and 6g.
+\newblock {\em IEEE Wireless Communications}, 2020.
+
+\bibitem{yang20196g}
+Ping Yang, Yue Xiao, Ming Xiao, and Shaoqian Li.
+\newblock 6g wireless communications: Vision and potential techniques.
+\newblock {\em IEEE Network}, 33(4):70--75, 2019.
+
+\bibitem{jiang2016machine}
+Chunxiao~Jiang \textit{et al.}
+\newblock {Machine learning paradigms for next-generation wireless networks}.
+\newblock {\em IEEE Wireless Comm.}, 24(2):98--105, 2016.
+
+\bibitem{zhang2019deep}
+Chaoyun Zhang, Paul Patras, and Hamed Haddadi.
+\newblock {``Deep learning in mobile and wireless networking: A survey"}.
+\newblock {\em IEEE Comm. Surveys \& Tutorials}, 2019.
+
+\bibitem{usama2019unsupervised}
+Muhammad~Usama \textit{et al.}
+\newblock {``Unsupervised machine learning for networking: Techniques,
+  applications and research challenges"}.
+\newblock {\em IEEE Access}, 7:65579--65615, 2019.
+
+\bibitem{cayamcela2018artificial}
+Manuel Eugenio~Morocho Cayamcela and Wansu Lim.
+\newblock Artificial intelligence in 5g technology: A survey.
+\newblock In {\em 2018 International Conference on Information and
+  Communication Technology Convergence (ICTC)}, pages 860--865. IEEE, 2018.
+
+\bibitem{moysen20184g}
+Jessica Moysen and Lorenza Giupponi.
+\newblock From 4g to 5g: Self-organized network management meets machine
+  learning.
+\newblock {\em Computer Communications}, 129:248--268, 2018.
+
+\bibitem{zhang2018long}
+Chaoyun Zhang and Paul Patras.
+\newblock Long-term mobile traffic forecasting using deep spatio-temporal
+  neural networks.
+\newblock In {\em Proceedings of the Eighteenth ACM International Symposium on
+  Mobile Ad Hoc Networking and Computing}, pages 231--240, 2018.
+
+\bibitem{troia2018deep}
+Sebastian Troia, Rodolfo Alvizu, Youduo Zhou, Guido Maier, and Achille
+  Pattavina.
+\newblock Deep learning-based traffic prediction for network optimization.
+\newblock In {\em 2018 20th International Conference on Transparent Optical
+  Networks (ICTON)}, pages 1--4. IEEE, 2018.
+
+\bibitem{paul2019traffic}
+Udita Paul, Jiamo Liu, Sebastian Troia, Olabisi Falowo, and Guido Maier.
+\newblock Traffic-profile and machine learning based regional data center
+  design and operation for 5g network.
+\newblock {\em Journal of Communications and Networks}, 21(6):569--583, 2019.
+
+\bibitem{shen2018stepdeep}
+Bilong Shen, Xiaodan Liang, Yufeng Ouyang, Miaofeng Liu, Weimin Zheng, and
+  Kathleen~M Carley.
+\newblock Stepdeep: a novel spatial-temporal mobility event prediction
+  framework based on deep neural network.
+\newblock In {\em Proceedings of the 24th ACM SIGKDD International Conference
+  on Knowledge Discovery \& Data Mining}, pages 724--733, 2018.
+
+\bibitem{zhang2020deep}
+Honggang Zhang, Yuxiu Hua, Chujie Wang, Rongpeng Li, and Zhifeng Zhao.
+\newblock Deep learning based traffic and mobility prediction.
+\newblock {\em Machine Learning for Future Wireless Communications}, pages
+  119--136, 2020.
+
+\bibitem{li2019deep}
+Lixin Li, Yang Xu, Jiaying Yin, Wei Liang, Xu~Li, Wei Chen, and Zhu Han.
+\newblock Deep reinforcement learning approaches for content caching in
+  cache-enabled d2d networks.
+\newblock {\em IEEE Internet of Things Journal}, 2019.
+
+\bibitem{xu2017deep}
+Zhiyuan Xu, Yanzhi Wang, Jian Tang, Jing Wang, and Mustafa~Cenk Gursoy.
+\newblock A deep reinforcement learning based framework for power-efficient
+  resource allocation in cloud rans.
+\newblock In {\em 2017 IEEE International Conference on Communications (ICC)},
+  pages 1--6. IEEE, 2017.
+
+\bibitem{li2018deep}
+Ji~Li, Hui Gao, Tiejun Lv, and Yueming Lu.
+\newblock Deep reinforcement learning based computation offloading and resource
+  allocation for mec.
+\newblock In {\em 2018 IEEE Wireless Communications and Networking Conference
+  (WCNC)}, pages 1--6. IEEE, 2018.
+
+\bibitem{he2018secure}
+Ying He, F~Richard Yu, Nan Zhao, and Hongxi Yin.
+\newblock Secure social networks in 5g systems with mobile edge computing,
+  caching, and device-to-device communications.
+\newblock {\em IEEE Wireless Communications}, 25(3):103--109, 2018.
+
+\bibitem{krishnan2019optimizing}
+Neelakantan~Nurani Krishnan, Eric Torkildson, Narayan~B Mandayam, Dipankar
+  Raychaudhuri, Enrico-Henrik Rantala, and Klaus Doppler.
+\newblock Optimizing throughput performance in distributed mimo wi-fi networks
+  using deep reinforcement learning.
+\newblock {\em IEEE Transactions on Cognitive Communications and Networking},
+  2019.
+
+\bibitem{pan2009survey}
+Sinno~Jialin Pan and Qiang Yang.
+\newblock A survey on transfer learning.
+\newblock {\em IEEE Transactions on knowledge and data engineering},
+  22(10):1345--1359, 2009.
+
+\bibitem{konevcny2016federated}
+Jakub Kone{\v{c}}n{\`y}, H~Brendan McMahan, Felix~X Yu, Peter Richt{\'a}rik,
+  Ananda~Theertha Suresh, and Dave Bacon.
+\newblock Federated learning: Strategies for improving communication
+  efficiency.
+\newblock {\em arXiv preprint arXiv:1610.05492}, 2016.
+
+\bibitem{smith2017federated}
+Virginia Smith, Chao-Kai Chiang, Maziar Sanjabi, and Ameet~S Talwalkar.
+\newblock Federated multi-task learning.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  4424--4434, 2017.
+
+\bibitem{thompson1933likelihood}
+William~R Thompson.
+\newblock On the likelihood that one unknown probability exceeds another in
+  view of the evidence of two samples.
+\newblock {\em Biometrika}, 25(3/4):285--294, 1933.
+
+\bibitem{bush1953stochastic}
+Robert~R Bush and Frederick Mosteller.
+\newblock A stochastic model with applications to learning.
+\newblock {\em The Annals of Mathematical Statistics}, pages 559--585, 1953.
+
+\bibitem{auer2002finite}
+Peter Auer, Nicolo Cesa-Bianchi, and Paul Fischer.
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Machine learning}, 47(2-3):235--256, 2002.
+
+\bibitem{cesa2006prediction}
+Nicolo Cesa-Bianchi and Gabor Lugosi.
+\newblock {\em Prediction, learning, and games}.
+\newblock Cambridge university press, 2006.
+
+\bibitem{gittins2011multi}
+John Gittins, Kevin Glazebrook, and Richard Weber.
+\newblock {\em Multi-armed bandit allocation indices}.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem{bubeck2012regret}
+S{\'e}bastien Bubeck, Nicolo Cesa-Bianchi, et~al.
+\newblock Regret analysis of stochastic and nonstochastic multi-armed bandit
+  problems.
+\newblock {\em Foundations and Trends{\textregistered} in Machine Learning},
+  5(1):1--122, 2012.
+
+\bibitem{lattimore2018bandit}
+Tor Lattimore and Csaba Szepesv{\'a}ri.
+\newblock Bandit algorithms.
+\newblock {\em preprint}, 2018.
+
+\bibitem{slivkins2019introduction}
+Aleksandrs Slivkins.
+\newblock Introduction to multi-armed bandits.
+\newblock {\em arXiv preprint arXiv:1904.07272}, 2019.
+
+\bibitem{gai2010learning}
+Yi~Gai, Bhaskar Krishnamachari, and Rahul Jain.
+\newblock Learning multiuser channel allocations in cognitive radio networks: A
+  combinatorial multi-armed bandit formulation.
+\newblock In {\em New Frontiers in Dynamic Spectrum, 2010 IEEE Symposium on},
+  pages 1--9. IEEE, 2010.
+
+\bibitem{tekin2011online}
+Cem Tekin and Mingyan Liu.
+\newblock Online learning in opportunistic spectrum access: A restless bandit
+  approach.
+\newblock In {\em 2011 Proceedings IEEE INFOCOM}, pages 2462--2470. IEEE, 2011.
+
+\bibitem{chen2006transmission}
+Yunxia Chen, Qing Zhao, Vikram Krishnamurthy, and Dejan Djonin.
+\newblock Transmission scheduling for sensor network lifetime maximization: A
+  shortest path bandit formulation.
+\newblock In {\em 2006 IEEE International Conference on Acoustics Speech and
+  Signal Processing Proceedings}, volume~4, pages IV--IV. IEEE, 2006.
+
+\bibitem{carrascosa2019decentralized}
+Marc Carrascosa and Boris Bellalta.
+\newblock Decentralized ap selection using multi-armed bandits: Opportunistic
+  $\{$$\backslash$epsilon$\}$-greedy with stickiness.
+\newblock {\em arXiv preprint arXiv:1903.00281}, 2019.
+
+\bibitem{liu2008restless}
+Keqin Liu and Qing Zhao.
+\newblock A restless bandit formulation of opportunistic access: Indexablity
+  and index policy.
+\newblock In {\em 2008 5th Annual IEEE Communications Society Conference on
+  Sensor, Mesh and Ad Hoc Communications and Networks Workshops}, pages 1--5.
+  IEEE, 2008.
+
+\bibitem{anandkumar2011distributed}
+Animashree Anandkumar, Nithin Michael, Ao~Kevin Tang, and Ananthram Swami.
+\newblock Distributed algorithms for learning and cognitive medium access with
+  logarithmic regret.
+\newblock {\em IEEE Journal on Selected Areas in Communications},
+  29(4):731--745, 2011.
+
+\bibitem{rosenski2016multi}
+Jonathan Rosenski, Ohad Shamir, and Liran Szlak.
+\newblock Multi-player bandits--a musical chairs approach.
+\newblock In {\em International Conference on Machine Learning}, pages
+  155--163, 2016.
+
+\bibitem{maghsudi2015channel}
+Setareh Maghsudi and S{\l}awomir Sta{\'n}czak.
+\newblock Channel selection for network-assisted d2d communication via
+  no-regret bandit learning with calibrated forecasting.
+\newblock {\em IEEE Transactions on Wireless Communications}, 14(3):1309--1322,
+  2015.
+
+\bibitem{maghsudi2014joint}
+Setareh Maghsudi and S{\l}awomir Sta{\'n}czak.
+\newblock Joint channel selection and power control in infrastructureless
+  wireless networks: A multiplayer multiarmed bandit framework.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 64(10):4565--4578,
+  2014.
+
+\bibitem{maghsudi2017distributed}
+Setareh Maghsudi and Ekram Hossain.
+\newblock Distributed user association in energy harvesting dense small cell
+  networks: A mean-field multi-armed bandit approach.
+\newblock {\em IEEE Access}, 5:3513--3523, 2017.
+
+\bibitem{carrascosa2020multi}
+Marc Carrascosa and Boris Bellalta.
+\newblock Multi-armed bandits for decentralized ap selection in enterprise
   wlans.
-\newblock In {\em 2019 IEEE Conference on Standards for Communications and
-  Networking (CSCN)}, pages 1--6. IEEE.
+\newblock {\em arXiv preprint arXiv:2001.00392}, 2020.
 
-\bibitem[Wilhelmi et~al., 2019b]{wilhelmi2019spatial}
-Wilhelmi, F., Mu{\~n}oz, S.~B., Cano, C., Selinis, I., and Bellalta, B.
-  (2019b).
-\newblock Spatial reuse in ieee 802.11 ax wlans.
-\newblock {\em arXiv preprint arXiv:1907.04141}.
+\bibitem{coucheney2015multi}
+Pierre Coucheney, Kinda Khawam, and Johanne Cohen.
+\newblock Multi-armed bandit for distributed inter-cell interference
+  coordination.
+\newblock In {\em 2015 IEEE International Conference on Communications (ICC)},
+  pages 3323--3328. IEEE, 2015.
+
+\bibitem{feki2011autonomous}
+Afef Feki and Veronique Capdevielle.
+\newblock Autonomous resource allocation for dense lte networks: A multi armed
+  bandit formulation.
+\newblock In {\em 2011 IEEE 22nd International Symposium on Personal, Indoor
+  and Mobile Radio Communications}, pages 66--70. IEEE, 2011.
+
+\bibitem{ayala2018contextual}
+Jose~A Ayala-Romero, Juan~J Alcaraz, Andrea Zanella, and Michele Zorzi.
+\newblock Contextual bandit approach for energy saving and interference
+  coordination in hetnets.
+\newblock In {\em 2018 IEEE International Conference on Communications (ICC)},
+  pages 1--6. IEEE, 2018.
+
+\bibitem{daher2017cognitive}
+Tony Daher, Sana~Ben Jemaa, and Laurent Decreusefond.
+\newblock Cognitive management of self-organized radio networks based on multi
+  armed bandit.
+\newblock In {\em 2017 IEEE 28th Annual International Symposium on Personal,
+  Indoor, and Mobile Radio Communications (PIMRC)}, pages 1--5. IEEE, 2017.
+
+\bibitem{combes2014dynamic}
+Richard Combes and Alexandre Proutiere.
+\newblock Dynamic rate and channel selection in cognitive radio systems.
+\newblock {\em IEEE Journal on Selected Areas in Communications},
+  33(5):910--921, 2014.
+
+\bibitem{zhao2020non}
+Yapeng Zhao, Hua Qian, Kai Kang, and Yanliang Jin.
+\newblock A non-stationary bandit strategy for rate adaptation with delayed
+  feedback.
+\newblock {\em IEEE Access}, 2020.
+
+\bibitem{cano2018wireless}
+Cristina Cano and Gergely Neu.
+\newblock Wireless optimisation via convex bandits: Unlicensed lte/wifi
+  coexistence.
+\newblock In {\em Proceedings of the 2018 Workshop on Network Meets AI \& ML},
+  pages 41--47, 2018.
+
+\bibitem{auer2002nonstochastic}
+Peter Auer, Nicolo Cesa-Bianchi, Yoav Freund, and Robert~E Schapire.
+\newblock The nonstochastic multiarmed bandit problem.
+\newblock {\em SIAM journal on computing}, 32(1):48--77, 2002.
+
+\bibitem{gupta2011thompson}
+Neha Gupta, Ole-Christoffer Granmo, and Ashok Agrawala.
+\newblock Thompson sampling for dynamic multi-armed bandits.
+\newblock In {\em 2011 10th International Conference on Machine Learning and
+  Applications and Workshops}, volume~1, pages 484--489. IEEE, 2011.
+
+\bibitem{di2011learning}
+Marco Di~Felice, Kaushik~Roy Chowdhury, and Luciano Bononi.
+\newblock Learning with the bandit: A cooperative spectrum selection scheme for
+  cognitive radio networks.
+\newblock In {\em Global Telecommunications Conference (GLOBECOM 2011), 2011
+  IEEE}, pages 1--6. IEEE, 2011.
+
+\bibitem{cohen2014restless}
+Kobi Cohen, Qing Zhao, and Anna Scaglione.
+\newblock Restless multi-armed bandits under time-varying activation
+  constraints for dynamic spectrum access.
+\newblock In {\em Signals, Systems and Computers, 2014 48th Asilomar Conference
+  on}, pages 1575--1578. IEEE, 2014.
+
+\bibitem{abbas2015recent}
+Nadine Abbas, Youssef Nasser, and Karim El~Ahmad.
+\newblock Recent advances on artificial intelligence and learning techniques in
+  cognitive radio networks.
+\newblock {\em EURASIP Journal on Wireless Communications and Networking},
+  2015(1):174, 2015.
+
+\bibitem{maghsudi2015joint}
+Setareh Maghsudi and S{\l}awomir Sta{\'n}czak.
+\newblock Joint channel selection and power control in infrastructureless
+  wireless networks: A multiplayer multiarmed bandit framework.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 64(10):4565--4578,
+  2015.
+
+\bibitem{avner2014concurrent}
+Orly Avner and Shie Mannor.
+\newblock Concurrent bandits and cognitive radio networks.
+\newblock In {\em Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}, pages 66--81. Springer, 2014.
+
+\bibitem{liu2010distributed}
+Keqin Liu and Qing Zhao.
+\newblock Distributed learning in multi-armed bandit with multiple players.
+\newblock {\em IEEE Transactions on Signal Processing}, 58(11):5667--5681,
+  2010.
+
+\bibitem{wilhelmi2019collaborative}
+Francesc Wilhelmi, Cristina Cano, Gergely Neu, Boris Bellalta, Anders Jonsson,
+  and Sergio Barrachina-Mu{\~n}oz.
+\newblock Collaborative spatial reuse in wireless networks via selfish
+  multi-armed bandits.
+\newblock {\em Ad Hoc Networks}, 88:129--141, 2019.
+
+\bibitem{wilhelmi2019potential}
+Francesc Wilhelmi, Sergio Barrachina-Mu{\~n}oz, Boris Bellalta, Cristina Cano,
+  Anders Jonsson, and Gergely Neu.
+\newblock Potential and pitfalls of multi-armed bandits for decentralized
+  spatial reuse in wlans.
+\newblock {\em Journal of Network and Computer Applications}, 127:26--42, 2019.
+
+\bibitem{bellalta2014throughput}
+Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
+  Barcelo, and Alexey Vinel.
+\newblock {Throughput analysis in CSMA/CA networks using continuous time Markov
+  networks: a tutorial}.
+\newblock In {\em Wireless Networking for Moving Objects}, pages 115--133.
+  Springer, 2014.
+
+\bibitem{bellalta2017throughput}
+Boris Bellalta.
+\newblock {Throughput Analysis in High Density WLANs}.
+\newblock {\em IEEE Communications Letters}, 21(3):592--595, 2017.
+
+\bibitem{barrachina2019dynamic}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
+\newblock Dynamic channel bonding in spatially distributed high-density wlans.
+\newblock {\em IEEE Transactions on Mobile Computing}, 19(4):821--835, 2019.
+
+\bibitem{itu2019architecture}
+{ITU-T Rec. Y.3172, ``Architectural framework for machine learning in future
+  networks including IMT-2020", 2019}.
+
+\bibitem{3gpp2019study}
+3GPP TR 23.791~V16.2.0 (2019-06).
+\newblock {``Study of Enablers for Network Automation for 5G"}.
+\newblock 2019.
+
+\bibitem{etsi2019architecture}
+ETSI GS ZSM 002~V0.13.5 (2019-07).
+\newblock {Draft ``Zero-touch network and Service Management (ZSM); Reference
+  Architecture"}.
+\newblock 2019.
+
+\bibitem{bi2015wireless}
+Suzhi~Bi \textit{et al.}
+\newblock {``Wireless communications in the era of big data"}.
+\newblock {\em IEEE Comm. Magazine}, 53(10):190--199, 2015.
+
+\bibitem{chih2017big}
+I~Chih-Lin \textit{et al.}
+\newblock {``The Big-Data-Driven Intelligent Wireless Network: Architecture,
+  Use Cases, Solutions, and Future Trends"}.
+\newblock {\em IEEE Vehic. Tech. Magazine}, 12(4):20--29, 2017.
+
+\bibitem{wang2018machine}
+Mowei~Wang \textit{et al.}
+\newblock {``Machine learning for networking: Workflow, advances and
+  opportunities"}.
+\newblock {\em IEEE Network}, 32(2):92--99, 2018.
 
 \end{thebibliography}
