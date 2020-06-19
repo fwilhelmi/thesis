@@ -22,6 +22,52 @@ S~Merlin, G~Barriac, H~Sampath, L~Cariou, T~Derham, JP~Le~Rouzic, R~Stacey,
 \newblock {TGax simulation scenarios}.
 \newblock {\em doc.: IEEE}, pages 802--11, 2015.
 
+\bibitem{strinati20196g}
+Emilio~Calvanese Strinati, Sergio Barbarossa, Jose~Luis Gonzalez-Jimenez,
+  Dimitri Ktenas, Nicolas Cassiau, Luc Maret, and Cedric Dehos.
+\newblock 6g: The next frontier: From holographic messaging to artificial
+  intelligence using subterahertz and visible light communication.
+\newblock {\em IEEE Vehicular Technology Magazine}, 14(3):42--50, 2019.
+
+\bibitem{shafin2020artificial}
+Rubayet Shafin, Lingjia Liu, Vikram Chandrasekhar, Hao Chen, Jeffrey Reed, and
+  Jianzhong~Charlie Zhang.
+\newblock Artificial intelligence-enabled cellular networks: A critical path to
+  beyond-5g and 6g.
+\newblock {\em IEEE Wireless Communications}, 2020.
+
+\bibitem{giordani2020toward}
+Marco Giordani, Michele Polese, Marco Mezzavilla, Sundeep Rangan, and Michele
+  Zorzi.
+\newblock Toward 6g networks: Use cases and technologies.
+\newblock {\em IEEE Communications Magazine}, 58(3):55--61, 2020.
+
+\bibitem{qu2019survey}
+Qiao Qu, Bo~Li, Mao Yang, Zhongjiang Yan, Annan Yang, Der-Jiunn Deng, and
+  Kwang-Cheng Chen.
+\newblock Survey and performance evaluation of the upcoming next generation
+  wlans standard-ieee 802.11 ax.
+\newblock {\em Mobile Networks and Applications}, 24(5):1461--1474, 2019.
+
+\bibitem{csr2020}
+{Coordinated spatial reuse operation}.
+\newblock
+  \url{https://mentor.ieee.org/802.11/dcn/20/11-20-0033-01-00be-coordinated-spatial-reuse-operation.pptx}.
+\newblock Accessed: 2020-06-12.
+
+\bibitem{csr2018}
+{Terminology for AP Coordination}.
+\newblock
+  \url{https://mentor.ieee.org/802.11/dcn/18/11-18-1926-02-0eht-terminology-for-ap-coordination.pptx}.
+\newblock Accessed: 2020-06-12.
+
+\bibitem{psr2019}
+{Downlink spatial reuse parameter framework with coordinated beamforming and
+  null steering for 802.11be}.
+\newblock
+  \url{https://mentor.ieee.org/802.11/dcn/19/11-19-1779-05-00be-downlink-spatial-reuse-parameter-framework-with-coordinated-beamforming-null-steering-for-802-11be.pptx}.
+\newblock Accessed: 2020-06-12.
+
 \bibitem{kim2006improving}
 Tae-Suk Kim, Hyuk Lim, and Jennifer~C Hou.
 \newblock Improving spatial reuse through tuning transmit power, carrier sense
@@ -46,6 +92,30 @@ Christina Thorpe and Liam Murphy.
   wireless networks.
 \newblock {\em IEEE Communications Surveys \& Tutorials}, 16(3):1266--1293,
   2014.
+
+\bibitem{vilzmann2006survey}
+Robert Vilzmann and Christian Bettstetter.
+\newblock A survey on mac protocols for ad hoc networks with directional
+  antennas.
+\newblock In {\em EUNICE 2005: Networks and Applications Towards a Ubiquitously
+  Connected World}, pages 187--200. Springer, 2006.
+
+\bibitem{yaacoub2011survey}
+Elias Yaacoub and Zaher Dawy.
+\newblock A survey on uplink resource allocation in ofdma wireless networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 14(2):322--337, 2011.
+
+\bibitem{liao2014mu}
+Ruizhi Liao, Boris Bellalta, Miquel Oliver, and Zhisheng Niu.
+\newblock Mu-mimo mac protocols for wireless local area networks: A survey.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 18(1):162--183, 2014.
+
+\bibitem{xu2015robust}
+Yongjun Xu, Xiaohui Zhao, and Ying-Chang Liang.
+\newblock Robust power control and beamforming in cognitive radio networks: A
+  survey.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 17(4):1834--1857,
+  2015.
 
 \bibitem{zhu2008optimal}
 Yanfeng Zhu, Qian Zhang, Zhisheng Niu, and Jing Zhu.
@@ -491,22 +561,23 @@ Lorenzo Galati~Giordano Eloise~de Carvalho~Rodrigues, Adrian Garcia-Rodriguez
   reuse.
 \newblock 2020.
 
-\bibitem{tgbe_cbf}
-TGbe.
-\newblock {11-19-0801-00-00be-ap-coordination-in-eht}.
-
-\bibitem{tgbe_cofdma}
-TGbe.
-\newblock {11-18-1547-00-0eht-technology-features-for-802-11-eht}.
-
-\bibitem{tgbe_csr}
-TGbe.
-\newblock {11-18-1926-02-0eht-terminology-for-ap-coordination}.
-
-\bibitem{tgbe_psr_beamforming}
-TGbe.
+\bibitem{tgbe2018ap}
+{AP coordination in EHT}.
 \newblock
-  11-19-1779-06-00be-downlink-spatial-reuse-parameter-framework-with-coordinated-beamforming-null-steering-for-802-11be.
+  \url{https://mentor.ieee.org/802.11/dcn/19/11-19-0801-00-00be-ap-coordination-in-eht.pptx}.
+\newblock Accessed: 2020-06-16.
+
+\bibitem{tgbe2020cbf}
+{Coordinated Beamforming for 802.11be}.
+\newblock
+  \url{https://mentor.ieee.org/802.11/dcn/20/11-20-0099-01-00be-coordinated-beamforming-for-802-11be.pptx}.
+\newblock Accessed: 2020-06-16.
+
+\bibitem{tgbe2019cofdma}
+{Coordinated OFDMA Operation}.
+\newblock
+  \url{https://mentor.ieee.org/802.11/dcn/19/11-19-1788-00-00be-coordinated-ofdma-operation.pptx}.
+\newblock Accessed: 2020-06-16.
 
 \bibitem{bankov2018ofdma}
 Dmitry Bankov, Andre Didenko, Evgeny Khorov, and Andrey Lyakhov.
@@ -530,13 +601,27 @@ Maddalena Nurchis and Boris Bellalta.
 \newblock {Target wake time: scheduled access in IEEE 802.11 ax WLANs}.
 \newblock {\em IEEE Wireless Communications}, 26(2):142--150, 2019.
 
-\bibitem{klaine2017survey}
-Paulo~Valente Klaine, Muhammad~Ali Imran, Oluwakayode Onireti, and Richard~Demo
-  Souza.
-\newblock A survey of machine learning techniques applied to self-organizing
-  cellular networks.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 19(4):2392--2431,
-  2017.
+\bibitem{mitchell1997machine}
+Tom~M Mitchell et~al.
+\newblock {``Machine learning"}.
+\newblock {\em Burr Ridge, IL: McGraw Hill}, 45(37):870--877, 1997.
+
+\bibitem{calvanese2019next}
+Update this.
+\newblock {6G: The Next Frontier}.
+\newblock {\em arXiv preprint arXiv:???}, 2019.
+
+\bibitem{yang20196g}
+Ping Yang, Yue Xiao, Ming Xiao, and Shaoqian Li.
+\newblock 6g wireless communications: Vision and potential techniques.
+\newblock {\em IEEE Network}, 33(4):70--75, 2019.
+
+\bibitem{alsheikh2014machine}
+Mohammad~Abu Alsheikh, Shaowei Lin, Dusit Niyato, and Hwee-Pink Tan.
+\newblock Machine learning in wireless sensor networks: Algorithms, strategies,
+  and applications.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 16(4):1996--2018,
+  2014.
 
 \bibitem{bkassiny2013survey}
 Mario Bkassiny, Yang Li, and Sudharman~K Jayaweera.
@@ -550,42 +635,6 @@ Wenbo Wang, Andres Kwasinski, Dusit Niyato, and Zhu Han.
   wireless networks.
 \newblock {\em IEEE Communications Surveys \& Tutorials}, 18(3):1717--1757,
   2016.
-
-\bibitem{alsheikh2014machine}
-Mohammad~Abu Alsheikh, Shaowei Lin, Dusit Niyato, and Hwee-Pink Tan.
-\newblock Machine learning in wireless sensor networks: Algorithms, strategies,
-  and applications.
-\newblock {\em IEEE Communications Surveys \& Tutorials}, 16(4):1996--2018,
-  2014.
-
-\bibitem{forster2007machine}
-Anna Forster.
-\newblock Machine learning techniques applied to wireless ad-hoc networks:
-  Guide and survey.
-\newblock In {\em Intelligent Sensors, Sensor Networks and Information, 2007.
-  ISSNIP 2007. 3rd International Conference on}, pages 365--370. IEEE, 2007.
-
-\bibitem{mitchell1997machine}
-Tom~M Mitchell et~al.
-\newblock {``Machine learning"}.
-\newblock {\em Burr Ridge, IL: McGraw Hill}, 45(37):870--877, 1997.
-
-\bibitem{calvanese2019next}
-Update this.
-\newblock {6G: The Next Frontier}.
-\newblock {\em arXiv preprint arXiv:???}, 2019.
-
-\bibitem{shafin2020artificial}
-Rubayet Shafin, Lingjia Liu, Vikram Chandrasekhar, Hao Chen, Jeffrey Reed, and
-  Jianzhong~Charlie Zhang.
-\newblock Artificial intelligence-enabled cellular networks: A critical path to
-  beyond-5g and 6g.
-\newblock {\em IEEE Wireless Communications}, 2020.
-
-\bibitem{yang20196g}
-Ping Yang, Yue Xiao, Ming Xiao, and Shaoqian Li.
-\newblock 6g wireless communications: Vision and potential techniques.
-\newblock {\em IEEE Network}, 33(4):70--75, 2019.
 
 \bibitem{jiang2016machine}
 Chunxiao~Jiang \textit{et al.}
@@ -602,6 +651,14 @@ Muhammad~Usama \textit{et al.}
 \newblock {``Unsupervised machine learning for networking: Techniques,
   applications and research challenges"}.
 \newblock {\em IEEE Access}, 7:65579--65615, 2019.
+
+\bibitem{klaine2017survey}
+Paulo~Valente Klaine, Muhammad~Ali Imran, Oluwakayode Onireti, and Richard~Demo
+  Souza.
+\newblock A survey of machine learning techniques applied to self-organizing
+  cellular networks.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 19(4):2392--2431,
+  2017.
 
 \bibitem{cayamcela2018artificial}
 Manuel Eugenio~Morocho Cayamcela and Wansu Lim.
@@ -701,6 +758,42 @@ Virginia Smith, Chao-Kai Chiang, Maziar Sanjabi, and Ameet~S Talwalkar.
 \newblock Federated multi-task learning.
 \newblock In {\em Advances in Neural Information Processing Systems}, pages
   4424--4434, 2017.
+
+\bibitem{bi2015wireless}
+Suzhi~Bi \textit{et al.}
+\newblock {``Wireless communications in the era of big data"}.
+\newblock {\em IEEE Comm. Magazine}, 53(10):190--199, 2015.
+
+\bibitem{chih2017big}
+I~Chih-Lin \textit{et al.}
+\newblock {``The Big-Data-Driven Intelligent Wireless Network: Architecture,
+  Use Cases, Solutions, and Future Trends"}.
+\newblock {\em IEEE Vehic. Tech. Magazine}, 12(4):20--29, 2017.
+
+\bibitem{wang2018machine}
+Mowei~Wang \textit{et al.}
+\newblock {``Machine learning for networking: Workflow, advances and
+  opportunities"}.
+\newblock {\em IEEE Network}, 32(2):92--99, 2018.
+
+\bibitem{3gpp2019study}
+3GPP TR 23.791~V16.2.0 (2019-06).
+\newblock {``Study of Enablers for Network Automation for 5G"}.
+\newblock 2019.
+
+\bibitem{etsi2019architecture}
+ETSI GS ZSM 002~V0.13.5 (2019-07).
+\newblock {Draft ``Zero-touch network and Service Management (ZSM); Reference
+  Architecture"}.
+\newblock 2019.
+
+\bibitem{itu2019architecture}
+{ITU-T Rec. Y.3172, ``Architectural framework for machine learning in future
+  networks including IMT-2020", 2019}.
+
+\bibitem{itu2019data}
+{ITU-T Rec. Y.3174, ``Framework for data handling to enable machine learning in
+  future networks including IMT-2020", 2019}.
 
 \bibitem{thompson1933likelihood}
 William~R Thompson.
@@ -916,19 +1009,71 @@ Keqin Liu and Qing Zhao.
 \newblock {\em IEEE Transactions on Signal Processing}, 58(11):5667--5681,
   2010.
 
-\bibitem{wilhelmi2019collaborative}
-Francesc Wilhelmi, Cristina Cano, Gergely Neu, Boris Bellalta, Anders Jonsson,
-  and Sergio Barrachina-Mu{\~n}oz.
-\newblock Collaborative spatial reuse in wireless networks via selfish
-  multi-armed bandits.
-\newblock {\em Ad Hoc Networks}, 88:129--141, 2019.
+\bibitem{bianchi2000performance}
+Giuseppe Bianchi.
+\newblock Performance analysis of the ieee 802.11 distributed coordination
+  function.
+\newblock {\em IEEE Journal on selected areas in communications},
+  18(3):535--547, 2000.
 
-\bibitem{wilhelmi2019potential}
-Francesc Wilhelmi, Sergio Barrachina-Mu{\~n}oz, Boris Bellalta, Cristina Cano,
-  Anders Jonsson, and Gergely Neu.
-\newblock Potential and pitfalls of multi-armed bandits for decentralized
-  spatial reuse in wlans.
-\newblock {\em Journal of Network and Computer Applications}, 127:26--42, 2019.
+\bibitem{gupta2000capacity}
+Piyush Gupta and Panganmala~R Kumar.
+\newblock The capacity of wireless networks.
+\newblock {\em IEEE Transactions on information theory}, 46(2):388--404, 2000.
+
+\bibitem{guo2003spatial}
+Xingang Guo, Sumit Roy, and W~Steven Conner.
+\newblock Spatial reuse in wireless ad-hoc networks.
+\newblock In {\em 2003 IEEE 58th Vehicular Technology Conference. VTC 2003-Fall
+  (IEEE Cat. No. 03CH37484)}, volume~3, pages 1437--1442. IEEE, 2003.
+
+\bibitem{hekmat2004interference}
+Ramin Hekmat and Piet Van~Mieghem.
+\newblock Interference in wireless multi-hop ad-hoc networks and its effect on
+  network capacity.
+\newblock {\em Wireless Networks}, 10(4):389--399, 2004.
+
+\bibitem{yang2007modeling}
+Yong Yang, Jennifer~C Hou, and L-C Kung.
+\newblock Modeling the effect of transmit power and physical carrier sense in
+  multi-hop wireless networks.
+\newblock In {\em IEEE INFOCOM 2007-26th IEEE International Conference on
+  Computer Communications}, pages 2331--2335. IEEE, 2007.
+
+\bibitem{elsawy2016modeling}
+Hesham ElSawy, Ahmed Sultan-Salem, Mohamed-Slim Alouini, and Moe~Z Win.
+\newblock Modeling and analysis of cellular networks using stochastic geometry:
+  A tutorial.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, 19(1):167--203, 2016.
+
+\bibitem{zhao2016stochastic}
+Xiaoguang Zhao, Xiangming Wen, Tao Lei, Zhaoming Lu, and Biao Zhang.
+\newblock On stochastic geometry analysis of dense wlan with dynamic carrier
+  sense threshold and rate control.
+\newblock In {\em 2016 19th International Symposium on Wireless Personal
+  Multimedia Communications (WPMC)}, pages 211--216. IEEE, 2016.
+
+\bibitem{zhang2015stochastic}
+Zhiwei Zhang, Yunzhou Li, Kaizhi Huang, and Chen Liang.
+\newblock On stochastic geometry modeling of wlan capacity with dynamic
+  sensitive control.
+\newblock In {\em 2015 13th International Symposium on Modeling and
+  Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt)}, pages 78--83.
+  IEEE, 2015.
+
+\bibitem{zhong2016stochastic}
+Zhenzhe Zhong and Fengming Cao.
+\newblock Stochastic analysis of 802.11 uplink with dynamic sensitivity
+  control.
+\newblock In {\em 2016 IEEE Global Communications Conference (GLOBECOM)}, pages
+  1--6. IEEE, 2016.
+
+\bibitem{iwata2019stochastic}
+Motoki Iwata, Koji Yamamoto, Bo~Yin, Takayuki Nishio, Masahiro Morikura, and
+  Hirantha Abeysekera.
+\newblock Stochastic geometry analysis of individual carrier sense threshold
+  adaptation in ieee 802.11 ax wlans.
+\newblock {\em IEEE Access}, 7:161916--161927, 2019.
 
 \bibitem{bellalta2014throughput}
 Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
@@ -943,41 +1088,12 @@ Boris Bellalta.
 \newblock {Throughput Analysis in High Density WLANs}.
 \newblock {\em IEEE Communications Letters}, 21(3):592--595, 2017.
 
-\bibitem{barrachina2019dynamic}
-Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta.
-\newblock Dynamic channel bonding in spatially distributed high-density wlans.
-\newblock {\em IEEE Transactions on Mobile Computing}, 19(4):821--835, 2019.
-
-\bibitem{itu2019architecture}
-{ITU-T Rec. Y.3172, ``Architectural framework for machine learning in future
-  networks including IMT-2020", 2019}.
-
-\bibitem{3gpp2019study}
-3GPP TR 23.791~V16.2.0 (2019-06).
-\newblock {``Study of Enablers for Network Automation for 5G"}.
-\newblock 2019.
-
-\bibitem{etsi2019architecture}
-ETSI GS ZSM 002~V0.13.5 (2019-07).
-\newblock {Draft ``Zero-touch network and Service Management (ZSM); Reference
-  Architecture"}.
-\newblock 2019.
-
-\bibitem{bi2015wireless}
-Suzhi~Bi \textit{et al.}
-\newblock {``Wireless communications in the era of big data"}.
-\newblock {\em IEEE Comm. Magazine}, 53(10):190--199, 2015.
-
-\bibitem{chih2017big}
-I~Chih-Lin \textit{et al.}
-\newblock {``The Big-Data-Driven Intelligent Wireless Network: Architecture,
-  Use Cases, Solutions, and Future Trends"}.
-\newblock {\em IEEE Vehic. Tech. Magazine}, 12(4):20--29, 2017.
-
-\bibitem{wang2018machine}
-Mowei~Wang \textit{et al.}
-\newblock {``Machine learning for networking: Workflow, advances and
-  opportunities"}.
-\newblock {\em IEEE Network}, 32(2):92--99, 2018.
+\bibitem{gawlowicz2019ns}
+Piotr Gaw{\l}owicz and Anatolij Zubow.
+\newblock ns-3 meets openai gym: The playground for machine learning in
+  networking research.
+\newblock In {\em Proceedings of the 22nd International ACM Conference on
+  Modeling, Analysis and Simulation of Wireless and Mobile Systems}, pages
+  113--120, 2019.
 
 \end{thebibliography}

@@ -7,35 +7,46 @@ Illegal, another \bibstyle command---line 4 of file thesis_main_doc.aux
  :          {abbrvnat}
 I'm skipping whatever remains of this command
 Database file #1: bibliography.bib
-Repeated entry---line 700 of file bibliography.bib
+Repeated entry---line 688 of file bibliography.bib
  : @article{klaine2017survey
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 970 of file bibliography.bib
+Repeated entry---line 958 of file bibliography.bib
  : @article{lattimore2018bandit
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 977 of file bibliography.bib
+Repeated entry---line 965 of file bibliography.bib
  : @article{slivkins2019introduction
  :                                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 1276 of file bibliography.bib
+I was expecting a `,' or a `}'---line 1264 of file bibliography.bib
  :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
  :                                                                    \c"c"ois",
 I'm skipping whatever remains of this entry
-Repeated entry---line 1321 of file bibliography.bib
+Repeated entry---line 1309 of file bibliography.bib
  : @inproceedings{afaqui2015evaluation
  :                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1330 of file bibliography.bib
+Repeated entry---line 1318 of file bibliography.bib
  : @inproceedings{afaqui2016dynamic
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1339 of file bibliography.bib
+Repeated entry---line 1327 of file bibliography.bib
  : @inproceedings{kulkarni2015taming
  :                                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "itu2019data"
+Repeated entry---line 1786 of file bibliography.bib
+ : @inproceedings{yang2005physical
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1941 of file bibliography.bib
+ : @article{thorpe2014survey
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1985 of file bibliography.bib
+ : @article{shafin2020artificial
+ :                              ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in jamil2016novel
 Warning--empty year in jamil2016novel
 Warning--empty journal in liucollision
@@ -59,58 +70,53 @@ while executing---line 944 of file unsrt.bst
 Name 1 in "Eloise de Carvalho Rodrigues, Adrian Garcia-Rodriguez, Lorenzo Galati Giordano, and Giovanni Geraci" has a comma at the end for entry carvalho2020latency
 while executing---line 944 of file unsrt.bst
 Warning--empty booktitle in carvalho2020latency
-Warning--empty journal in tgbe_cbf
-Warning--empty year in tgbe_cbf
-Warning--empty journal in tgbe_cofdma
-Warning--empty year in tgbe_cofdma
-Warning--empty journal in tgbe_csr
-Warning--empty year in tgbe_csr
-Warning--empty journal in tgbe_psr_beamforming
-Warning--empty year in tgbe_psr_beamforming
+Warning--empty journal in 3gpp2019study
+Warning--empty journal in etsi2019architecture
 Warning--empty author in itu2019architecture
 Warning--empty journal in itu2019architecture
 Warning--empty year in itu2019architecture
-Warning--empty journal in 3gpp2019study
-Warning--empty journal in etsi2019architecture
-You've used 154 entries,
+Warning--empty author in itu2019data
+Warning--empty journal in itu2019data
+Warning--empty year in itu2019data
+You've used 171 entries,
             1791 wiz_defined-function locations,
-            1187 strings with 34102 characters,
-and the built_in function-call counts, 43868 in all, are:
-= -- 4176
-> -- 1812
-< -- 73
-+ -- 663
-- -- 509
-* -- 2858
-:= -- 6446
-add.period$ -- 512
-call.type$ -- 154
-change.case$ -- 152
+            1259 strings with 37468 characters,
+and the built_in function-call counts, 48579 in all, are:
+= -- 4647
+> -- 1975
+< -- 80
++ -- 724
+- -- 553
+* -- 3162
+:= -- 7075
+add.period$ -- 570
+call.type$ -- 171
+change.case$ -- 169
 chr.to.int$ -- 0
-cite$ -- 172
-duplicate$ -- 2085
-empty$ -- 4223
-format.name$ -- 509
-if$ -- 10193
+cite$ -- 184
+duplicate$ -- 2288
+empty$ -- 4715
+format.name$ -- 553
+if$ -- 11319
 int.to.chr$ -- 0
-int.to.str$ -- 154
-missing$ -- 156
-newline$ -- 765
-num.names$ -- 153
-pop$ -- 582
+int.to.str$ -- 171
+missing$ -- 167
+newline$ -- 852
+num.names$ -- 163
+pop$ -- 656
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1126
+skip$ -- 1250
 stack$ -- 0
-substring$ -- 3238
-swap$ -- 735
-text.length$ -- 73
+substring$ -- 3646
+swap$ -- 813
+text.length$ -- 80
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 18
-while$ -- 469
-width$ -- 157
-write$ -- 1704
-(There were 17 error messages)
+warning$ -- 13
+while$ -- 513
+width$ -- 174
+write$ -- 1895
+(There were 20 error messages)

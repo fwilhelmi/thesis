@@ -29,6 +29,7 @@
 \usepackage{url}
 %\usepackage{hyperref}
 
+\usepackage{subfigure}
 
 \usepackage{graphicx} 	  %% The graphicx package provides the includegraphics command.
 \usepackage{amssymb} 	%% The amssymb package provides various useful mathematical symbols
@@ -65,7 +66,7 @@
 
 \usepackage[edges]{forest}
 \usetikzlibrary{shadows,arrows.meta}
-
+\usepackage{tcolorbox}
 %Defining the styles used in trees
 %Note that the fill colour is not defined here.
 \tikzset{parent/.style={align=center,text width=2cm,rounded corners=2pt},
@@ -81,7 +82,8 @@
 \renewcommand{\contentsname}{\Large \sffamily Table of contents}
 
 %ADD YOUR DATA
-\title{Enabling Spatial Reuse in Future Wireless Local Area Networks:\\ a Machine Learning \& Game Theoretic Proposal}
+\title{Towards Spatial Reuse in Future Wireless Local Area Networks: a Sequential Learning Approach}
+
 %\subtitle{The subtitle of the thesis: Required}
 \author{Francesc Wilhelmi Roca}
 \thyear{2020}
@@ -100,25 +102,22 @@
 %%%%%% End dedication
 
 %%%%%% Thanks
-\noindent {\Large \sffamily Acknowledgments} 
+\section*{\Large \sffamily  Acknowledgments}
+%\noindent {\Large \sffamily Acknowledgments} 
+This work has been partially supported by grants MDM-2015-0502, 2017-SGR-11888, by WINDMAL PGC2018-099959-B-I00 (MCIU/AEI/FEDER,UE), and by a Gift from the Cisco University Research Program (CG\#890107) Fund.%, and by SPOTS project (RTI2018-095438-A-I00) funded by the Spanish Ministry of Science, Innovation and Universities.
 \cleardoublepage
 %%%%%% End of thanks
 
 %ABSTRACT IN TWO LEGUAGES.
 \selectlanguage{english}
 \section*{\Large \sffamily Abstract}
-The Spatial Reuse (SR) operation is gaining momentum in the newest IEEE 802.11 family of standards due to the overwhelming requirements posed by next-generation wireless networks. In particular, the increasing traffic capacity and number of concurrent devices compromise the efficiency of Wireless Local Area Networks (WLANs) and throw into question their decentralized nature. The SR operation, initially introduced by the IEEE 802.11ax-2020/21 amendment and further studied in IEEE 802.11be-2024, is aimed at increasing the number of concurrent transmissions in an Overlapping Basic Service Set (OBSS), thus improving spectral efficiency. 
+The Spatial Reuse (SR) operation is gaining momentum in the latest IEEE 802.11 family of standards due to the overwhelming requirements posed by next-generation wireless networks. In particular, the increasing traffic capacity and the number of concurrent devices compromise the efficiency of increasingly dense Wireless Local Area Networks (WLANs) and throw into question their decentralized nature. The SR operation, initially introduced by the IEEE 802.11ax-2021 amendment and further studied in IEEE 802.11be-2024, is aimed at increasing the number of concurrent transmissions in an Overlapping Basic Service Set (OBSS), thus improving spectral efficiency. SR was initially defined as a distributed mechanism, but it is evolving towards cooperative schemes in which different BSSs are coordinated. Nevertheless, coordination entails communication and synchronization overhead, which implications on the performance of WLANs and remains unknown. Moreover, the coordinated scheme is not compatible with IEEE 802.11 devices not implementing it, which may lead to degrading the performance of legacy networks. For those reasons, in this thesis, we assess the viability of decentralized mechanisms for SR, and thoroughly examine the main impediments and shortcomings that may result from it. With this, we aim to shed light on the future shape of WLANs with respect to SR optimization, and whether their decentralized nature should be kept or it is preferable to evolve towards coordinated and centralized settings. Given the challenges posed by the decentralized SR problem, we focus on Artificial Intelligence (AI) and propose the use of a class of Sequential Learning-based methods, namely Multi-Armed Bandits (MABs). The MAB setting suits the decentralized SR problem because it addresses the uncertainty provoked by the concurrent operation of multiple devices (i.e., multi-player setting) and the lack of information resulting from it. MABs are therefore called to overcome the complex and varying spatial interactions among devices that result from modifying their sensitivity and transmit power. Our analysis of decentralized SR encompasses an in-depth study of the SR technology, infrastructure aspects for AI-enabled networking, and the worthiness of the Sequential Learning approach.
 
-The SR operation has been initially defined as a distributed mechanism, but it is evolving towards coordinated schemes. Nevertheless, coordination entails communication and synchronization procedures that have not been defined yet. The necessary overhead to carry out coordination has implications on the performance of WLANs and remains unknown. Moreover, the coordinated scheme is not compatible with IEEE 802.11 devices not implementing it.
-
-Given the SR-related problems faced by future WLAN deployments, Artificial Intelligence (AI) emerges as a promising solution able to overcome the challenges arisen from the complex and varying spatial interactions among devices. In particular, due to the challenges posed by coordination, in this thesis, we study the feasibility of Reinforcement Learning (RL)-based methods to overcome the SR problem in a decentralized manner.
-
-... \textcolor{red}{[TO BE COMPLETED]}
-
-\pagebreak
-\selectlanguage{english}
 \vspace*{\fill}
-\section*{\Large \sffamily  Resum}
+\pagebreak
+
+\section*{\Large \sffamily Resum}
+\textcolor{red}{To be written once the English version is definitive.}
 
 \vspace*{\fill}
 
@@ -130,7 +129,7 @@ Given the SR-related problems faced by future WLAN deployments, Artificial Intel
 \begin{enumerate}
 	\item Wilhelmi, F., Muñoz, S. B., Cano, C., Selinis, I., \& Bellalta, B. (2019). \textit{Spatial Reuse in IEEE 802.11 ax WLANs.} arXiv preprint arXiv:1907.04141.
 	\item Wilhelmi, F., Barrachina-Muñoz, S., \& Bellalta, B. (2019, October). \textit{On the Performance of the Spatial Reuse Operation in IEEE 802.11 ax WLANs.} In 2019 IEEE Conference on Standards for Communications and Networking (CSCN) (pp. 1-6). IEEE.
-	\item Wilhelmi, F., Bellalta, B., Cano, C., \& Jonsson, A. (2017, October). \textit{Implications of decentralized Q-learning resource allocation in wireless networks}. In 2017 ieee 28th annual international symposium on personal, indoor, and mobile radio communications (pimrc) (pp. 1-5). IEEE.
+	\item Wilhelmi, F., Bellalta, B., Cano, C., \& Jonsson, A. (2017, October). \textit{Implications of decentralized Q-learning resource allocation in wireless networks}. In 2017 IEEE 28th annual international symposium on personal, indoor, and mobile radio communications (PIMRC) (pp. 1-5). IEEE.
 	\item Wilhelmi, F., Cano, C., Neu, G., Bellalta, B., Jonsson, A., \& Barrachina-Muñoz, S. (2019). \textit{Collaborative spatial reuse in wireless networks via selfish multi-armed bandits.} Ad Hoc Networks, 88, 129-141.
 	\item Wilhelmi Roca, F., Barrachina Muñoz, S., Bellalta, B., Cano Sandín, C., Jonsson, A., \& Neu, G. (2019). \textit{Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in WLANs.} Journal of Network and Computer Applications, 2019, 127.
 	\item Barrachina-Muñoz, S., Wilhelmi, F., Selinis, I., \& Bellalta, B. (2019, April). \textit{Komondor: a wireless network simulator for next-generation high-density WLANs.} In 2019 Wireless Days (WD) (pp. 1-8). IEEE.
@@ -167,16 +166,22 @@ Given the SR-related problems faced by future WLAN deployments, Artificial Intel
 %%%%%%%%%%%%%%%%%
 \chapter{Introduction}
 
+%A la intro, deixa clar que SR és part de WIFI, però que la tesi aporta cosa més enllà d'aquesta tecnologia.
+%
+%Resum: M'agrada molt el que has escrit, però intentaria separar els conceptes de la tecnologia. 
+% - Pq SR és important, 
+% - Pq necessitem fer servir ML / AI per trobar solucions que sense ML / AI no són possibles. 
+% Això es pot fer amb un parell de paràgrafs al principi de tot, i després ja pots entrar en WIFI justificant la rellevància de WIFI, però sobretot els challenge que representa que tingui una gestió totalment 'dencentralitzada' per a poder implementar tècniques com SR.
+
+\section{Motivation}
 % Introduction to IEEE 802.11 WLANs 
-The Institute of Electrical and Electronics Engineers (IEEE) 802.11 family of protocols for wireless local area networks (WLANs) was first released in 1997 as a novel solution for physical (PHY) and medium access control (MAC) layers. Since that date, the standard has evolved to sustain the increasingly user requirements in terms of capacity, load, and coverage, as well as to serve for different purposes (e.g., mesh networking, security-enhanced communications, channel measurement, etc.). The set of novel and improved capabilities have been captured along the time in the plethora of amendments that followed the initial 802.11-1997 standard (e.g., 802.11b, 802.11g, 802.11h, etc.). 
+The Institute of Electrical and Electronics Engineers (IEEE) 802.11 family of protocols for wireless local area networks (WLANs) was first released in 1997 as a novel solution for physical (PHY) and medium access control (MAC) layers. Since that date, the standard has evolved to sustain the increasing user requirements in terms of capacity, load, and coverage, as well as to serve for different purposes (e.g., mesh networking, security-enhanced communications, channel measurement, etc.). The set of novel and improved capabilities have been captured along the time in the plethora of amendments that followed the initial 802.11-1997 standard (e.g., 802.11b, 802.11g, 802.11h, etc.). 
 
 % Next-generation of IEEE 802.11 WLAN standards
-Looking forward, the next generation of WLAN standards is expected to revolutionize the telecommunications and converge along with 5G systems and beyond to expand to multiple domains, such as light communications (IEEE 802.11bb), Internet of Things (IEEE 802.11ah), vehicle-to-everything (IEEE 802.11bd), or next-generation positioning (IEEE 802.11az).%, or next-generation 60 GHz (IEEE 802.11ay).
-
-One of the most influential amendments is the IEEE 802.11ax-2021 (11ax) amendment for High Efficiency (HE) WLANs \cite{bellalta2016ieee, deng2014ieee, khorov2018tutorial}, which primary goal is to enhance network efficiency in ultra-dense deployments, thus providing high capacity (up to 10 Gbps). The 11ax (commercially known as WiFi 6) includes a set of unprecedented techniques, such as Orthogonal Frequency Division Multiple Access (OFDMA), Downlink/Uplink Multi-User Multiple-Input-Multiple-Output (DL/UL MU-MIMO), and Spatial Reuse (SR), to address the broad range of issues arisen from high-density scenarios \cite{merlin2015tgax}.
+Looking forward, the next generation of WLAN standards is expected to revolutionize the telecommunications and converge along with 5G systems and beyond to expand to multiple domains, such as light communications (IEEE 802.11bb), Internet of Things (IEEE 802.11ah), vehicle-to-everything (IEEE 802.11bd), or next-generation positioning (IEEE 802.11az). One of the most influential amendments is the IEEE 802.11ax-2021 (11ax) amendment for High Efficiency (HE) WLANs \cite{bellalta2016ieee, deng2014ieee, khorov2018tutorial}, which primary goal is to enhance network efficiency in ultra-dense deployments to grant high capacity (up to 10 Gbps). To address the broad range of issues arisen from high-density scenarios \cite{merlin2015tgax}, the 11ax (commercially known as Wi-Fi 6) includes a set of unprecedented techniques, such as Orthogonal Frequency Division Multiple Access (OFDMA), Downlink/Uplink Multi-User Multiple-Input-Multiple-Output (DL/UL MU-MIMO), and Spatial Reuse (SR).
 
 % What is SR and what it is aimed to solve
-This thesis focuses on the SR operation that was initially conceived for IEEE 802.11ax WLANs and that is now evolving in the IEEE 802.11be. SR is meant to enhance spectral efficiency by increasing the number of parallel transmissions in high-dense deployments. To this end, SR proposes a mechanism to improve the probability of ignoring transmissions which source is a device belonging to a different Basic Service Sets (aka inter-BSS transmissions). This can be done by applying a less restrictive carrier sense threshold for inter-BSS transmissions, which is referred to as Overlapping BSS Packet Detect (OBSS/PD) threshold. To promote fairness, SR also incorporates a mechanism that limits the transmit power of the new transmissions that result from using a less restrictive OBSS/PD threshold (so that the primary transmissions are not affected). Table \ref{table:effects_sr} summarizes the potential effects and implications of adjusting the sensitivity threshold and the transmit power in WLANs.
+This thesis focuses on the SR operation that was initially conceived for IEEE 802.11ax WLANs and that is now evolving in the IEEE 802.11be. SR aims to enhance spectral efficiency by increasing the number of parallel transmissions in high-dense deployments. To this end, SR proposes a mechanism to improve the probability of ignoring transmissions which source is a device belonging to a different Basic Service Sets (aka inter-BSS transmissions). This can be done by applying a less restrictive carrier sense threshold for inter-BSS transmissions, which is referred to as Overlapping BSS Packet Detect (OBSS/PD) threshold. To promote fairness, SR also incorporates a mechanism that limits the transmit power of the new transmissions that result from using a less restrictive OBSS/PD threshold (so that the primary transmissions are not affected). Table \ref{table:effects_sr} summarizes the potential effects and implications of adjusting the sensitivity threshold and the transmit power in WLANs.
 
 \begin{table*}[ht!]
 \caption{Effects and implications of adjusting the sensitivity threshold and the transmit power in IEEE 802.11 WLANs.}
@@ -190,25 +195,25 @@ This thesis focuses on the SR operation that was initially conceived for IEEE 80
 	\end{tabular}}
 \end{table*}
 
-% Wich is the current situation of SR
-The SR operation included in the 11ax has shown significant gains for cell-center devices but lacks applicability in cell-edge users. As a result, the 11be is working on Coordinated SR (CSR), a cooperative scheme whereby BSSs exchange information (e.g., the acceptable level of interference supported by the different devices) to further enhance the quality of the parallel transmissions achieved through SR. Apart from that, the convergence with other technologies such as OFDMA and beamforming/null steering is also being studied to shape the future of SR.
+% Role of AI
+To address the underlying complexity of SR, we study the application of Artificial Intelligence (AI) mechanisms for automatically adjusting both the sensitivity and the transmit power of wireless devices. AI is gaining momentum in telecommunications - it is in fact expected to be pervasively included as part of the network operation in 6G systems \cite{strinati20196g, shafin2020artificial, giordani2020toward} - due to its ability on exploiting complex characteristics from data, thus allowing to solve problems that are hard to solve by hand-programming.
 
+\section{Contributions}
 % Proposal to use ML for SR
-In light of the importance of SR for future IEEE 802.11 WLANs, in this thesis, we study the potential of Machine Learning (ML) on addressing the challenges raised by the sensitivity and transmit power adjustment mechanisms inherent in SR. ML is revolutionizing telecommunications due to its ability for solving problems that can be barely understood and modeled due to their underlying complex patterns, which is the case of SR.
+In light of the importance of SR for future wireless networks and the current evolution of communications towards AI-enabled systems, in this thesis, we study the potential application of Machine Learning (ML) for addressing the challenges raised by sensitivity and transmit power adjustment mechanisms. In particular, we aim to shed light on the potential gains of the SR operation, study its projected future, and devise its intersection with AI. The contributions of this thesis are summarized next:
+\begin{enumerate}
+	\item We study state-of-the-art solutions for improving spectral efficiency in wireless networks. In particular, we target works proposing solutions based on sensitivity adjustment and/or power control. Then, we narrow the scope to IEEE 802.11-based SR solutions, which are mostly oriented to 11ax systems.
+	\item We provide an in-depth overview of the SR operation included in the IEEE 802.11ax amendment. Besides, we devise the potential evolution path of the SR technology in IEEE 802.11be and beyond.
+	\item We analytically model the SR operation and study the new kind of inter-networks interactions resulting from it. Thanks to the model, we are able to describe the behavior of WLANs on applying SR.
+	\item We provide a simulation-based implementation of the SR operation, from which we extract results of its performance gains in future dense WLANs. The provided simulation tool allows for the inclusion of new blocks in a cost-effective manner and serves to devise the potential of new technologies such as coordinated spatial reuse. In addition, our simulator allows simulating high-density deployments with affordable simulation time. 
+	\item We propose several RL-based solutions to address the SR problem in decentralized WLAN deployments. The simulation-based implementation of these methods allows us studying the performance gains with respect to default carrier sensing approaches. In particular, we show that the concurrent learning operation may lead to suboptimal equilibriums in terms of aggregate performance. Nevertheless, we also show that decentralized learning can help to mitigate unfairness in wireless networks, especially for the cases where network devices compete for channel resources under the same conditions.
+	\item We study implications that decentralized ML solutions have on the operation of WLANs. In particular, we focus on the game-theoretic setting unleashed by the concurrent devices attempting to learn the best SR configuration. Besides, we delve into practical implementation aspects related to the communication limitations for cooperative approaches, the amount of information that is available for learning, and the dynamism of wireless networks.
+	\item We delve into architectural aspects to enable future ML-aware networks. Because of the promising performance gains that ML can provide to networking systems, its actual integration is currently a topic that is attracting a lot of attention. Special emphasis is being put on data handling and flexible interfaces, which are meant to address the issues related to data storage, data exchange, and data processing.
+\end{enumerate}
 
-% List of contributions
-This thesis, therefore, aims to shed light on the potential gains of the SR operation, study its projected future, and devise its intersection with Artificial Intelligence (AI). The contributions of this thesis are summarized next:
-\begin{itemize}
-	\item We study state-of-the-art solutions to improve spectral efficiency in wireless networks.
-	\item We provide an in-depth overview of the IEEE 802.11ax SR operation and devise its potential evolution path in the IEEE 802.11be and beyond.
-	\item We analytically model and study the new kind of inter-device interactions resulting from the novel SR operation for WLANs. 
-	\item We provide simulation-based results on the performance gains of SR for future WLANs.
-	\item We propose several RL-based solutions to address the SR problem in decentralized WLAN deployments.
-	\item We delve into architectural aspects to enable future ML-aware networks.
-\end{itemize}
-
+\section{Document Structure}
 % Structure
-This thesis is a compendium of articles resulting from the research activity related to the application of ML to address SR in IEEE 802.11 WLANs. Besides the list of publications (attached at the end of this documents), a monograph is provided to introduce the research topic and provide some background on it. This document is structured as follows. Chapter \ref{chapter2} surveys SR techniques in wireless networks, overviews the IEEE 802.11ax SR operation, and discusses the evolution of the same in future amendments. Chapter \ref{chapter3} provides insights on the intersection of ML in wireless communications and describes the proposed MAB-based approach to address SR in decentralized WLANs. Then, Chapter \ref{chapter4} introduces the analytical and simulation tools used for performance evaluation. Besides, it delves into architectural considerations for realizing the proposed ML-based mechanisms. The main finding of this thesis are summarized in Chapter \ref{chapter5} and final remarks are provided in Chapter \ref{chapter6}.
+This thesis is a compendium of articles resulting from the research activity on the application of ML to address SR in IEEE 802.11 WLANs. Besides the list of publications (attached at the end of this document), a monograph is provided to introduce the research topic and provide some background on the same. This document is structured as follows. Chapter \ref{chapter2} surveys SR techniques in wireless networks, overviews the IEEE 802.11ax SR operation, and discusses the evolution of SR in future amendments. Chapter \ref{chapter3} provides insights on the intersection between ML and wireless communications, including architectural aspects and state-of-the-art applications. Then, the SR problem is formulated through Multi-Armed Bandits. Chapter \ref{chapter4} introduces the analytical and simulation tools used for performance evaluation. The main finding of this thesis are summarized in Chapter \ref{chapter5} and concluding remarks are provided in Chapter \ref{chapter6}.
  
 %%%%%%%%%%%%%%%%%
 % TECHNOLOGY
@@ -220,65 +225,66 @@ In this Chapter, we describe the SR operation and survey the related work, rangi
 
 \section{Related Work}
 
-Improving medium utilization through SR has been extensively studied for both sensitivity and transmit power adjustment in different domains such as multi-hop networks \cite{kim2006improving, alawieh2009improving}, cellular networks \cite{zhang2017survey}, and IEEE 802.11 WLANs \cite{thorpe2014survey}. Several SR techniques have been applied in different manners to address multiple problems (improve capacity, boost fairness, save energy, etc.). Figure \ref{fig:sr_survey} shows a categorization of SR techniques according to the optimization goal and their implementation. 
+Improving medium utilization through SR has been extensively studied for both sensitivity and transmit power adjustment in different domains such as multi-hop networks \cite{kim2006improving, alawieh2009improving}, cellular networks \cite{zhang2017survey}, and IEEE 802.11 WLANs \cite{thorpe2014survey}. SR can be realized through beamforming/null-steering \cite{vilzmann2006survey}, OFDMA-based multi-user scheduling \cite{yaacoub2011survey}, MU-MIMO transmissions \cite{liao2014mu}, sensitivity adjustment \cite{thorpe2014survey}, and transmission power control \cite{xu2015robust}. In this thesis, we focus on sensitivity and transmit power adjustment, which have been applied in different manners to address multiple problems (improve capacity, boost fairness, save energy, etc.). Figure \ref{fig:sr_survey} shows a categorization of these SR techniques according to the optimization goal and their implementation. 
 
 \begin{figure}[ht!]
 	\centering
-\begin{forest}
-	forked edges,
-	for tree={
-		grow'=0,
-		draw,
-		align=c,
-		font=\sffamily,
-		rounded corners,
-	},
-	highlight/.style={
-		thick,
-		font=\sffamily\bfseries
-	}
-	[{Spatial Reuse\\Techniques}, highlight, fill=gray!30
-	[{CS/CCA adaptation}, for tree={child, fill=green!30}
-	[{Analysis: \cite{zhu2008optimal, ma2009optimizing, deng2004tuning, yang2005physical, ma2005stochastic, tayamon2015analysis,jamil2014improving}},font=\fontsize{12}{0}\selectfont]
-	[{Iterative methods: \cite{zhu2006adaptive,haghani2010adaptive,thorpe2011ieee802,fu2012effective,kim2013iterative,yin2019learning,schmidt2011advanced,park2009noncooperative}},font=\fontsize{12}{0}\selectfont]
-	[{Pre-defined solutions: \cite{murakami2015improving, oni2015ap}},font=\fontsize{12}{0}\selectfont]
-	[{Global solutions: \cite{nakahira2014centralized, afifi2016throughput}},font=\fontsize{12}{0}\selectfont]
-	]
-	[{Power control}, for tree={child, fill=yellow!20}
-	[{Iterative methods: \cite{li2014energy,chevillat2005dynamic,fang2017intelligent,islam2019dynamic,chaves2014adaptive,gandarillas2014dynamic}},font=\fontsize{12}{0}\selectfont]
-	[{Pre-defined solutions: \cite{chang2007power,tang2011improving, kim2014distributed,shimizu2019joint,ebert2000energy,lei2015performance}},font=\fontsize{12}{0}\selectfont]
-	[{Global solutions: \cite{li2011achieving,oteri2013advanced,tang2014joint,amiri2019reinforcement,liang2019towards}},font=\fontsize{12}{0}\selectfont]
-	]
-	[{Joint CS/CCA adaptation\\ \& Power control}, for tree={child, fill=cyan!30}
-	[{Analysis: \cite{yamamoto2017analysis,iwata2019analysis,fuemmeler2006selecting}},font=\fontsize{12}{0}\selectfont]
-	[{Iterative methods: \cite{jamil2015preserving,mhatre2007interference,iwai2019improving}},font=\fontsize{12}{0}\selectfont]
-	[{Pre-defined solutions: \cite{jamil2015efficient,jamil2016novel}},font=\fontsize{12}{0}\selectfont]
-	]
-	]
-\end{forest}
+	\resizebox{.9\textwidth}{!}{\begin{forest}
+		forked edges,
+		for tree={
+			grow'=0,
+			draw,
+			align=c,
+			font=\sffamily,
+			rounded corners,
+		},
+		highlight/.style={
+			thick,
+			font=\sffamily\bfseries
+		}
+		[{Spatial Reuse\\Techniques}, highlight, fill=gray!30
+		[{CS/CCA adaptation}, for tree={child, fill=green!30}
+		[{Analysis: \cite{zhu2008optimal, ma2009optimizing, deng2004tuning, yang2005physical, ma2005stochastic, tayamon2015analysis,jamil2014improving}},font=\fontsize{12}{0}\selectfont]
+		[{Iterative methods: \cite{zhu2006adaptive,haghani2010adaptive,thorpe2011ieee802,fu2012effective,kim2013iterative,yin2019learning,schmidt2011advanced,park2009noncooperative}},font=\fontsize{12}{0}\selectfont]
+		[{Pre-defined solutions: \cite{murakami2015improving, oni2015ap}},font=\fontsize{12}{0}\selectfont]
+		[{Global solutions: \cite{nakahira2014centralized, afifi2016throughput}},font=\fontsize{12}{0}\selectfont]
+		]
+		[{Power control}, for tree={child, fill=yellow!20}
+		[{Iterative methods: \cite{li2014energy,chevillat2005dynamic,fang2017intelligent,islam2019dynamic,chaves2014adaptive,gandarillas2014dynamic}},font=\fontsize{12}{0}\selectfont]
+		[{Pre-defined solutions: \cite{chang2007power,tang2011improving, kim2014distributed,shimizu2019joint,ebert2000energy,lei2015performance}},font=\fontsize{12}{0}\selectfont]
+		[{Global solutions: \cite{li2011achieving,oteri2013advanced,tang2014joint,amiri2019reinforcement,liang2019towards}},font=\fontsize{12}{0}\selectfont]
+		]
+		[{Joint CS/CCA adaptation\\ \& Power control}, for tree={child, fill=cyan!30}
+		[{Analysis: \cite{yamamoto2017analysis,iwata2019analysis,fuemmeler2006selecting}},font=\fontsize{12}{0}\selectfont]
+		[{Iterative methods: \cite{jamil2015preserving,mhatre2007interference,iwai2019improving}},font=\fontsize{12}{0}\selectfont]
+		[{Pre-defined solutions: \cite{jamil2015efficient,jamil2016novel}},font=\fontsize{12}{0}\selectfont]
+		]
+		]
+	\end{forest}}
 \caption{Spatial reuse techniques in wireless networks.}
 \label{fig:sr_survey}
 \end{figure}
 
-Concerning IEEE 802.11ax SR, the Dynamic Sensitivity Control (DSC) scheme \cite{smith2015dynamic} was the first proposal for adapting the sensitivity of devices in an OBSS, but it was never incorporated in any amendment. Roughly, the DSC mechanism iteratively increases or reduces the sensitivity of an STA in a decentralized manner, based on the average perceived RSSI. Intuitively, DSC aims at increasing the sensitivity level at STAs that are close to the AP (avoid contention), while reducing this threshold for STAs at the cell edge (avoid collisions by hidden node). While DSC was initially meant for tuning the physical carrier sense threshold (PCS), it was later proposed as a method for tuning the OBSS/PD \cite{smith2017dsc}. Due to its promising potential, the performance of DSC has been extensively studied in multiple scenarios and in combination with other mechanisms \cite{mori2014performance, oteri2015improved, liucollision, afaqui2015evaluation, afaqui2016dynamic, kulkarni2015taming, zhong2016promise, khorov2016joint, selinis2016evaluation, selinis2017exploiting, wen2017throughput}.
+Concerning IEEE 802.11ax WLANs, the Dynamic Sensitivity Control (DSC) scheme \cite{smith2015dynamic} was the first proposal for adapting the sensitivity of devices in an OBSS, but it was never incorporated in any amendment. Roughly, the DSC mechanism iteratively increases or reduces the sensitivity of a Station (STA) in a decentralized manner, based on the average perceived RSSI. Intuitively, DSC aims at increasing the sensitivity level at STAs that are close to the Access Point (AP) for avoiding contention, while reducing this threshold for STAs at the cell edge, which is useful to reduce collisions by hidden node. While DSC was initially meant for tuning the Physical Carrier Sense (PCS) threshold, it was later proposed as a method for tuning the OBSS/PD \cite{smith2017dsc}. Due to its promising potential, the performance of DSC has been extensively studied in multiple scenarios and in combination with other mechanisms \cite{mori2014performance, oteri2015improved, liucollision, afaqui2015evaluation, afaqui2016dynamic, kulkarni2015taming, zhong2016promise, khorov2016joint, selinis2016evaluation, selinis2017exploiting, wen2017throughput}.
 
-Apart from DSC, other solutions for tuning the sensitivity have been proposed in \cite{ropitault2017etp, selinis2018control, ropitault2018evaluation, valkanis2019ieee}. First, \cite{ropitault2017etp} proposed tuning the transmission power based on the Expected Transmission Count (ETX) metric, which has been widely used in wireless sensor networks. The authors in \cite{selinis2018control} provided an iterative method whereby the OBSS/PD is progressively updated, based on the received signal strength indicator (RSSI) at STAs. Similarly, \cite{ropitault2018evaluation} proposed the RSSI to OBSS threshold (RTOT) method, whereby the OBSS/PD value used by an STA is derived from the RSSI received from its AP (which is used as an indicator of the distance). Despite this method is meant to deal with network dynamics (the OBSS/PD varies according to the RSSI), a static margin value is included used for selecting the OBSS/PD. As for DSC, the rigidity of the margin value may lead to not finding the optimal solution in some scenarios. Finally, the interference-based dynamic channel algorithm (IB-DCA) was proposed in \cite{valkanis2019ieee}, whereby STAs exchange the expected RSSI so that the transmit power is globally adjusted, rather than applying the OBSS/PD.
+Apart from DSC, other solutions for tuning the sensitivity have been proposed in \cite{ropitault2017etp, selinis2018control, ropitault2018evaluation, valkanis2019ieee}. First, \cite{ropitault2017etp} proposed tuning the transmission power based on the Expected Transmission Count (ETX) metric, which has been widely used in wireless sensor networks. The authors in \cite{selinis2018control} provided an iterative method whereby the OBSS/PD is progressively updated, based on the Received Signal Strength Indicator (RSSI) at STAs. Similarly, \cite{ropitault2018evaluation} proposed the RSSI to OBSS threshold (RTOT) method, whereby the OBSS/PD value used by an STA is derived from the RSSI received from its AP (which is used as an indicator of the distance). Despite this method is meant to deal with network dynamics (the OBSS/PD varies according to the RSSI), a static margin value is included used for selecting the OBSS/PD. As for DSC, the rigidity of the margin value may lead to not finding the optimal solution in some scenarios. Finally, the Interference-based Dynamic Channel Algorithm (IB-DCA) was proposed in \cite{valkanis2019ieee}, whereby STAs exchange the expected RSSI so that the transmit power is globally adjusted, rather than applying the OBSS/PD.
 
 %Patents: \cite{wang2017spatial}  \cite{cariou201711ax}  \cite{cariou201911ax} \cite{cariou2020access}  \cite{cariou2019basic}  \cite{cariou2018setting} 
 
 \section{Spatial Reuse in IEEE 802.11ax}
 
-The IEEE 802.11ax SR operation includes two different mechanisms: \emph{i)} \textbf{OBSS/PD-based SR}, for decentralized settings, and \emph{ii)} \textbf{Parametrized SR (PSR)}, for scheduled uplink transmissions. Both mechanisms are based on BSS coloring, whereby HE devices can quickly determine whether the channel is occupied by another device belonging to the same BSS (intra-BSS transmission, same color) or from a different one (inter-BSS transmission, different color).
+The IEEE 802.11ax SR operation includes two different mechanisms: \emph{i)} {OBSS/PD-based SR}, for decentralized settings, and \emph{ii)} {Parametrized SR (PSR)}, for scheduled uplink transmissions. Both mechanisms are based on BSS coloring, whereby HE devices can quickly determine the source of the detected transmissions. In \textbf{Paper \#1}, we provided an exhaustive overview and tutorial of the IEEE 802.11ax SR operation.
 
 % OBSS/PD-based SR
 \subsection{OBSS/PD-based Spatial Reuse}
-In OBSS/PD-based SR, an HE STA can use a less restrictive OBSS/PD threshold when detecting inter-BSS transmissions, thus increasing the probability of ignoring them and accessing the channel. In case of initiating a transmission due to OBSS/PD-based SR (an SR-based TXOP is obtained), an HE STA must regulate the transmit power it uses. The maximum allowed transmission power is given by:
+In OBSS/PD-based SR, an HE STA can use a less restrictive OBSS/PD threshold when detecting inter-BSS transmissions, thus increasing the probability of ignoring them and accessing the channel. In case of initiating a transmission due to OBSS/PD-based SR (an SR-based TXOP is gained), an HE STA must regulate the transmit power it uses. The maximum allowed transmission power ($\text{TX\_PWR}_{\max}$) depends on the selected OBSS/PD threshold, and is given by:
 \begin{equation}
 \resizebox{0.6\columnwidth}{!}{%
-	$\text{TX\_PWR}_{\max} = \text{TX\_PWR}_{\text{ref}} - (\text{OBSS/PD} -\text{OBSS/PD}_{\min})$}
+	$\text{TX\_PWR}_{\max} = \text{TX\_PWR}_{\text{ref}} - (\text{OBSS/PD} -\text{OBSS/PD}_{\min})$},
 \nonumber
 \label{eq:power_restriction}
 \end{equation}
+where $\text{TX\_PWR}_{\text{ref}}$ is the reference transmit power (depends on the transmitter's antenna capabilities) and $\text{OBSS/PD}_{\min}$ is the minimum OBSS/PD (set to -82 dBm).
 
 Figure \ref{fig:example_obsspd_sr} sketches an example of the OBSS/PD-based SR mechanism in which an HE device (i.e., AP$_A$) ignores inter-BSS transmissions (i.e., AP$_B$) by applying the OBSS/PD threshold, which allows it initiating a simultaneous transmission with limited transmit power.
 \begin{figure}[ht!]
@@ -289,16 +295,16 @@ Figure \ref{fig:example_obsspd_sr} sketches an example of the OBSS/PD-based SR m
 \end{figure}
 
 % Analysis of OBSS_PD SR
-The performance gains of OBSS/PD-based SR operation have been previously analyzed in \cite{mvulla2018enhanced, qu2018survey, shen2018research,malhotra2019much}.  
+The performance gains of OBSS/PD-based SR operation have been previously analyzed in \cite{mvulla2018enhanced, qu2018survey, shen2018research,malhotra2019much}. In \textbf{Paper \#1} and \textbf{Paper \#2} we also provide a performance evaluation of 11ax SR.
 %\cite{malhotra2019much} evaluation of 11ax OBSS/PD-based SR.
 %\cite{qu2018survey} provided some results on applying SR in both indoor and outdoor scenarios, thus showing a higher potential for indoor deployments. 
 %\cite{shen2018research} provided a performance evaluation based on the adjustment of the inter-BSS sensitivity threshold. Their results showed significant gains when applying SR, especially for dense scenarios. 
 
 % PSR 
 \subsection{Parametrized Spatial Reuse}
-Unlike for OBSS/PD-based SR, the PSR operation attempts to exploit triggered-based (TB) UL transmissions to carry out SR. Depending on the role of nodes participating in the PSR operation, we find two types of devices: \emph{sharing} (the ones initiating TB transmissions and indicating support for the PSR operation) and \emph{shared} (the ones taking advantage of the PSR opportunities from detected TB transmissions).
+Unlike for OBSS/PD-based SR, the PSR operation attempts to exploit Triggered-Based (TB) UL transmissions to carry out SR. Depending on the role of nodes participating in the PSR operation, we find two types of devices: \emph{sharing} (the ones initiating TB transmissions and indicating support for the PSR operation) and \emph{shared} (the ones taking advantage of the PSR opportunities from detected TB transmissions).
 
-To detect PSR opportunities, shared devices must check whether their intended transmit power meets the requirements indicated in TB PPDUs from sharing devices. These requirements are based on the maximum level of interference supported by the sharing device. In particular, the minus the intended transmit power cannot exceed the following value:
+To detect PSR opportunities, shared devices must check whether their intended transmit power meets the requirements indicated in TB Physical Layer Conformance Procedure (PLCP) Protocol Data Unit (PPDU) from sharing devices. These requirements are based on the maximum level of interference supported by the sharing device. In particular, the minus the intended transmit power cannot exceed the following value:
 \begin{equation}
 \text{TX\_PWR}_{\max} = \text{TX PWR}_\text{AP} + \text{I}_\text{AP}^{\max} - RPL,
 \label{eq:srp_input}
@@ -317,66 +323,112 @@ The PSR operation is sketched in Figure \ref{fig:example_psr} for a toy scenario
 The potential latency gains of PSR have been analyzed in \cite{carvalho2020latency}.  
 
 % 11be and beyond
-\section{Spatial Reuse in Future IEEE 802.11 WLANs}
-Currently, the TGbe is studying a new coordinated scheme for SR. Notice that Multi-AP coordination (e.g., coordinated and joint transmission) is one of the main topics that has been so far been discussed by members of TGbe for coordinated beamforming (CBF)  \cite{tgbe_cbf}, coordinated OFDMA \cite{tgbe_cofdma}, and coordinated SR (CSR) \cite{tgbe_csr}.\footnote{Approved initial draft of PAR: \url{https://mentor.ieee.org/802.11/dcn/18/11-18-1231-01-0eht-eht-draft-proposed-par.docx}} 
+\section{Spatial Reuse in IEEE 802.11be and Beyond}
 
-Concerning CSR (or Co-SR), it aims to improve the quality of the simultaneous transmissions that can take place due to the SR operation. In particular, the transmit power of secondary transmissions take into account the maximum level of interference of the target devices to which transmissions are sought to be held. Co-SR is a natural extension of the SR scheme under the multi-AP operation framework and can be implemented with relatively low added complexity. 
+The SR operation included in the 11ax has been shown to provide significant gains for cell-center devices but lacks applicability in cell-edge users \cite{qu2019survey}. As a result, the 11be is working on Coordinated SR (CSR) \cite{csr2020}, a cooperative scheme whereby BSSs exchange information (e.g., the acceptable level of interference supported by the different devices) to further enhance the quality of the parallel transmissions achieved through SR. Apart from that, the convergence with other technologies such as OFDMA \cite{csr2018} and beamforming/null steering \cite{psr2019} is also being studied to shape the future of SR. Notice that multi-AP coordination (e.g., coordinated and joint transmission) is one of the main topics that has been so far discussed by IEEE 802.11 task groups \cite{tgbe2018ap}. Apart from CSR, the main applications of multi-AP coordination are coordinated beamforming (CBF)  \cite{tgbe2020cbf} and coordinated OFDMA \cite{tgbe2019cofdma}.
+
+Concerning CSR (or Co-SR), it aims to improve the quality of the simultaneous transmissions that can take place due to the SR operation. In particular, the transmit power of secondary transmissions takes into account the maximum level of interference of the target devices to which transmissions are sought to be held. Co-SR is a natural extension of the SR scheme under the multi-AP operation framework and can be implemented with relatively low added complexity. At this stage, the CSR operation is considered to be built upon the following phases:
+\begin{itemize}
+	 \item \textbf{Preparation:} this phase includes capability announcement (via Beacon or management frames) and monitoring. The AP can request STAs to report the measured RSSI from the neighboring APs and the associated AP, so that the Downlink Acceptable Receiver Interference Level (DL ARIL) can be computed. The DL ARIL is used to assesses the feasibility of coordinated transmissions and the required transmit power limitations to carry them out.
+	%
+	\item \textbf{Setup:} the AP winning a TXOP selects the candidate shared AP and indicates the maximum DL ARIL for the following scheduled DL transmission. Then, the shared AP responds to the sharing AP if the channel state is idle.
+	%
+	\item \textbf{Communication:} the exchange of packets under CSR starts with a trigger frame sent by sharing APs, which choose the set of shared APs to transmit concurrently. The trigger includes information such as the transmission duration, the maximum transmit power allowed or the resource allocation for ACKs. Then, data and ACK packets are exchanged between nodes belonging to the authorized BSSs. The exchange of packets allows the shared APs to update measurements such as the DL ARIL. Finally, the ACK transmission from the STAs received CSR data frame can be performed by UL-OFDMA. However, this approach requires establishing a pre-agreement on the division of the frequency resources.
+\end{itemize}
+
+The abovementioned phases are illustrated in Figure \ref{fig:coordinated_sr} for two APs belonging to different BSSs. As it can be noted, the main challenge of CSR lies in data acquisition, which is mainly achieved during the monitoring phase. This is a critical aspect, especially for highly dynamic deployments, and the trade-off between the necessary overhead and the potential gains of coordination hinders the actual performance gains of CSR.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.8\columnwidth]{images/coordinated_sr}
+	\caption{Example of the phases considered for IEEE 802.11be CSR.}
+	\label{fig:coordinated_sr}
+\end{figure}
 
 % Other ways forward
-Beyond 11be SR, the integration of SR with other novel mechanisms remains unexplored and it is expected to provide further performance gains. Among the most important techniques, we highlight beamforming/null steering \cite{tgbe_psr_beamforming}, OFDMA \cite{bankov2018ofdma, dovelos2018optimal}, multiple antenna systems \cite{liao2016mu}, and scheduled transmissions \cite{nurchis2019target}. For instance, the combination of SR with directional transmissions may lead to efficient and performance maximizing communications, where SR is applied on a per-beam basis. Similarly, SR can be further exploited through TB communications. In this case, users of a given BSS can be categorized into different types, so that different inter-BSS OBSS/PD values are assigned to them for the sake of scheduling joint transmissions. It is worth pointing out that users belonging to different groups can be scheduled together, provided that the most restrictive OBSS/PD threshold is used. 
+Beyond 11be SR, the integration of SR with other novel mechanisms remains unexplored and it is expected to provide further performance gains. Among the most important techniques, we highlight beamforming/null steering \cite{psr2019}, OFDMA \cite{bankov2018ofdma, dovelos2018optimal}, multiple antenna systems \cite{liao2016mu}, and scheduled transmissions \cite{nurchis2019target}. For instance, the combination of SR with directional transmissions may boost efficiency by applying SR on a per-beam basis. Similarly, SR can be further exploited through TB communications. In this case, users of a given BSS can be categorized into different types, so that different inter-BSS OBSS/PD values are assigned to them for the sake of scheduling joint transmissions. It is worth pointing out that users belonging to different groups can be scheduled together, provided that the most restrictive OBSS/PD threshold is used. 
 
 % AI 
-Finally, AI emerges as a potential solution to address SR because of the complexity of the problem and the characteristics of dense WLAN deployments, which are typically decentralized and highly varying in terms of users and channel dynamics. Through AI, it is possible to capture and exploit complex information that cannot be predicted on before-hand (traffic demands, user behavior, varying interference regimes, etc.). As a result, a learning-based procedure can be conducted to further improve the performance of WLAN deployments.
+Finally, AI emerges as a potential solution to address SR because of the complexity of the problem and the characteristics of dense WLAN deployments, which are typically decentralized and highly varying in terms of users and channel dynamics. Through AI, it is possible to capture and exploit complex information that cannot be predicted on before-hand (traffic demands, user behavior, varying interference regimes, etc.). As a result, a learning-based procedure can be conducted to further improve the performance of WLAN deployments. More insights on this are provided in Chapter \ref{chapter3}.
 
 %%%%%%%%%%%%%%%%%
 % MACHINE LEARNING
 %%%%%%%%%%%%%%%%%
-\chapter{Machine Learning in IEEE 802.11 WLANs}
+\chapter{Machine Learning in WLANs}
 \label{chapter3}
 
-ML is meant to empower a computational system for learning automatically, based on experience, so that future situations can be properly managed without having been programmed explicitly. The actual utility of ML lies in those problems that are hard to solve by hand-programming due to their underlying complex patterns (e.g., network traffic prediction). Formally, a machine is said to learn if it improves the performance $\mathbb{P}$ obtained from undertaking task $\mathbb{T}$, based on the gathered experience $\mathbb{E}$ \cite{mitchell1997machine}. Different ML techniques have been categorized in multiple ways, but the most common taxonomy differentiates between supervised learning (labeled data is used for training), unsupervised learning (no labels are used on input data), and reinforcement learning (exploration-exploitation trade-off with label/unlabeled data).
-
-Concerning wireless communications, the application of ML reveals a big potential because of the following aspects:
+ML is meant to empower a computational system for learning automatically, based on experience, so that unseen situations can be properly handled without having been programmed explicitly. Concerning wireless communications, the application of ML reveals a big potential because of the following aspects:
 \begin{itemize}
 	\item First, there is a huge amount of unexploited data generated at both infrastructure and user levels, which could be extremely useful for learning patterns that help at improving network performance.
-	\item Second, current models lack of accuracy and/or tractability for capturing non-linear complex phenomena of communications systems (e.g., channel effects, varying traffic requirements, hardware imperfections, etc.). In this regard, ML does not require a mathematically tractable model to operate and can be used to address such complexities.
-	\item Apart from the underlying complex characteristics of problems (e.g., wireless channel), communications systems are built based on functional blocks, each executing well defined and isolated functions (e.g., rate selection, channel allocation, etc.). While individual functions can be separately optimized, their joint operation may lead to further improve end-to-end complexity, thus hindering global optimized solutions. ML can therefore help at optimizing end-to-end processes by getting rid of the modularization of communications systems.
+	\item Second, current mathematical models may lack accuracy and/or tractability for capturing non-linear complex phenomena of communications systems (e.g., channel effects, varying traffic requirements, hardware imperfections, etc.). In this regard, ML does not require a mathematically tractable model to operate and can be used to address such complexities.
+	\item Apart from the underlying complex characteristics of problems (e.g., wireless channel), communications systems are built based on functional blocks, each executing well defined and isolated functions (e.g., rate selection, channel allocation, etc.). While individual functions can be separately optimized, their joint operation may lead to further improve end-to-end complexity, thus hindering globally optimized solutions. ML can, therefore, help at optimizing end-to-end processes by getting rid of the modularization of communications systems.
 \end{itemize}
 
-Henceforth, ML is expected to overcome the systemic complexity inherited from novel use cases like Vehicle to Everything (V2X) communications, Machine Type Communications (mMTC), and Ultra-Reliable Low-Latency Communication (uRLLC). In particular, the inherent flexibility of ML for automatically learning diverse situations can address heterogeneous scenarios including mobility, a huge number of devices, and varying throughput and latency requirements. For those reasons, added to the ongoing softwarization of networks, ML is expected to be pervasively included beyond the fifth-generation (5G) of mobile communications systems, namely the sixth generation (6G) \cite{calvanese2019next, shafin2020artificial, yang20196g}. Because of its high potential on addressing complex problems in communications, ML has been applied to a plethora of fields. We address the interested reader to the surveys in \cite{alsheikh2014machine, bkassiny2013survey, wang2016survey, jiang2016machine, zhang2019deep, usama2019unsupervised, klaine2017survey, cayamcela2018artificial, moysen20184g} and references therein.
+Henceforth, ML is expected to overcome the systemic complexity inherited from novel use cases like Vehicle to Everything (V2X) communications, Machine Type Communications (mMTC), and Ultra-Reliable Low-Latency Communication (uRLLC). In particular, the inherent flexibility of ML for automatically learning diverse situations can address heterogeneous scenarios including mobility, a huge number of devices, and varying throughput and latency requirements. Because of its high potential for addressing complex problems in communications, ML has been applied to a plethora of fields. We address the interested reader to the surveys in \cite{alsheikh2014machine, bkassiny2013survey, wang2016survey, jiang2016machine, zhang2019deep, usama2019unsupervised, klaine2017survey, cayamcela2018artificial, moysen20184g} and references therein.
 
 \section{Computation paradigms}
-Most popular ML approaches typically require a centralized architecture for training tasks on one point (e.g., a data center), which is useful for deriving global ML models encompassing data acquired from multiple sources (e.g., nodes in a network) and even from different domains (e.g., inter-operator data). This allows obtaining a general understanding of the target problem, but the accuracy of the output solution is tied to the characteristics of the training data; too diverse and complex patterns may lead to a high level of bias and model overfitting. Moreover, centralization requires certain perennity of data, thus lacking of responsiveness and not suiting real-time applications. Notice that training datasets are typically large and entail significant resource and time-consuming computational tasks. Centralized solutions are therefore very useful for problems related to the core of the network or involving higher layers of the protocols stack. For instance, DL approaches have been broadly applied for predicting periodical patterns of network traffic \cite{zhang2018long, troia2018deep, paul2019traffic} or user mobility \cite{shen2018stepdeep, zhang2020deep, li2019deep}. 
 
-However, the access network and edge devices may face other kinds of challenges for PHY/MAC-related problems, thus requiring decentralized architectural solutions. First, end devices typically have highly-varying heterogeneous requirements and are subject to different environmental conditions. As a result, deriving a general model to properly fit all the cases can be difficult or even impossible. Second, data may fail to be integrated at a single point due to potential computation, storage or communication limitations (e.g., end devices may have low-throughput connections and be intermittently available). Third, time-consuming mechanisms requiring a heavy workload such as NNs can be barely applicable due to high non-stationarity (e.g., due to highly varying traffic demands, channel conditions, etc.), which would make trained ML models become obsolete very fast.
+Most popular ML approaches typically require a centralized architecture for training tasks on one point (e.g., a data center), which allow deriving global ML models encompassing data acquired from multiple sources (e.g., nodes in a network) and even from different domains (e.g., inter-operator data). Centralized ML models provide a general understanding of the target problem, but their applicability may be too narrow and only address very specific cases. In general, the accuracy of a trained ML model is tied to the characteristics of the training data; too diverse and complex patterns may lead to a high level of bias and model overfitting. Moreover, centralization requires certain perennity of data, thus lacking responsiveness and not suiting real-time applications. Notice that training datasets are typically large and need for significant computational resources to carry out time-consuming tasks. In communications, centralized solutions are therefore very useful for problems related to the core of the network or involving higher layers of the protocols stack. For instance, Deep Learning (DL) has been broadly applied for predicting periodical patterns of network traffic \cite{zhang2018long, troia2018deep, paul2019traffic} or user mobility \cite{shen2018stepdeep, zhang2020deep, li2019deep}. 
 
-Decentralized approaches typically address complex and varying processes that cannot be fully learned (e.g., the learning curve is unfordable). In this regard, decentralization can provide on-time solutions rather than seeking for optimality (fast moderate improvement vs slow optimization). For that reason, techniques such as Reinforcement Learning or Sequential Learning are widely employed for PHY/MAC optimization. Some examples are resource allocation \cite{xu2017deep}, edge computing \cite{li2018deep, he2018secure}, or MIMO optimization \cite{krishnan2019optimizing}.
+In contrast, problems related to the access network and PHY/MAC layers may face other kinds of challenges, and typically require decentralized architectural solutions. First, end devices often have highly-varying heterogeneous requirements and are subject to different environmental conditions. As a result, deriving a general model to properly fit all the cases can be difficult or even impossible. Second, data may fail to be integrated at a single point due to potential computation, storage, or communication limitations (e.g., end devices may have low-throughput connections and be intermittently available). Third, time-consuming mechanisms requiring a heavy workload such as Neural Networks (NNs) can be barely applicable due to high non-stationarity (e.g., due to highly varying traffic demands, channel conditions, etc.), which would make trained ML models become obsolete very fast.
 
-Figure \ref{fig:centralized_vs_decentralized} summarizes the computational approaches and implications for different problem characteristics, including requirements, available resources, and purpose.
+Decentralized approaches typically address complex and varying processes that cannot be fully learned on time (e.g., the learning curve is unfordable). In this regard, decentralized ML mechanisms can be useful to provide fast solutions rather than seeking for optimality (fast moderate improvement vs slow optimization). For that reason, techniques such as RL or Sequential Learning are widely employed for PHY/MAC optimization. Some examples are resource allocation \cite{xu2017deep}, edge computing \cite{li2018deep, he2018secure}, or MIMO optimization \cite{krishnan2019optimizing}.
+
+Figure \ref{fig:centralized_vs_decentralized} summarizes the computational approaches and implications for different problem characteristics, including requirements, available resources, and purpose. In-between centralized and decentralized systems, we find mixed architectures where other types of learning mechanisms can be applied. For instance, transfer learning (storing knowledge gained while solving one problem and applying it to a different but related problem) \cite{pan2009survey} and federated learning (collaborative training starting from a general model to better fit different contexts and situations) \cite{konevcny2016federated, smith2017federated} find a compromise that combines the power of centralized architectures and the flexibility of decentralized ones. However, the successful application of these kinds of approaches is tightly tied to the communication capabilities of the implied devices, which defines the degree of cooperation among nodes in a network.
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=\columnwidth]{images/centralized_vs_decentralized}
-	\caption{High-level representation of centralized and decentralized architectures.}
+	\caption{High-level representation of centralized and decentralized architectures for the application of ML mechanisms in networks.}
 	\label{fig:centralized_vs_decentralized}
 \end{figure}
 
-In-between centralized and decentralized systems, we find mixed architectures where other types of learning mechanisms can be applied. For instance, transfer learning (storing knowledge gained while solving one problem and applying it to a different but related problem) \cite{pan2009survey} and federated learning (collaborative training starting from a general model to better fit different contexts and situations) \cite{konevcny2016federated, smith2017federated} find a compromise that combines the power of centralized architectures and the flexibility of decentralized ones. However, the successful application of these kind of approaches is tightly tied to the communication capabilities of the implied devices, which defines the degree of cooperation among nodes in a network.
 
-%Apart from the architectural aspects, it is important to emphasize on the way information is used: centralized, cooperative, and non-cooperative methods. Of course, the election of the approach depends on the type of problem and the set of resources available.
+% Architecture
+\section{Architectural Aspects of Machine-Learning-Aware Networks}
 
-\section{Multi-Armed Bandits for Decentralized Spatial Reuse: Between ML and Game Theory}
-The \emph{learning by experience} characteristic of sequential learning suits well to the WLANs because it allows addressing complex partial information problems. The fact is that WLANs pose a set of specific challenges resulting from their multiple deployment modes (e.g., campus network, residential usage) and their typical decentralized nature. Despite WLANs can count with plenty of data to be used by ML methods in large and planned deployments, we find other residential-type scenarios that are decentralized and lack of powerful centralized equipment. Besides, as a consequence of the abovementioned lack of coordination, a high non-stationarity is to be addressed.
+The adoption of ML mechanisms in telecommunications involves accommodating ML-oriented tasks such as data collection, data processing, data analysis, and decision-making \cite{bi2015wireless,chih2017big,wang2018machine}. The first steps towards ML-enabled networking have been recently materialized through the virtualization of networks, i.e., Network Function Virtualization (NFV) and Software-Defined Networks (SDN) paradigms. The fact is that network virtualization provides an unprecedented elasticity for the management and operation of network resources, which were previously limited by traditional hardware-based components. Besides, inter-operator coordination is boosted for bringing the ML operation to a macro-scale level, thus allowing to share a vast amount of information and computation resources. These improvements favor the implementation of ML approaches such as federated learning, whereby network infrastructure requires elements to communicate for carrying out a joint decentralized training procedure in an efficient and scalable way.
 
-\subsection{The MAB Framework}
-In the MAB problem, \cite{thompson1933likelihood, bush1953stochastic}, and as for classical RL formulations, an agent (or learner) interacts with the environment to accumulate knowledge that allows responding to unforeseen events, with the aim of finding an equilibrium between exploration (improve your knowledge) and exploitation (obtain the maximum profit based on your knowledge) \cite{auer2002finite}.
+Currently, the main standardization bodies are progressing on the definition of future ML-aware network architectures. In particular, the following progress has been done:
+\begin{itemize}
+	\item The 3rd Generation Partnership Project (3GPP) is currently working on the integration of data analytics to network functions \cite{3gpp2019study}.
+	\item ETSI groups on Experiential Networked Intelligence (ENI) and Zero-touch network and Service Management (ZSM) are actively studying the integration of AI to networks \cite{etsi2019architecture}.
+	\item ITU-T has released a set of specifications on a \emph{Unified architecture for 5G and beyond} \cite{itu2019architecture, itu2019data}. Remarkably, ITU's standardized architecture provides a common nomenclature for ML-related mechanisms so that interoperability with other networking systems is achieved. 
+\end{itemize} 
+
+In \textbf{Paper \#7}, we proposed a realization of the ITU-T ML-aware architecture for IEEE 802.11 WLANs. Through the definition of ML components and management functions, the ITU-T architecture provides the necessary flexibility for fulfilling different use case requirements, ranging from centralized solutions to local-learning approaches. This is particularly suitable for Wi-Fi deployments, which for some kinds of settings may lack powerful centralized equipment for gathering data and processing it (e.g., residential scenarios). In these cases, it is very important to instantiate ML pipeline nodes flexibly, thus adapting to the set of available resources and capabilities from each use case. 
+
+The ITU-T ML-aware architecture defines a set of components and procedures to enable the usage of ML models in networking operations. In particular, the following main components are defined:
+\begin{itemize}
+	\item \textbf{ML pipeline:} set of logical nodes that are combined to form an ML application in a network. ML pipeline nodes are responsible for data collection, data processing, ML model application, and output distribution.
+	\item \textbf{ML management and orchestration:} logical node to manage and orchestrate ML pipelines according to use case specifications.
+	\item \textbf{ML sandbox:} isolated domain for training, testing, and evaluating ML pipeline nodes before being deployed in a production environment.
+ 	\item \textbf{Data handling blocks:} framework to handle ML data collection, ML data processing, and ML data output.
+\end{itemize}
+
+Figure \ref{fig:itu_architecutre} shows the high-level architectural components defined in \cite{itu2019architecture}. As illustrated, the modularized ML operation may take place at any point in the network. As a result, the chaining and deployment of ML pipeline nodes is flexible and depends on the use case.
+ 
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=.8\columnwidth]{images/itu_architecutre}
+	\caption{ITU-T's high-level architecture for future ML-aware networks.}
+	\label{fig:itu_architecutre}
+\end{figure}
+
+Among the architectural components of the ITU-T architecture, we paid special attention to the ML sandbox. In this regard, \textbf{Paper \#8} delves into the potential usage of network simulators to enhance the reliability of ML for communications. Network simulators can be used to validate the performance of ML methods in a secure environment, before applying them in live networking systems. Besides, simulators are useful to generate synthetic data sets that can be used for training (e.g., predict unforeseen situations from which there are no real data).
+
+% MABs
+\section{Multi-Armed Bandits in Communications}
+The \emph{learning by experience} characteristic of Sequential Learning suits well to WLANs because it allows addressing complex partial information problems. The fact is that WLANs pose a set of specific challenges resulting from their multiple deployment modes (e.g., campus network, residential usage) and their typical decentralized nature. Despite WLANs can count with plenty of data to be used by ML methods in large and planned deployments, we find other residential-type scenarios that are decentralized and lack of powerful centralized equipment. Besides, as a consequence of the abovementioned lack of coordination, a high non-stationarity is to be addressed.
+
+%\subsection{The MAB Framework}
+In the MAB problem, \cite{thompson1933likelihood, bush1953stochastic}, and as for classical RL formulations, an agent (or learner) interacts with the environment to accumulate knowledge that allows responding to unforeseen events, with the aim of finding an equilibrium between exploration (improve your knowledge) and exploitation (obtain the maximum profit based on your knowledge) that allows maximizing a long-term goal \cite{auer2002finite}.
 
 % MABs formulation
-Formally, a learner sequentially picks actions $a_t \in K$ and observes their reward vector $r_t$ over a time horizon $T$. Typically, the reward is granted by what is known as the environment, which may be of diverse nature (e.g., stochastic distribution, adversarial payoff). In the bandits setting, the reward follows a hidden probability distribution, and it is only revealed once the arm is played. Bandits differ from \emph{partial} and \emph{full} information settings that reveal the reward of a set or all the possible actions, respectively. 
+Formally, a learner sequentially picks actions $a_t \in K$ and observes their reward vector $r_t$ over a time horizon $T$. Typically, the reward is granted by what is known as the environment, which may be of diverse nature (e.g., stochastic distribution, adversarial payoff). In the bandits setting, rewards are generated by hidden distributions, and their value is only revealed once the corresponding arm is played. Bandits differ from \emph{partial} and \emph{full} information settings that reveal the reward of a set or all the possible actions, respectively. 
 
-The performance of a given action-selection strategy is typically measured by the regret $R_T$, which compares the performance achieved by the actual selected actions with the best action in hindsight granting the optimal reward ($r_t^*$). In general, an algorithm is said to learn if its regret grows sublinearly. Typical good performance is achieved for $R_T \in \mathcal{O}(\sqrt{T})$ or even $R_T \in \mathcal{O}(\log{}T)$. 
+The performance of a given action-selection strategy is typically measured by the regret $R_T$, which compares the performance achieved by the selected actions with the best action in hindsight granting the optimal reward ($r_t^*$). In general, an algorithm is said to learn if its regret grows sublinearly. Typical good performance is achieved for $R_T \in \mathcal{O}(\sqrt{T})$ or even $R_T \in \mathcal{O}(\log{}T)$. 
 
 % Types of MABs and contexts of application
-In spite of its simplicity, the bandits framework stands as a very powerful solution for decision making problems. The main reason lies in its versatility, which allows bandits to model almost any problem. Because of this, the utilization of bandits is nowadays widely spread, and a plethora of applications are powered by such a framework. The most typical ones are web advertising, sales optimization, online recommendations, resource allocation, and packet routing, among many others. A plethora of bandits formulations exists according to multiple assumptions that extend the basic bandits game, which are based on the reward statistics (e.g., stochastic vs non-stochastic bandits), the dynamics of actions (e.g., sleeping bandits, mortal bandits), the type of Markovian settings (e.g., rested vs restless bandits), the nature of the environment (e.g., adversarial bandits), and a very long etcetera of variations. The bandits problem has been treated in detail by several books and surveys. Table \ref{tab:bandits_categories} provides a high-level categorization of the most popular types of bandits. We encourage the interested reader to delve into the works in \cite{cesa2006prediction, gittins2011multi, bubeck2012regret, lattimore2018bandit, slivkins2019introduction}.
+Despite its simplicity, the bandits framework stands as a very powerful solution for decision-making problems. The main reason lies in its versatility, which allows bandits to model almost any problem. Because of this, the utilization of bandits is nowadays widely spread, and many applications are powered by such a framework. The most typical ones are web advertising, sales optimization, online recommendations, resource allocation, and packet routing, among many others. A plethora of bandits formulations exist according to multiple assumptions that extend the basic bandits game. The different formulations are based on the reward statistics (e.g., stochastic vs non-stochastic bandits), the dynamics of actions (e.g., sleeping bandits, mortal bandits), the type of Markovian settings (e.g., rested vs restless bandits), the nature of the environment (e.g., adversarial bandits), and a very long etcetera of variations. The bandits problem has been treated in detail by several books and surveys. Table \ref{tab:bandits_categories} provides a high-level categorization of the most popular types of bandits. We encourage the interested reader to delve into the works in \cite{cesa2006prediction, gittins2011multi, bubeck2012regret, lattimore2018bandit, slivkins2019introduction}.
 
 \begin{table}[ht!]
 	\centering
@@ -392,13 +444,8 @@ In spite of its simplicity, the bandits framework stands as a very powerful solu
 	\end{tabular}
 \end{table}
 
-%One of the most notorious categorizations of bandits is based on the hidden model behind the reward offered by the set of available arms. In this regard, we find two main blocks, which are stochastic and non-stochastic rewards. 
-%
-%In stochastic bandits, the reward obtained after playing a certain action is given by a fixed probability distribution, what is to mean that every arm $k \in K$ has a fixed mean reward $\mu_k$. This assumption allows providing strong proves in terms of performance guarantees. \textcolor{blue}{Complete this part with typical regret bounds (upper and lower).} When it comes to non-stochastic bandits, the previous assumptions do not hold since ...
-
-\subsection{MAB in Communications}
-
-In wireless communications, many problems have statistical characteristics that can be approximated with mathematical models. In this regard, MAB-based applications have shown a great potential for optimizing a plethora of problems. Some examples are channel selection \cite{gai2010learning}, spectrum access \cite{tekin2011online}, transmission scheduling \cite{chen2006transmission}, or AP selection \cite{carrascosa2019decentralized}. Table \ref{tab:mabs_communications} provides an overview of some popular applications in communications that are based on the MABs framework.
+%\subsection{MAB in Communications}
+In wireless communications, many problems have statistical characteristics that can be approximated with mathematical models. In this regard, MAB-based applications have shown great potential for optimizing a plethora of problems. Some examples are channel selection \cite{gai2010learning}, spectrum access \cite{tekin2011online}, transmission scheduling \cite{chen2006transmission}, or AP selection \cite{carrascosa2019decentralized}. Table \ref{tab:mabs_communications} provides an overview of some popular applications in communications that are based on the MABs framework.
 
 \begin{table}[]
 	\caption{Overview of bandit-based applications for communications}
@@ -418,9 +465,9 @@ In wireless communications, many problems have statistical characteristics that 
 \end{table}
 
 % Nexus with Game Theory and why equilibrium can be reached
-Concerning the decentralized SR problem, it can be naturally defined as a multi-agent system, where each individual (e.g., a BSS) has player-specific goals and rewards.\footnote{The maximum achievable performance of a node depends on its transmission capabilities, the interference it senses, the traffic load it needs to serve and/or receive, etc.}  The multi-agent approach allows capturing the distributed nature of IEEE 802.11 WLANs and keeping dimensionality low for the SR problem. However, it may unleash a competition among players, thus revealing a nexus with game theory. In a single-agent system, a player attempts to maximize a long-term reward by interacting with an environment (which can be stochastic or non-stochastic) in isolation. Under this setting, performance guarantees can be straightforwardly provided, even if dealing with adversarial \cite{auer2002nonstochastic} or dynamic environments \cite{gupta2011thompson}. In contrast, weaker performance guarantees can be provided for multi-agent systems. The fact is that knowledge acquired by agents becomes easily outdated because of the non-stationarity produced by their concurrent operation.
+Concerning decentralized SR in wireless networks, it can be naturally defined as a multi-agent problem, where each individual (e.g., a BSS) has player-specific goals and rewards. The maximum achievable performance of a node depends on its transmission capabilities, the interference it senses, the traffic load it needs to serve and/or receive, etc. The multi-agent approach allows capturing the distributed nature of IEEE 802.11 WLANs and keeping dimensionality low for the SR problem. However, it may unleash a competition among players, thus revealing a nexus with game theory. In a single-agent system, a player attempts to maximize a long-term reward by interacting with an environment (which can be stochastic or non-stochastic) in isolation. Under this setting, performance guarantees can be straightforwardly provided, even if dealing with adversarial \cite{auer2002nonstochastic} or dynamic environments \cite{gupta2011thompson}. In contrast, weaker performance guarantees can be provided for multi-agent systems. The fact is that the knowledge acquired by agents becomes easily outdated because of the non-stationarity produced by their concurrent operation.
 
-Most of the current literature in multi-player MABs for wireless communications is based on the channel access problem in cognitive radio \cite{gai2010learning, liu2008restless, anandkumar2011distributed, di2011learning, bkassiny2013survey, cohen2014restless, abbas2015recent, maghsudi2015joint, avner2014concurrent}. The characteristics of the cognitive radio make it a suitable and an attractive problem to be modeled with the bandits framework. In particular, each node attempting to access the channel represents a player, and channels are arms (or bandits). In general, rewards are granted to players in a binary fashion, being 1 if the channel can successfully be accessed, or 0 otherwise (two or more nodes select the same channel). Accordingly, each player has the same view on actions (different players playing the same bandit obtain to the same payoff), which makes the game smooth, i.e., the reward function of the players is continuous with respect to the entire strategy set. Table \ref{tab:mpmab_cr} analyzes the state-of-the-art approaches taken for modeling channel access in cognitive radio through multi-player MABs.
+Most of the current literature in multi-player MABs for wireless communications is based on the channel access problem in cognitive radio \cite{gai2010learning, liu2008restless, anandkumar2011distributed, di2011learning, bkassiny2013survey, cohen2014restless, abbas2015recent, maghsudi2015joint, avner2014concurrent}. The characteristics of cognitive radio make it a suitable and attractive problem to be modeled with the bandits framework. In particular, each node attempting to access the channel represents a player, and channels are arms (or bandits). In general, rewards are granted to players in a binary fashion, being 1 if the channel can successfully be accessed, or 0 otherwise (two or more nodes select the same channel). Accordingly, each player has the same view on actions (different players playing the same bandit obtain to the same payoff), which makes the game smooth, i.e., the reward function of the players is continuous with respect to the entire strategy set. Table \ref{tab:mpmab_cr} analyzes the state-of-the-art approaches taken for modeling channel access in cognitive radio through multi-player MABs.
 
 \begin{table}[]
 	\caption{State-of-the-art multi-player MAB solutions for channel access in cognitive radio.}
@@ -439,102 +486,182 @@ Most of the current literature in multi-player MABs for wireless communications 
 	}
 \end{table}
 
-\subsection{MAB-based Decentralized Spatial Reuse}
+\section{Multi-Armed Bandits for Decentralized Spatial Reuse: Between ML and Game Theory}
 
-In the MABs setting, optimal solutions can typically be provided only to tractable problems that are generally linear, stationary, and generated by independent stochastic processes (e.g., with underlying Gaussian statistics). This is not the case of the multi-agent SR problem, in which it is not possible to provide a distributed no-regret strategy that converges to an optimal equilibrium. The fact is that the set of correlated equilibria cannot be characterized in the SR problem with multiple concurrent players. In particular, the following properties differing from distributed channel access prevent to do so:
+In \textbf{Paper \#3}, \textbf{Paper \#4}, and \textbf{Paper \#5}, we have addressed decentralized SR through multi-player MABs, which allowed us reducing the combinatorial complexity of the problem.\footnote{Notice that the number of configurations in an OBSS grows exponentially with the number of BSS to be optimized.} In particular, each agent (or player) $p\in \mathcal{P}$ represents a BSS in an OBSS. The actions $a\in \mathcal{A}_p$ that each agent can choose are defined as combinations of sensitivity and transmit power values, which lead to agent-specific rewards $r \in \mathcal{R}_p$. Notice that individual rewards depend on the joint action profile, i.e., the global configuration in BSSs, due to the spatial interactions occurring between nodes. Algorithm \ref{alg:sr_mabs} describes the decentralized SR game in general terms. The aforementioned procedure is enabled by a monitoring phase (time between iterations), whereby agents collect information of the performance granted by the actions being selected, which depend on the joint action profile (see Figure \ref{fig:paper_5_learning_procedure}).
+
+\begin{algorithm}[h!]
+	\SetKwInOut{Input}{Input}
+	\SetKwInOut{Output}{Output}		
+	Function MAB $(\mathcal{A})$\;
+	\Input{$\mathcal{A}_p$: set of possible actions in \{$1, ..., K$\} to be selected by each player $p\in \mathcal{P}$}
+	initialize: $t=0$,  for each arm $k \in \mathcal{A}_p$, set $r_{p,k} = 0$ and $n_{p,k} = 0$ \\
+	\While{active}
+	{
+		\For{each $p\in \mathcal{P}$}  {
+		Play arm $k \in \mathcal{A}_p = \underset{i=1,...,K}{\text{argmax }} \theta_i $ \\
+		Observe the reward obtained $r_{p,k}(t)$\\			
+		Compute the reward $r_{k,t}$ \\
+		$n_{k,t} \leftarrow n_{k,t} + 1$\\
+		}
+		Update the estimation function $ \theta $\\
+		$t \leftarrow t + 1$
+	}	
+	\caption{Decentralized SR game through MABs}
+	\label{alg:sr_mabs}
+\end{algorithm}	
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.8\textwidth]{images/paper_5_learning_procedure}
+	\caption{Sequential learning procedure carried out in IEEE 802.11 WLANs.}
+	\label{fig:paper_5_learning_procedure}
+\end{figure}
+
+In \textbf{Paper \#3} and \textbf{Paper \#4}, we have proposed a selfish method whereby agents learn towards maximizing local reward. Specifically, several concurrent agents attempt to improve their performance, based on local information. The effectiveness of this method is tightly coupled to the game shape. In multi-player MABs, optimal solutions can typically be provided only to tractable problems that are generally linear, stationary, and generated by independent stochastic processes (e.g., with underlying Gaussian statistics). 
+
+For instance, the work in \cite{maghsudi2015joint} addresses transmission power control and channel access in a distributed manner. Given a proposed model for opportunistic spectrum access, the authors are able to provide distributed no-regret strategies that lead to the set of correlated equilibria. However, some assumptions are made to provide convergence guarantees. In particular, the reward function used by the players is continuous with respect to the strategy set, which is also bounded. Intuitively, this means that the social cost that any action incurs to the other players can be linearly quantified. This is not the case of the proposed decentralized SR solution, in which it is not possible to provide a distributed no-regret strategy that converges to an optimal equilibrium. The fact is that the set of correlated equilibria cannot be characterized in the SR problem with multiple concurrent players. In particular, the following properties differing from distributed channel access prevent to do so:
 \begin{enumerate}
 	\item Spatial interactions inflict abrupt changes to the reward obtained by a BSS, which can be based, for instance, on the throughput. To put an example, increasing the sensitivity contributes to reducing contention, but it may lead to noticing a higher amount of interference during transmissions. 
-	\item Apart from spatial interactions, devices do not transmit uniformly along the time, which is in fact an unrealistic assumption. Therefore, the social-cost of actions varies with time and according to the transmissions done on a per-packet-basis (where certain randomness is added due to many causes such as channel effects, retransmissions, the randomized backoff procedure, etc.).
+	\item Besides, considering the worst-case interference (devices transmitting continuously) is an unrealistic assumption. Therefore, the social-cost of actions varies with time and according to the transmissions done on a per-packet-basis (where certain randomness is added due to many causes such as channel effects, retransmissions, the randomized backoff procedure, etc.).
 \end{enumerate}
 
-In these situations, defining a shared learning goal in multi-agent systems is not trivial because rewards are not equally assigned to agents and each individual reward depends on the joint action profile. Nonetheless, MABs remain a powerful solution to address real-world problems with complex and even unpredictable phenomena behind reward distributions. This is the case of the multi-player setting (i.e., multiple agents attempt to learn concurrently), which entails the enormous challenge of non-stationary, but for which on-time improvements prevail over long-term optimality. 
+In these situations, defining a shared learning goal in multi-agent systems is not trivial because rewards are not equally assigned to agents and each individual reward depends on the joint action profile. Nonetheless, the MABs framework remains a powerful solution to address real-world problems with complex and even unpredictable phenomena behind reward distributions. The multi-player setting (i.e., multiple agents attempt to learn concurrently), therefore, entails the enormous challenge of non-stationary, but for which on-time improvements prevail over long-term optimality. 
 
-In the following subsections, we show the different settings that have been considered for applying concurrent SR through MABs, which are based on the cooperation degree among BSSs (selfish, collaborative, and social-aware). In cooperative scenarios, agents collaborate to optimize a common goal (e.g., a shared reward), which is attempted to be maximized jointly. When it comes to non-cooperative approaches, local rewards are employed to characterize selfish behaviors, i.e., each agent attempts to improve its own performance. 
-
-\subsubsection{Selfish Setting}
-\textcolor{red}{[TBD]} \textcolor{red}{Idea: formulate the problem and devise implications and opportunities.}
-
-\textit{Under the selfish setting, several concurrent agents attempt to improve their own performance, based on local information. In the case of SR, actions are defined as combinations of sensitivity and transmit power values.}
-
-\textit{While the selfish setting has been shown to provide fast learning rates \cite{wilhelmi2019collaborative}, it may also provoke several undesired issues such as sub-optimal performance and unfairness \cite{wilhelmi2019potential}. Nevertheless, a collaborative behavior was shown to be achieved, thus leading to an equilibrium.}
-
-\subsubsection{Collaborative Setting}
-\textcolor{red}{[TBD]} \textcolor{red}{Idea: formulate the problem and devise implications and opportunities.}
-
-\textit{In this case, an environment-aware strategy is provided for deciding the best transmit power and sensitivity configuration, based on the performance of the overlapping networks into account. Despite a fair solution is shown to be achieved, certain limitations were revealed for maximizing the overall performance, thus showing that a shared reward is not enough in a decentralized setting.}
-
-\subsubsection{Social-Aware Setting}
-\textcolor{red}{[TBD]} \textcolor{red}{Idea: formulate the problem and devise implications and opportunities.}
-
-\textit{To overcome the issues raised by both selfish and shared reward settings, we focus on hybrid approaches by considering a social-aware cost function, which combines both local and collaborative rewards. In this regard, we highlight the work in \cite{maghsudi2015joint}, which includes transmission power control to the distributed channel access problem in cognitive networks. Given a proposed model for opportunistic spectrum access, the authors are able to provide distributed no-regret strategies that lead to the set of correlated equilibria. However, some assumptions are made to provide convergence guarantees. In particular, the reward function used by the players is continuous with respect to the strategy set, which is also bounded. Intuitively, this means that the social cost that any action incurs to the other players can be linearly quantified. }
+As an alternative to the selfish approach, a collaborative setting was also proposed in \textbf{Paper \#5} whereby agents attempt to maximize a shared reward. In particular, we defined the max-min throughput to be improved by a set of overlapping BSSs. Note, as well, that the learning procedure is kept decentralized (each agent is responsible for selecting its own actions). The collaborative approach is meant to boost fairness, but as for the selfish setting, its effectiveness towards optimality is limited by the shape of the global performance function. 
 
 %%%%%%%%%%%%%%%%%
 % METHODS
 %%%%%%%%%%%%%%%%%
 \chapter{Methodology and Enablers} 
 \label{chapter4}
-\textcolor{red}{[TBD]}
+
+The usage of analytical models and simulation tools is very important to study and understand novel technologies such as SR. In this Chapter, we present the analytical and simulation tools that have been used for that purpose. In particular, we developed an analytical model to address the complex inter-BSS interactions posed by the SR operation. Besides, given the lack of simulation tools to characterize such a new technology, we developed an IEEE 802.11ax-based network simulator. The purpose of this simulator is twofold. First, we need it to evaluate the performance of SR in dense deployments in a macro-scale level, i.e., we are interested in providing a first simulation-based overview of the behavior of SR. Notice that current well-known simulation tools like ns-3 can be complex to extend due to the high level of detail put in both MAC and PHY layers. In addition, simulating highly dense deployments can be costly or even intractable in terms of time and computational resources. Second, due to the main purpose of this thesis on studying the application of ML models for SR, the simulator was developed for supporting the operation of intelligent agents. 
+
 % CTMNs model
 \section{Spatial Reuse through Continuous Time Markov Networks}
-Characterizing the IEEE 802.11ax SR operation is crucial to fully understand its implications. However, it turns out to be a challenging task due to the complex (and still unknown) inter-WLAN interactions generated by adjusting the sensitivity and the transmission power. To the best of our knowledge, none of the previous works have attempted to model the 11ax SR operation. Nevertheless, with the aim of providing a thorough understanding of the SR operation, we introduce the CSMA/CA throughput model based on Continuous Time Markov Networks (CTMNs) \cite{bellalta2014throughput,bellalta2017throughput}. The CTMNs model aims to provide further insight into the effects of applying SR in next-generation WLANs.
 
-The CTMN model captures the CSMA/CA operation used in IEEE 802.11 WLANs
-through states, which represent the set of WLANs that are active at a given moment. Transitions between states occur when WLANs become active (i.e., they gain access to the medium) or when they abandon the channel (i.e., their transmission is finished).
+The Bianchi model \cite{bianchi2000performance} has been widely adopted by the research community as a reference for analyzing the throughput of IEEE 802.11 WLANs. However, this model only focuses on the MAC layer and requires all the analyzed nodes to be in the same coverage area. To model SR, it is important to capture the dynamic PHY interactions that occur when tuning the sensitivity and/or the transmit power.
 
-Analyzing inter-BSS MAC interactions is of great utility to deeply understand the implications of applying SR in WLANs. For that, we have modeled SR through Continuous Time Markov Networks (CTMN) \cite{bellalta2014throughput,bellalta2017throughput}, based on the framework presented in \cite{barrachina2019dynamic}.\footnote{The SFCTMN framework has been extended for the SR operation in \url{https://github.com/sergiobarra/SFCTMN/tree/single_channel_IEEE80211ax_spatial_reuse}} Concerning this model, the following assumptions are done:
-\begin{itemize}
-	\item Transmissions are downlink only.
+The analysis of SR has been previously addressed in multiple ways. Most of the models are based on signal-to-interference-plus-noise ratio (SINR) \cite{gupta2000capacity}, which add the concept of physical carrier sensing to capture inter-device interactions. We find a plethora of works that build upon SINR-based models for meeting several purposes (model RTS/CTS, etc.) \cite{guo2003spatial, hekmat2004interference,yang2005physical, yang2007modeling}. Typically, SINR-based models use the concepts described in Table \ref{tab:conditions_sr}. %The authors in \cite{guo2003spatial} proposed an analytical framework to characterize the optimal distance ratio between transmitters and receivers based on the RF channel conditions. 
+
+\begin{table}[]
+	\centering
+	\caption{Background concepts to model spatial reuse in wireless networks.}
+	\label{tab:conditions_sr}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{Concept}} & \multicolumn{1}{c|}{\textbf{Description}} & \multicolumn{1}{c|}{\textbf{Usage}} \\ \hline
+			Sensitivity & \begin{tabular}[c]{@{}l@{}}A receiver can detect a transmission if its \\ received power is greater than the sensitivity\end{tabular} & -  Define the transmission range \\ \hline
+			Carrier sensing & \begin{tabular}[c]{@{}l@{}}A node cannot initiate a transmission if the \\ power it senses is above its carrier sense threshold\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Define the carrier sense set\\ - Define the carrier sense range\\ - Define the silence set\end{tabular} \\ \hline
+			Capture effect & \begin{tabular}[c]{@{}l@{}}A receiver can decode a signal if the SINR \\ is above a given threshold\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Define the interference range\\ - Define the interference set\end{tabular} \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+While SINR-based methods are useful to derive interactions among devices in the spatial dimension, they consider the worst-case interference (i.e., nodes are assumed to transmit permanently). This entails neglecting spectrum access coordination and hence losing insights on the MAC operation.
+
+Another field that is attracting a lot of attention is stochastic geometry (SG), which allows modeling the random nature of dense wireless networks. In particular, SG allows defining a random set of nodes (typically, based on random point processes) and deriving statistical properties on them. In telecommunications, stochastic geometry has been widely applied to model the behavior of users and to estimate metrics such as the outage probability or the throughput per area \cite{elsawy2016modeling}. Concerning SR, we highlight the works in \cite{zhao2016stochastic, zhang2015stochastic, zhong2016stochastic, iwata2019stochastic}, which provided models based on SG to capture the effect of tuning the sensitivity threshold in WLANs. However, SG models are mainly focused on PHY layer effects and fail to capture the asymmetries that may take place on applying the SR operation, which also involves the tuning of the transmit power.
+
+In \textbf{Paper \#1}, we introduced Continuous Time Markov Networks (CTMNs) \cite{bellalta2014throughput,bellalta2017throughput} to analytically model the SR operation, thus capturing both MAC and PHY layers phenomena. This model allowed us to provide insights into the inter-BSS interactions resulting from SR, which has been key to develop the mechanisms proposed in this thesis. %\cite{jiang2018stochastic}: hybrid SG and CTMC.
+
+The CTMN model captures the CSMA/CA operation used in IEEE 802.11 WLANs through states, which represent the set of WLANs that are active at a given moment. Transitions between states occur when WLANs become active (i.e., they gain access to the medium) or when they abandon the channel (i.e., their transmission is finished). It is important to highlight that the CTMN model considers additive interference, which results from the combination of different simultaneous interfering transmissions. Accordingly, we are able to characterize real deployments where spatially-distributed interactions occur. Concerning this model, the following assumptions are done:
+\begin{enumerate}
+	\item The backoff procedure for accessing the medium is continuous in time. Thus, collisions due to backoff expiring at the same
+	instant are not captured by the model
+	\item Data transmissions are downlink only.
 	\item Uplink transmissions of control packets (e.g., ACKs) are only considered to compute the total transmission time. This implies that we do not consider uplink transmissions for modeling inter-BSS interactions.
-	%
-\end{itemize}
-
-First, the backoff procedure for accessing the medium is continuous in time. Thus, collisions due to backoff expiring at the same
-instant are not captured by the model. Second, downlink traffic is considered. Accordingly, the model is focused on finding inter-AP interactions.
-It is important to highlight that additive interference is considered, which results from the combination of different simultaneous
-interfering transmissions. Accordingly, we are able to characterize real deployments where spatially-distributed interactions occur. Moreover, traffic is considered to be saturated in all the nodes, so that pure SR-based interactions become more apparent.
+	\item  Full-buffer traffic is considered.
+\end{enumerate}
 
 % 11ax OBSS/PD-based SR
 \subsection{IEEE 802.11ax OBSS/PD-based Spatial Reuse}
 
-In order to model the 11ax SR operation, we have considered the generation of new states,
-which are related to the different sensitivity levels that each WLAN can use. Notice that
-using different sensitivity levels enables, on the one hand, to find new types of inter-WLAN
-interactions that could not exist without applying SR. On the other hand, increasing the
-sensitivity entails decreasing the transmission power. As a result, the capabilities of a given
-node vary according to the OBSS/PD threshold that is employed in every situation; a lower
-transmission power entails using a more robust Modulation and Coding Scheme (MCS).
+To model the 11ax SR operation, we consider new states for capturing the different situations created by the sensitivity levels and the corresponding transmit power limitation to be employed by each BSS in a given scenario. First, tuning the OBSS/PD of a BSS allows finding new types of inter-BSS interactions that could not exist without applying SR (i.e., a new set of concurrent transmissions). Moreover, the transmit power limitation has implications on the capacity of new states. Notice that a lower transmission power entails using a more robust Modulation and Coding Scheme (MCS) and hence a lower data rate.
+
+Figure \ref{fig:model_11ax_sr} illustrates the proposed CTMN model for a deployment in which two BSSs can transmit concurrently, provided that one of them (namely, BSS$_A$) applies OBSS/PD-based SR. As shown, BSS$_A$ can transmit in two different manners (noted by $A$ and $A_{SR}$, respectively), which capture the effect of applying SR in terms of channel access and transmitting capabilities. Notice that the transmit power limitation when applying the OBSS/PD threshold makes BSS$_A$ using a lower MCS index. In exchange, it is possible to hold simultaneous transmissions when BSS$_B$ occupies the channel.
+
+\begin{figure}[ht!]
+	\centering
+	\subfigure[Deployment]{\label{fig:ctmn_sr_1}\includegraphics[width=0.4\textwidth]{images/ctmn_sr_1}}
+	\subfigure[CTMN]{\label{fig:ctmn_sr_2}\includegraphics[width=0.47\textwidth]{images/ctmn_sr_2}}
+	\caption{Example of the CTMN model for IEEE 802.11ax OBSS/PD-based SR.}
+	\label{fig:model_11ax_sr}
+\end{figure}
 
 % 11be CSR
 \subsection{IEEE 802.11be Coordinated Spatial Reuse}
 
-%	\item Coordinated transmissions will always have priority if they are possible. For instance, if we have two coordinated BSSs (A and B) that can transmit simultaneously, the joint transmission will occur over individual ones (e.g., if A wins contention, the transmission will be in coordination with B, rather than transmitting A only). 
-%	%
-%	\item The feasibility of a coordinated transmission is only assessed from the perspective of the sharing AP. This means that we do not consider if the transmission of the shared AP will fail or succeed. 
-%	%
-%	\item Sharing and shared transmission duration are equal.
+To the date of publishing this thesis, the C-SR operation is currently being defined, studied, and characterized. However, we started devising its implications through the CTMN model. In particular, we have extended the 11ax-based model by taking the following assumptions:
+\begin{enumerate}
+	\item Coordinated transmissions always have priority when defining transitions between states. This means that joint transmission will occur over individual ones. 
+	%
+	\item The feasibility of a coordinated transmission is only assessed from the perspective of the sharing AP. Therefore, it is not assessed whether the transmission of shared APs will fail or succeed in transiting to coordinated states. 
+	%
+	\item Sharing and shared transmission duration are assumed to be equal.
+\end{enumerate}
+
+The C-SR operation through CTMNs is exemplified in Figure \ref{fig:model_11be_csr}. We address a deployment in which flow-in-the-middle starvation is prone to occur in a 3-BSS deployment if applying the default channel sensing mechanisms. Nevertheless, due to the C-SR operation, BSS$_A$ and BSS$_B$ can be coordinated to transmit simultaneously, which generates the new kind of inter-BSS interactions depicted in \ref{fig:ctmn_csr_2}. As shown, the novel coordinated transmissions entail new inter-BSS interactions, which are part of the analysis conducted in this thesis.
+
+\begin{figure}[ht!]
+	\centering
+	\subfigure[Deployment]{\label{fig:ctmn_csr_1}\raisebox{6mm}{\includegraphics[width=0.45\textwidth]{images/ctmn_csr_1}}} % 
+	\subfigure[CTMN]{\label{fig:ctmn_csr_2}\includegraphics[width=0.35\textwidth]{images/ctmn_csr_2}}
+	\caption{Example of the CTMN model for IEEE 802.11be C-SR.}
+	\label{fig:model_11be_csr}
+\end{figure}
 
 % Simulation
-\section{System-level Simulation of Spatial Reuse}
-In addition to the analytical model, we introduce the 11ax SR operation in the Komondor simulator. This simulator was conceived, among other purposes, to allow the low-cost integration of novel mechanisms included in new IEEE 802.11 standards. This is the case of the 11ax SR operation, which has not been yet fully implemented in any other well-known simulator. To the date of publishing this article, SR is still being developed for ns-3. By comparing our simulation results with the analytical model, we expect to shed some light on the effects of using 11ax SR, particularly with regard to inter-WLAN interactions. The analytical model will assist us in drawing conclusions regarding the network dynamics that can occur when applying the SR operation.
+\section{Simulation of Sequential Learning for Spatial Reuse}
 
-% Architecture
-\section{Architectural Aspects of Machine-Learning-Aware Networks}
+\subsection{Spatial Reuse Implementation}
 
-Finally, we delve into the architectural aspects for enabling ML-aware networking solutions. The fact is that the existing infrastructure is not yet prepared to accommodate ML-oriented tasks such as data collection, processing, and output distribution. Instead, current networking systems are typically meant for delivering content, without taking into account the underlying characteristics of the processes that generate it.
+While the CTMN model is very useful to understand the 11ax SR operation, it lacks scalability. The fact is that modeling dense deployments becomes intractable since the number of feasible states increases in a combinatorial manner with the number of BSSs. For that, we introduce the 11ax SR operation in the Komondor simulator, which is presented in \textbf{Paper \#6}. Komondor has been conceived to \emph{i)} allow the low-cost integration of novel mechanisms included in new IEEE 802.11 standards, \emph{ii)} simulate high-dense deployments, and \emph{iii)}  include the operation of sequential learning algorithms within the simulation of the network.
 
-The first steps towards AI-enabled networking are currently being made in 5G through Network Function Virtualization (NFV). Unlike traditional hardware-based networks, NFV allows rapid elasticity and fast reconfiguration on assigning network resources. This is particularly useful to enable verticals such as autonomous driving in the automotive sector or smart manufacturing in industry 4.0. Besides, network virtualization is useful to boost inter-operator coordination and bringing the ML operation to a macro-scale level, counting with vast information and computation resources. 
+% Related work
+The IEEE 802.11ax SR operation has also been developed for ns-3, but it has been published very recently\footnote{\url{https://gitlab.com/nsnam/ns-3-dev/-/tags/ns-3.30}}. Nevertheless, Komondor continues providing extended features of 11ax SR. Notice that the ns-3 implementation includes baseline OBSS/PD-based SR with constant thresholds, while Komondor allows to easily introduce algorithms to adjust the OBSS/PD threshold dynamically. Besides, the implementation of SRGs is provided to explore its potential utilization in future IEEE 802.11 amendments. 
 
-To conduct the evolution towards ML-aware networks, standardization is key to reach consensus between operators and manufacturers. In this regard, we find many initiatives held by standardization organizations, from which we highlight the Focus Group on Machine Learning for Future Networks including 5G (FG-ML5G), which belongs to the International Telecommunication Union Telecommunication Standardization Sector (ITU-T). The FG-ML5G aims to enable the convergence of future communications with ML technologies. To that end, the focus group has released a specification on a \emph{Unified architecture for 5G and beyond}, recently turned into an ITU Recommendation \cite{itu2019architecture}. Remarkably, ITU's standardized architecture provides a common nomenclature for ML-related mechanisms so that interoperability with other networking systems is achieved. 
+% Komondor details
+To characterize the operation of WLANs in a realistic manner, Komondor reproduces actual transmissions on a per-packet basis. To that purpose, Komondor is based on the COST library, which allows building interactions between components (e.g., wireless nodes, buffers, packets) through synchronous and asynchronous events. While the former are messages explicitly exchanged between components through input/output ports, the latter are based on timers. The implementation of DCF in Komondor has been validated against ns-3, and the CTMN \cite{bellalta2014throughput} and Bianchi models \cite{bianchi2000performance}.
 
-The module-based ITU's architecture allows adapting  to  the problem  instance  and  the  set  of  available  resources,  thus providing flexibility in terms of deployment heterogeneity. For instance, despite deep learning is a powerful solution that may improve  the  performance  in  multiple  scenarios,  it  entails a set of computation, storage and communication requirements that may not be fulfilled in other deployments, or parts of the network
+For 11ax OBSS/PD-based SR, the behavior of Komondor is as follows (also illustrated in Figure \ref{fig:komondor_sr}):
+\begin{itemize}
+	\item Devices implementing SR must announce that they support the operation so that devices in a BSS are setup. 
+	\item On initiating an SR-enabled transmission, a device must indicate its BSS Color and SRG.
+	\item Overlapping devices implementing SR, can take advantage of SR-enabled transmissions and transmit concurrently. The following conditions must hold for any detected transmission (i.e., the received power is above the minimum CCA/CS threshold):
+	\begin{itemize}
+		\item Detected transmissions must indicate support for SR.
+		\item Detected transmissions belong to different BSS Color sets and/or SRGs than the device detecting SR-based transmission opportunities. 
+		\item The power detected from the transmission must not exceed the assigned OBSS/PD threshold.
+		\item The transmit power to be used in the concurrent transmission must be limited according to the SR rules (see Chapter \ref{chapter2}).
+	\end{itemize}
+	\item In case of not meeting the abovementioned requirements, it is not possible to transmit during the SR TXOP, hence the device activates a NAV timer.
+\end{itemize}
 
-%Federated learning: The system then needs to communicate and aggregate the model updates in a secure, efficient, scalable, and fault-tolerant way. It's only the combination of research with this infrastructure that makes the benefits of Federated Learning possible.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=.9\textwidth]{images/komondor_sr}
+	\caption{Implementation of IEEE 802.11ax OBSS/PD-based SR in Komondor.}
+	\label{fig:komondor_sr}
+\end{figure}
 
-Apart from the ITU-T initiatives, other important standardization bodies such as the 3rd Generation Partnership Project (3GPP) or the European Telecommunications Standards Institute (ETSI) are currently working on the integration of data analytics to network functions. The 3GPP contemplates AI as one of the priority topics for shaping its upcoming release (Release 17) and architectural requirements are currently under study \cite{3gpp2019study}. Furthermore, we highlight the ETSI groups on Experiential Networked Intelligence (ENI) and Zero-touch network and Service Management (ZSM), which actively study the integration of AI to networks \cite{etsi2019architecture}. Unlike the ITU's unified architecture, most of the work held by the 3GPP and the ETSI focuses on centralized data collection and data analytics solutions. Nevertheless, we understand that the works in \cite{itu2019architecture, 3gpp2019study, etsi2019architecture} are complementary to each other.
+\subsection{Agents-based Implementation}
+% ML in Komondor
+Regarding the integration of ML mechanisms into network simulation, we find the integration of AI Gym with ns-3 \cite{gawlowicz2019ns}, which provides a discrete interaction between the simulated network components and AI libraries. When it comes to Komondor, a fully integrated implementation of agents was provided. These agents interact with simulated nodes in a network for providing monitoring, processing, and decision-making functionalities. In particular, different communication-based approaches are considered to enable the application of decentralized, distributed, centralized, and hybrid ML mechanisms (see Figure \ref{fig:overview_agents}).
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=.7\textwidth]{images/overview_agents}
+	\caption{Agents implementation in Komondor.}
+	\label{fig:overview_agents}
+\end{figure}
 
-
-% 1 - Architectural proposals	
-Apart from the specific ML solutions to problems in communications, some efforts have been made towards enabling AI-aware networking in more general terms. In particular, several architectural proposals have been provided so far \cite{bi2015wireless,chih2017big,wang2018machine}. Most of the referenced works agree in the necessary steps for enabling big data analytics in cellular deployments: (1) data collection, (2) data preparation, (3) data analysis, and (4) decision making. Nevertheless, none of these works provide architectural guidelines to introduce ML to wireless networks. In this regard, the ITU's architecture looks deeper into the ML operation and targets the actual procedures involving information gathering, processing, and communication. Besides, the ITU-T provides a data handling framework for ML-aware networks \cite{itu2019data}, which defines processes concerning data collection, processing, and output distribution.
+On designing sequential learning mechanisms in Komondor, the following considerations should be taken into account:
+\begin{itemize}
+	\item Agents acquire information from BSSs on a periodical-basis. The interval at which information is retrieved depends on the established monitoring phase, which entails a trade-off between the delay in making decisions and the quality of the sample extracted from monitoring.
+	\item The information acquired by agents can be later shared among other BSSs or with a centralized entity, thus allowing to build cooperative, distributed, or centralized mechanisms. Agents with different purposes can coexist.
+	\item The communication among agents and/or APs can be assumed to be virtual or entail certain costs (e.g., delay, overhead). Besides, packet losses can be included when agents exchange information, which can impact on the learning procedure followed by agents.
+\end{itemize} 
 
 %%%%%%%%%%%%%%%%%
 % RESULTS
@@ -542,15 +669,122 @@ Apart from the specific ML solutions to problems in communications, some efforts
 \chapter{Main Findings}
 \label{chapter5}
 
-\textcolor{red}{[TBD]}
+In this chapter, we present the main findings of this dissertation, which result from the analysis of the 11ax SR operation and the application of ML to address SR.
+
+%\section{Performance gains of IEEE 802.11ax Spatial Reuse}
+\begin{tcolorbox}
+		\textbf{Finding \#1:} SR is a non-intrusive mechanisms that allows increasing the number of parallel transmissions in dense deployments.
+\end{tcolorbox}
+
+The analysis of 11ax SR has been conducted in \textbf{Paper \#1} and \textbf{Paper \#2} for residential and enterprise-like Wi-Fi deployments (see Figure \ref{fig:random_scenario}). Our results compare the legacy setting (CCA/CS is used for all the transmissions) to SR with the best OBSS/PD threshold. In the first place, Figure \ref{fig:paper_1_throughput} shows the throughput experienced by the BSSs in an overlapping deployment, for different network densities and traffic load values. Solid bars refer to the performance achieved by the BSS implementing SR, whilst dashed bars are for the rest of overlapping BSSs. The first important conclusion is that SR is a non-intrusive mechanism. Notice that the performance of BSSs that are not applying SR (dashed bars) is barely affected when SR is applied by other BSSs (solid bars). Besides, BSSs applying SR can overcome high-interference settings that lead to suffering starvation and other performance anomalies (e.g., collisions). Accordingly, the throughput of dense deployments is improved. 
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/random_scenario}
+	\caption{Residential and enterprise-like deployments to evaluate the performance gains of IEEE 802.11ax Spatial Reuse.}
+	\label{fig:random_scenario}
+\end{figure}
+
+\begin{figure}[ht!]
+	\centering
+	\subfigure[Network density]{\label{fig:paper_1_throughput_per_density}\includegraphics[width=0.43\textwidth]{images/paper_1_throughput_per_density}}
+	\subfigure[Traffic load]{\label{fig:paper_1_throughput_per_load}\includegraphics[width=0.4\textwidth]{images/paper_1_throughput_per_load}}
+	\caption{Throughput gains obtained by IEEE 802.11ax Spatial Reuse in comparison to default carrier sensing approaches. Different network densities and traffic load values have been considered.}
+	\label{fig:paper_1_throughput}
+\end{figure}
+
+\begin{tcolorbox}
+	\textbf{Finding \#2:} SR provides moderate gains on the area throughput but helps at significantly improving the average delay in dense deployments. 
+\end{tcolorbox}
+
+This finding is illustrated in Figure \ref{fig:paper_2_delay}, which shows the CDF of the delay for different network densities and traffic load values. As for the throughput evaluation, solid lines refer to the performance achieved by the BSS implementing SR, whilst dashed lines are for the rest of overlapping BSSs. \textbf{Paper \#1} and \textbf{Paper \#2} fully describe this finding.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\textwidth]{images/paper_2_delay}
+	\caption{CDF of the delay gains obtained by IEEE 802.11ax Spatial Reuse in comparison to default carrier sensing approaches. Different network densities and traffic load values have been considered.}
+	\label{fig:paper_2_delay}
+\end{figure}
+
+\begin{tcolorbox}
+	\textbf{Finding \#3:} The evolution of the SR operation is expected to provide further performance gains.%The performance of SR is limited by its inherent transmit power limitation, the rigidity of the mechanism, the lack of coordination among BSS, and its standalone implementation.
+\end{tcolorbox}
+Despite SR has been shown to enhance current IEEE 802.11ax deployments, its performance is bounded by the following characteristics: 
+\begin{itemize}
+	\item The current transmit power limitation is too conservative, and further gains are expected if it is properly adjusted by BSSs participating in SR-based transmissions.
+	\item The lack of coordination among BSSs implementing SR prevents to find the optimal scheduling allocations. Through coordinated transmissions, BSSs can determine the optimal set of transmitter-receiver nodes in each SR-based transmission.
+	\item The rigidity of the current approach, which is applied homogeneously in a BSS instead of considering per-STA behavior.
+	\item SR is not combined with other technologies such as OFDMA or beamforming to provide further enhancements. 
+\end{itemize}
+Paper \#1 and Paper \#2 fully describe this finding. 
+
+\textcolor{red}{[TODO: add figure here.]}
+ 
+ %\section{Machine Learning for Spatial Reuse}
+\begin{tcolorbox}
+	\textbf{Finding \#4:} Sequential learning mechanisms for SR allow improving the performance of WLANs, but may lead to adversarial settings due to the competition unleashed among BSSs.
+\end{tcolorbox} 
+
+To address the SR problem in decentralized WLANs, we proposed the application of different sequential learning approaches, which vary according to the available information that agents have about the surrounding environment (i.e., other players). 
+
+In papers \textbf{Papers \#3} and \textbf{Paper \#4}, we studied the effects of using selfish rewards (local information only) in competitive settings where multiple agents coexist. We showed that the concurrent learning operation may lead to unleashing an adversarial setting, which has an impact on the learning procedure carried out by each agent:
+\begin{itemize}
+	\item First, the joint learning operation was shown to prevent finding the optimal global configuration. This is due to the competitive setting unleashed in a multi-player game and especially for cases with clashing interests among individual agents (e.g., throughput demands) and lack of resources. In other words, cases in which not all the agents can get their maximum expected performance because of the activity of the other agents.
+	\item In turn, the selfish setting was also shown to boost fairness in some situations. This is the case in which the game shape, which depends on the conditions of each individual agent (e.g., location, set of available configurations), favors collaboration among BSSs, even if individual rewards are selfish-based.
+	\item However, learning selfishly in a multi-player setting may also lead to a high variability on the obtained reward (intermittent good/poor performance depending on the neighbor decisions). 
+\end{itemize}
+
+\textcolor{red}{[TODO: add figure here.]}
+
+\begin{tcolorbox}
+	\textbf{Finding \#5:} Collaborative rewards enhance fairness in decentralized settings, but do not ensure reaching an optimal global solution.
+\end{tcolorbox} 
+
+In \textbf{Paper \#4}, we also studied the performance of collaborative settings, whereby the reward of an individual agent takes into consideration the performance of the other players. In this regard, we observed that collaborative rewards are useful to prevent unfairness, but face the same challenges than selfish approaches for converging to an optimal global solution. This is because the action space is combinatorial and highly non-convex, and cannot be optimally explored from a decentralized perspective. 
+
+\textcolor{red}{[TODO: add figure here.]}
+
+\begin{tcolorbox}
+	\textbf{Finding \#6:} Bayesian-based exploration methods have the potential to address the non-stochasticity behind decentralized SR.
+\end{tcolorbox} 
+
+Regarding the learning procedure behind decentralized SR (both selfish and collaborative settings), in \textbf{Paper \#4} we showed that Bayesian-based exploration methods perform well and grant better results than other types of algorithms oriented to adversarial settings (e.g., EXP3). Notice that rewards distributions in decentralized SR do not follow stochastic processes. Nevertheless, Bayesian exploration allows quickly keeping track of the best/worst performing actions, but fails at identifying more subtle interactions when learning decentralized SR.
+
+\textcolor{red}{[TODO: add figure here.]}
+
+\begin{tcolorbox}
+	\textbf{Finding \#7:} Practical implementation aspects can severely affect the performance of sequential learning algorithms for decentralized SR.
+\end{tcolorbox} 
+In \textbf{Paper \#5}, we delved into practical aspects on the application of sequential learning to the decentralized SR problem (results are summarized in Figure \ref{fig:paper_5_considerations}):
+\begin{enumerate}
+	\item Networks are dynamic in different aspects (on/off devices, mobility, varying traffic requirements, channel fluctuations, etc.). This requires ML mechanisms to adapt to changes in the network, which entails the trade-off between old and new knowledge (how to assess data becoming obsolete?). In this regard, we studied the effect of maintaining past information in sequential learning when significant changes in the network occur. Figure \ref{fig:paper_5_change_network} shows the overall performance in an OBSS when applying sequential learning in a decentralized manner. The fact is that local running algorithms can adapt to a sudden change occurs in the network topology (iteration 500), which changes the utility of the game completely. However, reaching an equilibrium point for the new situation requires several training iterations, which may degrade network performance if changes occur too fast. 
+	\item Sequential learning algorithms typically require rewards to be normalized. This normalization procedure is evident when the maximum achievable performance is known. However, this bound is hidden for the SR problem and should therefore be approximated (e.g., by the maximum theoretical capacity, by the maximum data rate given the selected MCS, etc.). The fact of not knowing the upper bound reward of a given agent has implications on the way learning is carried out (e.g., high variability, get stuck in suboptimal actions, etc.). Figure \ref{fig:paper_5_approx_vs_actual_tpt} shows the effect of approximating the upper bound reward, which leads to getting stuck in a suboptimal equilibrium.
+	\item In the decentralized SR problem, inter-agent interactions appear/disappear according to the individual actions being made. Notice that adjusting both the sensitivity and the transmit power provokes changes in the network topology, which is a key impediment for learning the hidden reward distributions of each configuration. A direct implication of this was shown to occur for collaborative settings, whereby agents share a reward that needs to be optimized jointly. Figure \ref{fig:paper_5_clustering_benefits} shows the effect of considering the performance of nodes with which there is an interaction during the sequential learning procedure. This is compared to the case in which all the potential interfering nodes are considered for defining the reward. Note, again, that these interactions vary according to the actions being selected in each game iteration.
+\end{enumerate}
+
+\begin{figure*}[ht!]
+	\centering
+	\subfigure[Network dynamics]{\label{fig:paper_5_change_network}\includegraphics[width=0.32\textwidth]{images/paper_5_change_network}}
+	\subfigure[Approximated upper bound]{\label{fig:paper_5_approx_vs_actual_tpt}\includegraphics[width=0.33\textwidth]{images/paper_5_approx_vs_actual_tpt}}
+	\subfigure[Collaboration considerations]{\label{fig:paper_5_clustering_benefits}\includegraphics[width=0.33\textwidth]{images/paper_5_clustering_benefits}}
+	\caption{Practical considerations for the application of sequential learning to decentralized Spatial Reuse.}
+	\label{fig:paper_5_considerations}
+\end{figure*}
 
 %%%%%%%%%%%%%%%%%
 % CONCLUSIONS
 %%%%%%%%%%%%%%%%%
-\chapter{Open Challenges and Future Work}
+\chapter{Concluding Remarks}
 \label{chapter6}
 
-\textcolor{red}{[TBD]}
+% Work done
+In this thesis, we investigated the viability of addressing SR in future IEEE 802.11 WLANs from a decentralized perspective. For that purpose, we first provided an in-depth study of the current 11ax SR operation and analyzed its ways forward through the 11be amendment. Then, we proposed the application of RL for addressing the uncertainty and non-stochasticity resulting from the concurrent adaptation of sensitivity and transmit power by devices in an OBSS. This approach entails a set of challenges related to multi-player agent settings, which are also studied in the context of this thesis. In particular, the competition unleashed among nodes leads to a game-theoretic setting, where notions on equilibriums gain significance. In this regard, we showed the main challenges that WLANs may face when applying sequential learning mechanisms for SR, including efficiency and convergence aspects. To conduct our research, we analytically modeled the SR operation and analyzed the new kind of interactions that may occur among BSSs. Besides, we implemented the 11ax SR operation in an ML-enabling network simulator, which allowed us to study the performance gains of SR and the proposed solutions based on RL.
+
+% Main findings
+Our main findings confirm the potential of SR for improving the capacity of dense wireless networks, especially on enhancing the average delay in an OBSS. Apart from that, the decentralized SR mechanisms proposed in this thesis have been shown to improve the default carrier sense approach and to effectively enhance the performance in some kinds of scenarios. However, the application of ML in a multi-player setting leads to a set of implications that may severely affect to the fairness and the global performance of an OBSS. We based part of our research on analyzing the effects of applying selfish and collaborative methods for decentralized SR.
+
+% Future work
+We left as future work the potential of coordinated and centralized mechanisms to further enhance SR in next-generation WLANs. In this regard, an interesting topic of study lies in the trade-off between the potential achievable improvements and the corresponding overhead, which may include data acquisition, data exchange, or synchronization. Finally, an interesting field of study lies in the convergence of SR with other technologies such as beamforming or OFDMA, and whether their joint operation can improve separate optimization. In this regard, AI may help on addressing the inherent complexity of joint optimization, thus revealing the potential of moving beyond modularized communications systems.
 
 %%%%%%%%%%%%%%%%%
 % BIBLIOGRAPHY
@@ -596,8 +830,8 @@ Apart from the specific ML solutions to problems in communications, some efforts
 \usepackage{multind}
 \makeindex{authors}
 %Introduction to form entries
-\index{authors}{Einstein}
+%\index{authors}{Einstein}
 %Situation of the Index
-\printindex{authors}{Author index}
+%\printindex{authors}{Author index}
 %The \ usepakage {makeidx} \ makeindex \ printindex commands must be removed
-%You need to exacute from the command line makeindex authors
+%You need to execute from the command line makeindex authors
