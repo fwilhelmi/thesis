@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper5.aux
+The style file: unsrt.bst
+Database file #1: bib.bib
+I was expecting a `,' or a `}'---line 130 of file bib.bib
+ :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
+ :                                                                    \c"c"ois",
+I'm skipping whatever remains of this entry
+Warning--empty journal in jamil2016novel
+Warning--empty year in jamil2016novel
+You've used 49 entries,
+            1791 wiz_defined-function locations,
+            706 strings with 13529 characters,
+and the built_in function-call counts, 13677 in all, are:
+= -- 1285
+> -- 616
+< -- 21
++ -- 224
+- -- 175
+* -- 902
+:= -- 2054
+add.period$ -- 163
+call.type$ -- 49
+change.case$ -- 49
+chr.to.int$ -- 0
+cite$ -- 51
+duplicate$ -- 618
+empty$ -- 1303
+format.name$ -- 175
+if$ -- 3147
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 45
+newline$ -- 245
+num.names$ -- 49
+pop$ -- 181
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 323
+stack$ -- 0
+substring$ -- 979
+swap$ -- 209
+text.length$ -- 21
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 146
+width$ -- 51
+write$ -- 544
+(There was 1 error message)

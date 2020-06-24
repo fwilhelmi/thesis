@@ -1,0 +1,5 @@
+\standalonepreambles
+\subpreamble{papers/paper1/main.tex}
+\usepackage [utf8]{inputenc}\usepackage {color}\usepackage {mathtools}\usepackage {algorithmic}\DeclareMathOperator *{\argmin }{argmin}\algsetup {linenosize=\small }\usepackage [table,xcdraw]{xcolor}\usepackage {multirow}\usepackage [super]{nth}\usepackage {graphicx}\usepackage {caption}\usepackage {subcaption}\usepackage {textcomp}\usepackage {xspace}\usepackage {siunitx}\usepackage {epsfig}\usepackage {epstopdf}\usepackage {soul}\usepackage {url}\usepackage {tablefootnote}\DeclareMathOperator {\E }{\mathbb {E}} \usepackage {graphicx}\usepackage [labelformat=simple]{subcaption}\usepackage {epsfig} \usepackage {amsmath,amssymb}\usepackage [linesnumbered,ruled]{algorithm2e}\usepackage {makecell}\usepackage {multirow}\usepackage {adjustbox}\usepackage [space]{cite}\hyphenation {}\usepackage [labelformat=simple]{subcaption}\renewcommand \thesubfigure {(\alph {subfigure})}\usepackage [font=scriptsize]{subcaption}
+\endsubpreamble
+\endstandalonepreambles

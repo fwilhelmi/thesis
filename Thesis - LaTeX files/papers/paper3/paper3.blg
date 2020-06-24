@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper3.aux
+The style file: abbrvnat.bst
+Database file #1: references.bib
+Warning--entry type for "tgax2017draft" isn't style-file defined
+--line 155 of file references.bib
+Warning--to sort, need author or key in ieee2015qam
+Warning--to sort, need author or key in tgax2017draft
+Warning--empty author in ieee2015qam
+Warning--empty journal in hartland2006multi
+You've used 32 entries,
+            2773 wiz_defined-function locations,
+            777 strings with 10423 characters,
+and the built_in function-call counts, 16349 in all, are:
+= -- 1533
+> -- 829
+< -- 27
++ -- 286
+- -- 252
+* -- 1276
+:= -- 2361
+add.period$ -- 102
+call.type$ -- 32
+change.case$ -- 179
+chr.to.int$ -- 30
+cite$ -- 70
+duplicate$ -- 778
+empty$ -- 1392
+format.name$ -- 296
+if$ -- 3547
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 30
+newline$ -- 165
+num.names$ -- 120
+pop$ -- 388
+preamble$ -- 1
+purify$ -- 147
+quote$ -- 0
+skip$ -- 611
+stack$ -- 0
+substring$ -- 802
+swap$ -- 150
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 352
+warning$ -- 4
+while$ -- 154
+width$ -- 0
+write$ -- 419
+(There were 5 warnings)

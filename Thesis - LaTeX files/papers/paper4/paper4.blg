@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper4.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bib.bib
+Warning--entry type for "tgax2017draft" isn't style-file defined
+--line 46 of file bib.bib
+I was expecting a `,' or a `}'---line 247 of file bib.bib
+ : 
+ : @ARTICLE{7422404_bellalta11ax,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in patidar2017validation
+
+Done.
+You've used 28 entries,
+            4087 wiz_defined-function locations,
+            979 strings with 12355 characters,
+and the built_in function-call counts, 18383 in all, are:
+= -- 1429
+> -- 424
+< -- 128
++ -- 229
+- -- 82
+* -- 845
+:= -- 2780
+add.period$ -- 63
+call.type$ -- 28
+change.case$ -- 28
+chr.to.int$ -- 297
+cite$ -- 29
+duplicate$ -- 1384
+empty$ -- 1590
+format.name$ -- 96
+if$ -- 4280
+int.to.chr$ -- 0
+int.to.str$ -- 28
+missing$ -- 247
+newline$ -- 107
+num.names$ -- 26
+pop$ -- 627
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1410
+stack$ -- 0
+substring$ -- 740
+swap$ -- 1037
+text.length$ -- 29
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 28
+warning$ -- 1
+while$ -- 85
+width$ -- 30
+write$ -- 268
+(There was 1 error message)

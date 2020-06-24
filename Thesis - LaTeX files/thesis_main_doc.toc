@@ -4,33 +4,27 @@
 \contentsline {chapter}{\numberline {1}{\MakeUppercase { Introduction}}}{1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}
 \contentsline {section}{\numberline {1.2}Contributions}{2}
+\contentsline {subsection}{\numberline {1.2.1}Contributions to the Research Community}{2}
+\contentsline {subsection}{\numberline {1.2.2}Contributions to Standardization}{3}
 \contentsline {section}{\numberline {1.3}Document Structure}{3}
-\contentsline {chapter}{\numberline {2}{\MakeUppercase { Spatial Reuse in IEEE 802.11 WLANs: Technology}}}{5}
+\contentsline {chapter}{\numberline {2}{\MakeUppercase { Spatial Reuse in IEEE 802.11 WLANs}}}{5}
 \contentsline {section}{\numberline {2.1}Related Work}{5}
 \contentsline {section}{\numberline {2.2}Spatial Reuse in IEEE 802.11ax}{6}
-\contentsline {subsection}{\numberline {2.2.1}OBSS/PD-based Spatial Reuse}{6}
+\contentsline {subsection}{\numberline {2.2.1}OBSS/PD-based Spatial Reuse}{7}
 \contentsline {subsection}{\numberline {2.2.2}Parametrized Spatial Reuse}{7}
-\contentsline {section}{\numberline {2.3}Spatial Reuse in IEEE 802.11be and Beyond}{8}
+\contentsline {section}{\numberline {2.3}Spatial Reuse in IEEE 802.11be}{8}
 \contentsline {chapter}{\numberline {3}{\MakeUppercase { Machine Learning in WLANs}}}{11}
-\contentsline {section}{\numberline {3.1}Computation paradigms}{12}
-\contentsline {section}{\numberline {3.2}Architectural Aspects of Machine-Learning-Aware Networks}{13}
-\contentsline {section}{\numberline {3.3}Multi-Armed Bandits in Communications}{14}
-\contentsline {section}{\numberline {3.4}Multi-Armed Bandits for Decentralized Spatial Reuse: Between ML and Game Theory}{18}
+\contentsline {section}{\numberline {3.1}Architectural Aspects for ML-Enabled Communications}{12}
+\contentsline {subsection}{\numberline {3.1.1}Computation Paradigms}{12}
+\contentsline {subsection}{\numberline {3.1.2}Machine-Learning-Aware Network Architecture}{13}
+\contentsline {section}{\numberline {3.2}Multi-Armed Bandits in Communications}{14}
+\contentsline {section}{\numberline {3.3}Multi-Armed Bandits for Decentralized Spatial Reuse: Between ML and Game Theory}{18}
 \contentsline {chapter}{\numberline {4}{\MakeUppercase { Methodology and Enablers}}}{21}
 \contentsline {section}{\numberline {4.1}Spatial Reuse through Continuous Time Markov Networks}{21}
-\contentsline {subsection}{\numberline {4.1.1}IEEE 802.11ax OBSS/PD-based Spatial Reuse}{22}
+\contentsline {subsection}{\numberline {4.1.1}IEEE 802.11ax OBSS/PD-based Spatial Reuse}{23}
 \contentsline {subsection}{\numberline {4.1.2}IEEE 802.11be Coordinated Spatial Reuse}{23}
 \contentsline {section}{\numberline {4.2}Simulation of Sequential Learning for Spatial Reuse}{24}
 \contentsline {subsection}{\numberline {4.2.1}Spatial Reuse Implementation}{24}
-\contentsline {subsection}{\numberline {4.2.2}Agents-based Implementation}{25}
-\contentsline {chapter}{\numberline {5}{\MakeUppercase { Main Findings}}}{27}
-\contentsline {chapter}{\numberline {6}{\MakeUppercase { Concluding Remarks}}}{33}
-\contentsline {chapter}{\numberline {7}{\MakeUppercase { Publications}}}{49}
-\contentsline {section}{\numberline {7.1}Spatial Reuse in IEEE 802.11 ax WLANs}{49}
-\contentsline {section}{\numberline {7.2}On the Performance of the Spatial Reuse Operation in IEEE 802.11 ax WLANs}{49}
-\contentsline {section}{\numberline {7.3}Implications of decentralized Q-learning resource allocation in wireless networks}{49}
-\contentsline {section}{\numberline {7.4}Collaborative spatial reuse in wireless networks via selfish multi-armed bandits}{49}
-\contentsline {section}{\numberline {7.5}Potential and pitfalls of multi-armed bandits for decentralized spatial reuse in WLANs}{49}
-\contentsline {section}{\numberline {7.6}A Flexible Machine-Learning-Aware Architecture for Future WLANs. IEEE Communications Magazine}{49}
-\contentsline {section}{\numberline {7.7}Komondor: a wireless network simulator for next-generation high-density WLANs}{49}
-\contentsline {section}{\numberline {7.8}Usage of Network Simulators in Machine-Learning-Assisted 5G/6G Networks}{49}
+\contentsline {subsection}{\numberline {4.2.2}Agents-based Implementation}{26}
+\contentsline {chapter}{\numberline {5}{\MakeUppercase { Main Findings}}}{29}
+\contentsline {chapter}{\numberline {6}{\MakeUppercase { Concluding Remarks}}}{37}
