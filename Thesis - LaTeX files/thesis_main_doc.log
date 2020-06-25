@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  24 JUN 2020 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  25 JUN 2020 08:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1761,7 +1761,7 @@ File: images/paper_1_throughput_per_density.png Graphic file (type png)
 <use images/paper_1_throughput_per_density.png>
 Package pdftex.def Info: images/paper_1_throughput_per_density.png used on inpu
 t line 729.
-(pdftex.def)             Requested size: 194.77287pt x 126.48149pt.
+(pdftex.def)             Requested size: 203.83417pt x 132.36809pt.
 
 <images/paper_1_throughput_per_load.png, id=644, 501.91515pt x 351.35265pt>
 File: images/paper_1_throughput_per_load.png Graphic file (type png)
@@ -1769,14 +1769,14 @@ File: images/paper_1_throughput_per_load.png Graphic file (type png)
 <use images/paper_1_throughput_per_load.png>
 Package pdftex.def Info: images/paper_1_throughput_per_load.png used on input l
 ine 730.
-(pdftex.def)             Requested size: 181.18439pt x 126.83533pt.
+(pdftex.def)             Requested size: 190.24568pt x 133.17763pt.
  [29]
-<images/paper_2_delay.pdf, id=648, 803.0pt x 185.69376pt>
-File: images/paper_2_delay.pdf Graphic file (type pdf)
+<images/paper_2_delay.png, id=648, 977.69266pt x 374.3586pt>
+File: images/paper_2_delay.png Graphic file (type png)
 
-<use images/paper_2_delay.pdf>
-Package pdftex.def Info: images/paper_2_delay.pdf used on input line 743.
-(pdftex.def)             Requested size: 452.9679pt x 104.74998pt.
+<use images/paper_2_delay.png>
+Package pdftex.def Info: images/paper_2_delay.png used on input line 743.
+(pdftex.def)             Requested size: 452.9679pt x 173.44089pt.
  [30 <./images/random_scenario.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/random_scenario.pdf
@@ -1790,42 +1790,39 @@ File: images/performance_csr.png Graphic file (type png)
 <use images/performance_csr.png>
 Package pdftex.def Info: images/performance_csr.png used on input line 762.
 (pdftex.def)             Requested size: 226.48395pt x 169.84921pt.
- [31 <./images/paper_2_delay.pdf> <./images/performance_csr.png (PNG copy)>]
-<images/temporal_individual_tpt_TS.png, id=686, 502.0356pt x 351.2322pt>
+ [31 <./images/paper_2_delay.png (PNG copy)>]
+<images/temporal_individual_tpt_TS.png, id=678, 748.83765pt x 385.44pt>
 File: images/temporal_individual_tpt_TS.png Graphic file (type png)
 
 <use images/temporal_individual_tpt_TS.png>
 Package pdftex.def Info: images/temporal_individual_tpt_TS.png used on input li
 ne 780.
-(pdftex.def)             Requested size: 226.48395pt x 158.44962pt.
+(pdftex.def)             Requested size: 385.02547pt x 198.18327pt.
+ [32 <./images/performance_csr.png (PNG copy)>]
+<images/paper_5_scalability_mean_tpt.png, id=682, 501.91515pt x 351.35265pt>
+File: images/paper_5_scalability_mean_tpt.png Graphic file (type png)
 
-Underfull \vbox (badness 1810) has occurred while \output is active []
-
- [32 <./images/temporal_individual_tpt_TS.png (PNG copy)>]
-<images/paper_5_scalability_mean_tpt.pdf, id=690, 501.875pt x 351.3125pt>
-File: images/paper_5_scalability_mean_tpt.pdf Graphic file (type pdf)
-
-<use images/paper_5_scalability_mean_tpt.pdf>
-Package pdftex.def Info: images/paper_5_scalability_mean_tpt.pdf used on input 
+<use images/paper_5_scalability_mean_tpt.png>
+Package pdftex.def Info: images/paper_5_scalability_mean_tpt.png used on input 
 line 795.
-(pdftex.def)             Requested size: 181.18439pt x 126.83156pt.
+(pdftex.def)             Requested size: 203.83417pt x 142.6884pt.
 
-<images/paper_5_scalability_mean_maxmin.pdf, id=691, 501.875pt x 351.3125pt>
-File: images/paper_5_scalability_mean_maxmin.pdf Graphic file (type pdf)
-
-<use images/paper_5_scalability_mean_maxmin.pdf>
-Package pdftex.def Info: images/paper_5_scalability_mean_maxmin.pdf used on inp
+<images/paper_5_scalability_mean_maxmin.png, id=683, 501.91515pt x 351.35265pt>
+File: images/paper_5_scalability_mean_maxmin.png Graphic file (type png)
+<use images/paper_5_scalability_mean_maxmin.png>
+Package pdftex.def Info: images/paper_5_scalability_mean_maxmin.png used on inp
 ut line 796.
-(pdftex.def)             Requested size: 181.18439pt x 126.83156pt.
- [33 <./images/paper_5_scalability_mean_tpt.pdf> <./images/paper_5_scalability_
-mean_maxmin.pdf>]
-<images/paper_4_bayesian_exploration.png, id=703, 501.875pt x 351.3125pt>
+(pdftex.def)             Requested size: 203.83417pt x 142.6884pt.
+ [33 <./images/temporal_individual_tpt_TS.png (PNG copy)> <./images/paper_5_sca
+lability_mean_tpt.png (PNG copy)> <./images/paper_5_scalability_mean_maxmin.png
+ (PNG copy)>]
+<images/paper_4_bayesian_exploration.png, id=687, 705.5961pt x 408.5664pt>
 File: images/paper_4_bayesian_exploration.png Graphic file (type png)
 
 <use images/paper_4_bayesian_exploration.png>
 Package pdftex.def Info: images/paper_4_bayesian_exploration.png used on input 
 line 809.
-(pdftex.def)             Requested size: 226.48395pt x 158.53944pt.
+(pdftex.def)             Requested size: 339.72592pt x 196.70813pt.
 
 Overfull \hbox (0.24171pt too wide) in paragraph at lines 819--820
 \OT1/ptm/m/n/12 quire-ments, chan-nel fluc-tu-a-tions, etc.). This re-quires ML
@@ -1833,31 +1830,32 @@ Overfull \hbox (0.24171pt too wide) in paragraph at lines 819--820
  []
 
 [34 <./images/paper_4_bayesian_exploration.png (PNG copy)>]
-<images/paper_5_change_network.png, id=707, 501.91515pt x 351.35265pt>
+<images/paper_5_change_network.png, id=691, 501.91515pt x 430.60875pt>
 File: images/paper_5_change_network.png Graphic file (type png)
 
 <use images/paper_5_change_network.png>
 Package pdftex.def Info: images/paper_5_change_network.png used on input line 8
 26.
-(pdftex.def)             Requested size: 144.95303pt x 101.47148pt.
+(pdftex.def)             Requested size: 144.95303pt x 124.36082pt.
 
-<images/paper_5_approx_vs_actual_tpt.pdf, id=708, 501.875pt x 351.3125pt>
-File: images/paper_5_approx_vs_actual_tpt.pdf Graphic file (type pdf)
+<images/paper_5_approx_vs_actual_tpt.png, id=692, 501.91515pt x 427.5975pt>
+File: images/paper_5_approx_vs_actual_tpt.png Graphic file (type png)
 
-<use images/paper_5_approx_vs_actual_tpt.pdf>
-Package pdftex.def Info: images/paper_5_approx_vs_actual_tpt.pdf used on input 
+<use images/paper_5_approx_vs_actual_tpt.png>
+Package pdftex.def Info: images/paper_5_approx_vs_actual_tpt.png used on input 
 line 827.
-(pdftex.def)             Requested size: 149.48022pt x 104.63872pt.
+(pdftex.def)             Requested size: 149.48022pt x 127.34721pt.
 
-<images/paper_5_clustering_benefits.pdf, id=709, 501.875pt x 351.3125pt>
-File: images/paper_5_clustering_benefits.pdf Graphic file (type pdf)
+<images/paper_5_clustering_benefits.png, id=693, 501.91515pt x 430.60875pt>
+File: images/paper_5_clustering_benefits.png Graphic file (type png)
 
-<use images/paper_5_clustering_benefits.pdf>
-Package pdftex.def Info: images/paper_5_clustering_benefits.pdf used on input l
+<use images/paper_5_clustering_benefits.png>
+Package pdftex.def Info: images/paper_5_clustering_benefits.png used on input l
 ine 828.
-(pdftex.def)             Requested size: 149.48022pt x 104.63872pt.
+(pdftex.def)             Requested size: 149.48022pt x 128.24402pt.
  [35 <./images/paper_5_change_network.png (PNG copy)> <./images/paper_5_approx_
-vs_actual_tpt.pdf> <./images/paper_5_clustering_benefits.pdf>] [36
+vs_actual_tpt.png (PNG copy)> <./images/paper_5_clustering_benefits.png (PNG co
+py)>] [36
 
 
 ]
@@ -1902,7 +1900,7 @@ Underfull \hbox (badness 4001) in paragraph at lines 800--803
 .  \OT1/ptm/m/it/12 arXiv preprint
  []
 
-[49] [50] [51]) [52] <papers/paper1/paper1.pdf, id=780, 614.295pt x 794.97pt>
+[49] [50] [51]) [52] <papers/paper1/paper1.pdf, id=751, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf>
@@ -1913,7 +1911,7 @@ File: papers/paper1/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper1/paper1.pdf used on input line 866.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper1/paper1.pdf, id=783, page=1, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=754, page=1, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 1>
@@ -1943,7 +1941,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page1 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [53 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=818, page=2, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=790, page=2, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 2>
@@ -1962,7 +1960,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page2 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [54 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=847, page=3, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=819, page=3, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 3>
@@ -1981,7 +1979,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page3 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [55 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=872, page=4, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=844, page=4, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 4>
@@ -2000,7 +1998,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page4 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [56 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=896, page=5, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=868, page=5, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 5>
@@ -2019,7 +2017,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page5 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [57 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=920, page=6, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=892, page=6, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 6>
@@ -2038,7 +2036,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page6 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [58 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=924, page=7, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=896, page=7, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 7>
@@ -2057,7 +2055,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page7 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [59 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=934, page=8, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=906, page=8, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 8>
@@ -2076,7 +2074,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page8 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [60 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=951, page=9, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=922, page=9, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 9>
@@ -2095,7 +2093,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page9 used on input line 866
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [61 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=1028, page=10, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=1000, page=10, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 10>
@@ -2115,7 +2113,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page10 used on input line 86
 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [62 <./papers/paper1/paper1.pdf>]
-<papers/paper1/paper1.pdf, id=1032, page=11, 614.295pt x 794.97pt>
+<papers/paper1/paper1.pdf, id=1004, page=11, 614.295pt x 794.97pt>
 File: papers/paper1/paper1.pdf Graphic file (type pdf)
 
 <use papers/paper1/paper1.pdf, page 11>
@@ -2135,7 +2133,7 @@ Package pdftex.def Info: papers/paper1/paper1.pdf, page11 used on input line 86
 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [63 <./papers/paper1/paper1.pdf>]
-<papers/paper2/paper2.pdf, id=1036, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1008, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf>
@@ -2146,7 +2144,7 @@ File: papers/paper2/paper2.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper2/paper2.pdf used on input line 867.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper2/paper2.pdf, id=1039, page=1, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1011, page=1, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 1>
@@ -2176,7 +2174,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page1 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [64 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1067, page=2, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1039, page=2, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 2>
@@ -2195,7 +2193,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page2 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [65 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1087, page=3, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1058, page=3, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 3>
@@ -2214,7 +2212,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page3 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [66 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1091, page=4, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1062, page=4, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 4>
@@ -2233,7 +2231,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page4 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [67 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1105, page=5, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1076, page=5, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 5>
@@ -2252,7 +2250,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page5 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [68 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1124, page=6, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1096, page=6, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 6>
@@ -2271,7 +2269,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page6 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [69 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1134, page=7, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1106, page=7, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 7>
@@ -2290,7 +2288,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page7 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [70 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1146, page=8, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1118, page=8, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 8>
@@ -2309,7 +2307,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page8 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [71 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1150, page=9, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1122, page=9, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 9>
@@ -2328,7 +2326,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page9 used on input line 867
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [72 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1159, page=10, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1131, page=10, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 10>
@@ -2348,7 +2346,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page10 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [73 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1167, page=11, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1139, page=11, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 11>
@@ -2368,7 +2366,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page11 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [74 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1192, page=12, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1164, page=12, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 12>
@@ -2388,7 +2386,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page12 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [75 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1197, page=13, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1169, page=13, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 13>
@@ -2408,7 +2406,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page13 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [76 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1207, page=14, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1179, page=14, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 14>
@@ -2428,7 +2426,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page14 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [77 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1213, page=15, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1185, page=15, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 15>
@@ -2448,7 +2446,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page15 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [78 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1219, page=16, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1191, page=16, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 16>
@@ -2468,7 +2466,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page16 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [79 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1226, page=17, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1198, page=17, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 17>
@@ -2488,7 +2486,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page17 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [80 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1230, page=18, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1202, page=18, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 18>
@@ -2508,7 +2506,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page18 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [81 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1234, page=19, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1206, page=19, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 19>
@@ -2528,7 +2526,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page19 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [82 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1238, page=20, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1210, page=20, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 20>
@@ -2548,7 +2546,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page20 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [83 <./papers/paper2/paper2.pdf>]
-<papers/paper2/paper2.pdf, id=1242, page=21, 614.295pt x 794.97pt>
+<papers/paper2/paper2.pdf, id=1214, page=21, 614.295pt x 794.97pt>
 File: papers/paper2/paper2.pdf Graphic file (type pdf)
 
 <use papers/paper2/paper2.pdf, page 21>
@@ -2568,7 +2566,7 @@ Package pdftex.def Info: papers/paper2/paper2.pdf, page21 used on input line 86
 7.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [84 <./papers/paper2/paper2.pdf>]
-<papers/paper3/paper3.pdf, id=1251, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1223, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf>
@@ -2579,7 +2577,7 @@ File: papers/paper3/paper3.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper3/paper3.pdf used on input line 868.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper3/paper3.pdf, id=1254, page=1, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1226, page=1, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 1>
@@ -2609,7 +2607,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page1 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [85 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1279, page=2, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1250, page=2, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 2>
@@ -2628,7 +2626,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page2 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [86 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1298, page=3, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1270, page=3, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 3>
@@ -2647,7 +2645,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page3 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [87 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1302, page=4, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1274, page=4, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 4>
@@ -2666,7 +2664,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page4 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [88 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1306, page=5, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1278, page=5, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 5>
@@ -2685,7 +2683,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page5 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [89 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1315, page=6, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1287, page=6, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 6>
@@ -2704,7 +2702,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page6 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [90 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1336, page=7, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1308, page=7, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 7>
@@ -2723,7 +2721,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page7 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [91 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1353, page=8, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1325, page=8, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 8>
@@ -2742,7 +2740,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page8 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [92 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1378, page=9, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1350, page=9, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 9>
@@ -2761,7 +2759,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page9 used on input line 868
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [93 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1390, page=10, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1362, page=10, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 10>
@@ -2781,7 +2779,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page10 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [94 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1394, page=11, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1366, page=11, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 11>
@@ -2801,7 +2799,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page11 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [95 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1403, page=12, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1375, page=12, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 12>
@@ -2821,7 +2819,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page12 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [96 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1420, page=13, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1391, page=13, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 13>
@@ -2841,7 +2839,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page13 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [97 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1425, page=14, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1396, page=14, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 14>
@@ -2861,7 +2859,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page14 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [98 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1429, page=15, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1400, page=15, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 15>
@@ -2881,7 +2879,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page15 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [99 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1450, page=16, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1422, page=16, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 16>
@@ -2901,7 +2899,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page16 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [100 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1464, page=17, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1436, page=17, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 17>
@@ -2921,7 +2919,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page17 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [101 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1477, page=18, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1449, page=18, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 18>
@@ -2941,7 +2939,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page18 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [102 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1481, page=19, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1453, page=19, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 19>
@@ -2961,7 +2959,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page19 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [103 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1489, page=20, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1461, page=20, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 20>
@@ -2981,7 +2979,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page20 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [104 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1498, page=21, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1470, page=21, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 21>
@@ -3001,7 +2999,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page21 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [105 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1507, page=22, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1479, page=22, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 22>
@@ -3021,7 +3019,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page22 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [106 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1526, page=23, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1498, page=23, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 23>
@@ -3041,7 +3039,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page23 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [107 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1540, page=24, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1512, page=24, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 24>
@@ -3061,7 +3059,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page24 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [108 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1544, page=25, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1516, page=25, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 25>
@@ -3081,7 +3079,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page25 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [109 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1549, page=26, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1521, page=26, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 26>
@@ -3101,7 +3099,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page26 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [110 <./papers/paper3/paper3.pdf>]
-<papers/paper3/paper3.pdf, id=1553, page=27, 614.295pt x 794.97pt>
+<papers/paper3/paper3.pdf, id=1525, page=27, 614.295pt x 794.97pt>
 File: papers/paper3/paper3.pdf Graphic file (type pdf)
 
 <use papers/paper3/paper3.pdf, page 27>
@@ -3121,7 +3119,7 @@ Package pdftex.def Info: papers/paper3/paper3.pdf, page27 used on input line 86
 8.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [111 <./papers/paper3/paper3.pdf>]
-<papers/paper4/paper4.pdf, id=1557, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1529, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf>
@@ -3132,7 +3130,7 @@ File: papers/paper4/paper4.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper4/paper4.pdf used on input line 869.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper4/paper4.pdf, id=1560, page=1, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1532, page=1, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 1>
@@ -3162,7 +3160,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page1 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [112 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1597, page=2, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1568, page=2, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 2>
@@ -3181,7 +3179,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page2 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [113 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1616, page=3, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1588, page=3, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 3>
@@ -3200,7 +3198,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page3 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [114 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1620, page=4, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1592, page=4, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 4>
@@ -3219,7 +3217,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page4 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [115 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1630, page=5, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1602, page=5, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 5>
@@ -3238,7 +3236,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page5 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [116 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1643, page=6, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1615, page=6, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 6>
@@ -3257,7 +3255,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page6 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [117 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1647, page=7, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1619, page=7, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 7>
@@ -3276,7 +3274,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page7 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [118 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1654, page=8, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1626, page=8, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 8>
@@ -3295,7 +3293,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page8 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [119 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1659, page=9, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1631, page=9, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 9>
@@ -3314,7 +3312,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page9 used on input line 869
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [120 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1663, page=10, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1635, page=10, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 10>
@@ -3334,7 +3332,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page10 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [121 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1680, page=11, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1652, page=11, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 11>
@@ -3354,7 +3352,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page11 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [122 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1774, page=12, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1745, page=12, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 12>
@@ -3374,7 +3372,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page12 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [123 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1778, page=13, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1749, page=13, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 13>
@@ -3394,7 +3392,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page13 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [124 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1785, page=14, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1757, page=14, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 14>
@@ -3414,7 +3412,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page14 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [125 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1792, page=15, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1764, page=15, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 15>
@@ -3434,7 +3432,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page15 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [126 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1801, page=16, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1773, page=16, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 16>
@@ -3454,7 +3452,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page16 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [127 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1829, page=17, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1801, page=17, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 17>
@@ -3474,7 +3472,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page17 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [128 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1833, page=18, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1805, page=18, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 18>
@@ -3494,7 +3492,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page18 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [129 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1837, page=19, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1809, page=19, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 19>
@@ -3514,7 +3512,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page19 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [130 <./papers/paper4/paper4.pdf>]
-<papers/paper4/paper4.pdf, id=1841, page=20, 614.295pt x 794.97pt>
+<papers/paper4/paper4.pdf, id=1813, page=20, 614.295pt x 794.97pt>
 File: papers/paper4/paper4.pdf Graphic file (type pdf)
 
 <use papers/paper4/paper4.pdf, page 20>
@@ -3534,7 +3532,7 @@ Package pdftex.def Info: papers/paper4/paper4.pdf, page20 used on input line 86
 9.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [131 <./papers/paper4/paper4.pdf>]
-<papers/paper5/paper5.pdf, id=1845, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1817, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf>
@@ -3545,7 +3543,7 @@ File: papers/paper5/paper5.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper5/paper5.pdf used on input line 870.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper5/paper5.pdf, id=1848, page=1, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1820, page=1, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 1>
@@ -3575,7 +3573,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page1 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [132 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=1871, page=2, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1843, page=2, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 2>
@@ -3594,7 +3592,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page2 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [133 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=1929, page=3, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1900, page=3, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 3>
@@ -3613,7 +3611,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page3 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [134 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=1965, page=4, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1937, page=4, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 4>
@@ -3632,7 +3630,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page4 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [135 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=1995, page=5, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1967, page=5, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 5>
@@ -3651,7 +3649,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page5 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [136 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=1999, page=6, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1971, page=6, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 6>
@@ -3670,7 +3668,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page6 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [137 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2012, page=7, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=1984, page=7, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 7>
@@ -3689,7 +3687,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page7 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [138 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2087, page=8, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2058, page=8, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 8>
@@ -3708,7 +3706,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page8 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [139 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2196, page=9, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2168, page=9, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 9>
@@ -3727,7 +3725,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page9 used on input line 870
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [140 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2200, page=10, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2172, page=10, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 10>
@@ -3747,7 +3745,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page10 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [141 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2226, page=11, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2197, page=11, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 11>
@@ -3767,7 +3765,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page11 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [142 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2278, page=12, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2250, page=12, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 12>
@@ -3787,7 +3785,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page12 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [143 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2317, page=13, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2289, page=13, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 13>
@@ -3807,7 +3805,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page13 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [144 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2330, page=14, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2302, page=14, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 14>
@@ -3827,7 +3825,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page14 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [145 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2356, page=15, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2328, page=15, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 15>
@@ -3847,7 +3845,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page15 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [146 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2360, page=16, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2332, page=16, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 16>
@@ -3867,7 +3865,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page16 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [147 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2407, page=17, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2379, page=17, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 17>
@@ -3887,7 +3885,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page17 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [148 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2528, page=18, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2499, page=18, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 18>
@@ -3907,7 +3905,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page18 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [149 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2532, page=19, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2503, page=19, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 19>
@@ -3927,7 +3925,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page19 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [150 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2616, page=20, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2588, page=20, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 20>
@@ -3947,7 +3945,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page20 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [151 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2621, page=21, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2593, page=21, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 21>
@@ -3967,7 +3965,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page21 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [152 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2628, page=22, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2600, page=22, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 22>
@@ -3987,7 +3985,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page22 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [153 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2732, page=23, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2704, page=23, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 23>
@@ -4007,7 +4005,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page23 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [154 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2737, page=24, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2709, page=24, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 24>
@@ -4027,7 +4025,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page24 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [155 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2741, page=25, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2713, page=25, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 25>
@@ -4047,7 +4045,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page25 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [156 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2748, page=26, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2720, page=26, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 26>
@@ -4067,7 +4065,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page26 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [157 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2782, page=27, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2754, page=27, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 27>
@@ -4087,7 +4085,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page27 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [158 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2792, page=28, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2764, page=28, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 28>
@@ -4107,7 +4105,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page28 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [159 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2852, page=29, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2823, page=29, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 29>
@@ -4127,7 +4125,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page29 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [160 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2856, page=30, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2827, page=30, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 30>
@@ -4147,7 +4145,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page30 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [161 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2861, page=31, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2832, page=31, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 31>
@@ -4167,7 +4165,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page31 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [162 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2867, page=32, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2838, page=32, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 32>
@@ -4187,7 +4185,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page32 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [163 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2874, page=33, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2845, page=33, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 33>
@@ -4207,7 +4205,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page33 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [164 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2878, page=34, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2849, page=34, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 34>
@@ -4227,7 +4225,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page34 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [165 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=2882, page=35, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2853, page=35, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 35>
@@ -4247,7 +4245,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page35 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [166 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3010, page=36, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2981, page=36, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 36>
@@ -4267,7 +4265,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page36 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [167 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3014, page=37, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2985, page=37, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 37>
@@ -4287,7 +4285,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page37 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [168 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3018, page=38, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=2989, page=38, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 38>
@@ -4307,7 +4305,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page38 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [169 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3048, page=39, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3020, page=39, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 39>
@@ -4327,7 +4325,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page39 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [170 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3077, page=40, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3049, page=40, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 40>
@@ -4347,7 +4345,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page40 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [171 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3081, page=41, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3053, page=41, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 41>
@@ -4367,7 +4365,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page41 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [172 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3085, page=42, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3057, page=42, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 42>
@@ -4387,7 +4385,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page42 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [173 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3089, page=43, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3061, page=43, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 43>
@@ -4407,7 +4405,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page43 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [174 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3093, page=44, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3065, page=44, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 44>
@@ -4427,7 +4425,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page44 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [175 <./papers/paper5/paper5.pdf>]
-<papers/paper5/paper5.pdf, id=3098, page=45, 614.295pt x 794.97pt>
+<papers/paper5/paper5.pdf, id=3070, page=45, 614.295pt x 794.97pt>
 File: papers/paper5/paper5.pdf Graphic file (type pdf)
 
 <use papers/paper5/paper5.pdf, page 45>
@@ -4447,7 +4445,7 @@ Package pdftex.def Info: papers/paper5/paper5.pdf, page45 used on input line 87
 0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [176 <./papers/paper5/paper5.pdf>]
-<papers/paper6/paper6.pdf, id=3102, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3074, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf>
@@ -4458,7 +4456,7 @@ File: papers/paper6/paper6.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper6/paper6.pdf used on input line 871.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper6/paper6.pdf, id=3105, page=1, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3077, page=1, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 1>
@@ -4488,7 +4486,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page1 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [177 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3128, page=2, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3100, page=2, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 2>
@@ -4507,7 +4505,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page2 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [178 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3163, page=3, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3135, page=3, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 3>
@@ -4526,7 +4524,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page3 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [179 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3183, page=4, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3154, page=4, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 4>
@@ -4545,7 +4543,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page4 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [180 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3283, page=5, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3255, page=5, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 5>
@@ -4564,7 +4562,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page5 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [181 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3294, page=6, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3266, page=6, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 6>
@@ -4583,7 +4581,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page6 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [182 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3301, page=7, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3273, page=7, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 7>
@@ -4602,7 +4600,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page7 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [183 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3333, page=8, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3304, page=8, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 8>
@@ -4621,7 +4619,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page8 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [184 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3337, page=9, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3308, page=9, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 9>
@@ -4640,7 +4638,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page9 used on input line 871
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [185 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3353, page=10, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3324, page=10, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 10>
@@ -4660,7 +4658,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page10 used on input line 87
 1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [186 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3357, page=11, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3328, page=11, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 11>
@@ -4680,7 +4678,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page11 used on input line 87
 1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [187 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3380, page=12, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3352, page=12, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 12>
@@ -4700,7 +4698,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page12 used on input line 87
 1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [188 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3384, page=13, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3356, page=13, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 13>
@@ -4720,7 +4718,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page13 used on input line 87
 1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [189 <./papers/paper6/paper6.pdf>]
-<papers/paper6/paper6.pdf, id=3388, page=14, 614.295pt x 794.97pt>
+<papers/paper6/paper6.pdf, id=3360, page=14, 614.295pt x 794.97pt>
 File: papers/paper6/paper6.pdf Graphic file (type pdf)
 
 <use papers/paper6/paper6.pdf, page 14>
@@ -4740,7 +4738,7 @@ Package pdftex.def Info: papers/paper6/paper6.pdf, page14 used on input line 87
 1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [190 <./papers/paper6/paper6.pdf>]
-<papers/paper7/paper7.pdf, id=3392, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3364, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf>
@@ -4751,7 +4749,7 @@ File: papers/paper7/paper7.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper7/paper7.pdf used on input line 872.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper7/paper7.pdf, id=3395, page=1, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3367, page=1, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 1>
@@ -4781,7 +4779,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page1 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [191 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3418, page=2, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3390, page=2, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 2>
@@ -4800,7 +4798,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page2 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [192 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3431, page=3, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3403, page=3, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 3>
@@ -4819,7 +4817,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page3 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [193 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3439, page=4, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3411, page=4, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 4>
@@ -4838,7 +4836,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page4 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [194 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3449, page=5, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3421, page=5, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 5>
@@ -4857,7 +4855,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page5 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [195 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3456, page=6, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3428, page=6, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 6>
@@ -4876,7 +4874,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page6 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [196 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3506, page=7, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3477, page=7, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 7>
@@ -4895,7 +4893,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page7 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [197 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3561, page=8, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3533, page=8, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 8>
@@ -4914,7 +4912,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page8 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [198 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3565, page=9, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3537, page=9, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 9>
@@ -4933,7 +4931,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page9 used on input line 872
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [199 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3626, page=10, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3598, page=10, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 10>
@@ -4953,7 +4951,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page10 used on input line 87
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [200 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3630, page=11, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3602, page=11, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 11>
@@ -4973,7 +4971,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page11 used on input line 87
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [201 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3634, page=12, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3606, page=12, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 12>
@@ -4993,7 +4991,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page12 used on input line 87
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [202 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3684, page=13, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3655, page=13, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 13>
@@ -5013,7 +5011,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page13 used on input line 87
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [203 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3694, page=14, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3665, page=14, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 14>
@@ -5033,7 +5031,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page14 used on input line 87
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [204 <./papers/paper7/paper7.pdf>]
-<papers/paper7/paper7.pdf, id=3701, page=15, 614.295pt x 794.97pt>
+<papers/paper7/paper7.pdf, id=3672, page=15, 614.295pt x 794.97pt>
 File: papers/paper7/paper7.pdf Graphic file (type pdf)
 
 <use papers/paper7/paper7.pdf, page 15>
@@ -5053,7 +5051,7 @@ Package pdftex.def Info: papers/paper7/paper7.pdf, page15 used on input line 87
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [205 <./papers/paper7/paper7.pdf>]
-<papers/paper8/paper8.pdf, id=3706, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3677, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf>
@@ -5064,7 +5062,7 @@ File: papers/paper8/paper8.pdf Graphic file (type pdf)
 Package pdftex.def Info: papers/paper8/paper8.pdf used on input line 873.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<papers/paper8/paper8.pdf, id=3709, page=1, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3680, page=1, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 1>
@@ -5094,7 +5092,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page1 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [206 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3732, page=2, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3704, page=2, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 2>
@@ -5113,7 +5111,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page2 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [207 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3739, page=3, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3711, page=3, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 3>
@@ -5132,7 +5130,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page3 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [208 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3746, page=4, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3718, page=4, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 4>
@@ -5151,7 +5149,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page4 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [209 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3753, page=5, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3725, page=5, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 5>
@@ -5170,7 +5168,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page5 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [210 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3804, page=6, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3776, page=6, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 6>
@@ -5189,7 +5187,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page6 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [211 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3809, page=7, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3781, page=7, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 7>
@@ -5208,7 +5206,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page7 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [212 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3814, page=8, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3785, page=8, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 8>
@@ -5227,7 +5225,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page8 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [213 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3818, page=9, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3789, page=9, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 9>
@@ -5246,7 +5244,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page9 used on input line 873
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [214 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3898, page=10, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3870, page=10, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 10>
@@ -5266,7 +5264,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page10 used on input line 87
 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [215 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3903, page=11, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3875, page=11, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 11>
@@ -5286,7 +5284,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page11 used on input line 87
 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [216 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3908, page=12, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3880, page=12, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 12>
@@ -5306,7 +5304,7 @@ Package pdftex.def Info: papers/paper8/paper8.pdf, page12 used on input line 87
 3.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [217 <./papers/paper8/paper8.pdf>]
-<papers/paper8/paper8.pdf, id=3914, page=13, 614.295pt x 794.97pt>
+<papers/paper8/paper8.pdf, id=3886, page=13, 614.295pt x 794.97pt>
 File: papers/paper8/paper8.pdf Graphic file (type pdf)
 
 <use papers/paper8/paper8.pdf, page 13>
@@ -5335,7 +5333,7 @@ No file thesis_main_doc.ind.
 Here is how much of TeX's memory you used:
  40493 strings out of 493014
  928700 string characters out of 6133351
- 916866 words of memory out of 5000000
+ 916864 words of memory out of 5000000
  43340 multiletter control sequences out of 15000+600000
  45666 words of font info for 105 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -5382,10 +5380,10 @@ courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis_main_doc.pdf (230 pages, 23177535 bytes).
+Output written on thesis_main_doc.pdf (230 pages, 25649493 bytes).
 PDF statistics:
- 3994 PDF objects out of 4296 (max. 8388607)
- 2626 compressed objects within 27 object streams
+ 3965 PDF objects out of 4296 (max. 8388607)
+ 2600 compressed objects within 26 object streams
  0 named destinations out of 1000 (max. 500000)
  1184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
