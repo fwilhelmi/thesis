@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  21 JUN 2020 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  30 JUN 2020 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,6 +706,32 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count112
 \@thisrulewidth=\dimen139
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count113
+\Gm@cntv=\count114
+\c@Gm@tempcnt=\count115
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks29
+)
 (./paper6.aux)
 \openout1 = `paper6.aux'.
 
@@ -730,17 +756,17 @@ LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen140
+\scratchcounter=\count116
+\scratchdimen=\dimen148
 \scratchbox=\box28
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen141
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks30
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen149
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -748,9 +774,6 @@ Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -788,8 +811,41 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
+* v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=433.62pt
+* \textheight=722.7pt
+* \oddsidemargin=9.67395pt
+* \evensidemargin=9.67395pt
+* \topmargin=-60.33127pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -802,31 +858,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: fig_1.pdf Graphic file (type pdf)
  <use fig_1.pdf>
 Package pdftex.def Info: fig_1.pdf used on input line 37.
-(pdftex.def)             Requested size: 137.9979pt x 124.64015pt.
- [1
+(pdftex.def)             Requested size: 173.44534pt x 156.65959pt.
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 44.
 
-[2 <./fig_1.pdf
+[152
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[153 <./fig_1.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_1.pdf): PDF inclusion:
  invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
 d.
->] [3] <fig_2.pdf, id=48, 528.05281pt x 563.2242pt>
+>] <fig_2.pdf, id=45, 528.05281pt x 563.2242pt>
 File: fig_2.pdf Graphic file (type pdf)
  <use fig_2.pdf>
 Package pdftex.def Info: fig_2.pdf used on input line 81.
-(pdftex.def)             Requested size: 137.9979pt x 147.18253pt.
+(pdftex.def)             Requested size: 173.44534pt x 184.99655pt.
 
-<fig_2b.pdf, id=49, 405.43468pt x 379.4175pt>
+<fig_2b.pdf, id=46, 405.43468pt x 379.4175pt>
 File: fig_2b.pdf Graphic file (type pdf)
  <use fig_2b.pdf>
 Package pdftex.def Info: fig_2b.pdf used on input line 82.
-(pdftex.def)             Requested size: 189.75105pt x 177.5794pt.
- [4 <./fig_2.pdf
+(pdftex.def)             Requested size: 238.49231pt x 223.19438pt.
+ [154 <./fig_2.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_2.pdf): PDF inclusion:
  invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
@@ -836,33 +893,22 @@ d.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig_2b.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->]
-Overfull \hbox (0.71254pt too wide) in paragraph at lines 96--97
-\OT1/cmr/m/n/10 thresh-old to be used for de-tect-ing SR op-por-tu-ni-ties. In 
-par-tic-u-lar, the OBSS/PD
- []
-
-[5]
-Overfull \hbox (27.4777pt too wide) in paragraph at lines 112--112
-[]\OT1/cmr/bx/n/14.4 Implementation of OBSS PD-based SR in Komon-
- []
-
-<implementation_overview.pdf, id=152, 746.79pt x 459.63718pt>
+>] <implementation_overview.pdf, id=144, 746.79pt x 459.63718pt>
 File: implementation_overview.pdf Graphic file (type pdf)
 
 <use implementation_overview.pdf>
 Package pdftex.def Info: implementation_overview.pdf used on input line 121.
-(pdftex.def)             Requested size: 310.4979pt x 191.10356pt.
+(pdftex.def)             Requested size: 390.25534pt x 240.19798pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7 <./implementation_overview.pdf
+[155] [156 <./implementation_overview.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./implementation_overview.pd
 f): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', typ
 e <array>); ignored.
->] [8]
+>]
 Package epstopdf Info: Source file: <map_central.eps>
 (epstopdf)                    date: 2019-09-17 15:17:28
 (epstopdf)                    size: 139281 bytes
@@ -873,14 +919,17 @@ Package epstopdf Info: Source file: <map_central.eps>
 to.pdf map_central.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
- <map_central-eps-converted-to.pdf, id=190, 829.0975pt x 428.60126pt>
+ <map_central-eps-converted-to.pdf, id=180, 829.0975pt x 428.60126pt>
 File: map_central-eps-converted-to.pdf Graphic file (type pdf)
 
 <use map_central-eps-converted-to.pdf>
 Package pdftex.def Info: map_central-eps-converted-to.pdf used on input line 19
 1.
-(pdftex.def)             Requested size: 207.0021pt x 107.00616pt.
- [9 <./map_central-eps-converted-to.pdf>] [10]
+(pdftex.def)             Requested size: 260.17464pt x 134.49345pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <throughput_occupancy.eps>
 (epstopdf)                    date: 2019-09-17 15:17:28
 (epstopdf)                    size: 71184 bytes
@@ -892,14 +941,14 @@ Package epstopdf Info: Source file: <throughput_occupancy.eps>
 onverted-to.pdf throughput_occupancy.eps>
 (epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
-
-<throughput_occupancy-eps-converted-to.pdf, id=209, 420.57124pt x 305.14pt>
+<throughput_occupancy-eps-converted-to.pdf, id=181, 420.57124pt x 305.14pt>
 File: throughput_occupancy-eps-converted-to.pdf Graphic file (type pdf)
 
 <use throughput_occupancy-eps-converted-to.pdf>
 Package pdftex.def Info: throughput_occupancy-eps-converted-to.pdf used on inpu
 t line 295.
-(pdftex.def)             Requested size: 172.5pt x 125.15475pt.
+(pdftex.def)             Requested size: 216.81pt x 157.30482pt.
+ [157]
 Package epstopdf Info: Source file: <cdf_delay.eps>
 (epstopdf)                    date: 2019-09-17 15:17:28
 (epstopdf)                    size: 128807 bytes
@@ -911,51 +960,46 @@ Package epstopdf Info: Source file: <cdf_delay.eps>
 (epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<cdf_delay-eps-converted-to.pdf, id=210, 803.0pt x 185.69376pt>
+<cdf_delay-eps-converted-to.pdf, id=185, 803.0pt x 185.69376pt>
 File: cdf_delay-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cdf_delay-eps-converted-to.pdf>
 Package pdftex.def Info: cdf_delay-eps-converted-to.pdf used on input line 302.
 
-(pdftex.def)             Requested size: 327.74895pt x 75.79208pt.
- [11 <./throughput_occupancy-eps-converted-to.pdf> <./cdf_delay-eps-converted-t
-o.pdf>]
-Overfull \hbox (30.56914pt too wide) in paragraph at lines 322--323
-\OT1/cmr/m/n/10 (MDM-2015-0502), by WIND-MAL PGC2018-099959-B-I00 (MCIU/AEI/FED
-ER,UE),
- []
-
-[12] [13] [14] (./paper6.aux) ) 
+(pdftex.def)             Requested size: 411.93767pt x 95.26358pt.
+ [158 <./map_central-eps-converted-to.pdf> <./throughput_occupancy-eps-converte
+d-to.pdf> <./cdf_delay-eps-converted-to.pdf>] [159] [160] [161] (./paper6.aux) 
+) 
 Here is how much of TeX's memory you used:
- 4564 strings out of 493014
- 59032 string characters out of 6133351
- 138979 words of memory out of 5000000
- 7983 multiletter control sequences out of 15000+600000
+ 5042 strings out of 493014
+ 66087 string characters out of 6133351
+ 159577 words of memory out of 5000000
+ 8450 multiletter control sequences out of 15000+600000
  13272 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,16n,35p,1210b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dv
-ips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on paper6.pdf (14 pages, 808992 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on paper6.pdf (10 pages, 806733 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 282 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

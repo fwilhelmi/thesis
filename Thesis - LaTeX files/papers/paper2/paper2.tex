@@ -1,46 +1,19 @@
-%% 
-%% Copyright 2007, 2008, 2009 Elsevier Ltd
-%% 
-%% This file is part of the 'Elsarticle Bundle'.
-%% ---------------------------------------------
-%% 
-%% It may be distributed under the conditions of the LaTeX Project Public
-%% License, either version 1.2 of this license or (at your option) any
-%% later version.  The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.2 or later is part of all distributions of LaTeX
-%% version 1999/12/01 or later.
-%% 
-%% The list of all files belonging to the 'Elsarticle Bundle' is
-%% given in the file `manifest.txt'.
-%% 
-
-%% Template article for Elsevier's document class `elsarticle'
-%% with numbered style bibliographic references
-%% SP 2008/03/01
-
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
-\usepackage{graphicx} 	  %% The graphicx package provides the includegraphics command.
-\usepackage{amssymb} 	%% The amssymb package provides various useful mathematical symbols
-
 \usepackage{color}
-\usepackage{amsmath}
 \usepackage{mathtools}
-\usepackage{fullpage}
+%\usepackage{fullpage}
 \usepackage{algorithmic}
 \DeclareMathOperator*{\argmin}{argmin}
-\DeclareMathOperator*{\argmax}{argmax}
 \algsetup{linenosize=\small}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{multirow}
 \usepackage[super]{nth}
-\usepackage{graphicx,adjustbox}
+\usepackage{graphicx}
 \usepackage{caption}
-\usepackage[labelformat=simple]{subcaption}
-\usepackage{comment}
-\usepackage{setspace}
+\usepackage{subcaption}
+%\usepackage{setspace}
 \usepackage{textcomp}
 \usepackage{xspace}
 \usepackage{siunitx}
@@ -50,55 +23,73 @@
 \usepackage{url}
 \usepackage{tablefootnote}
 \DeclareMathOperator{\E}{\mathbb{E}} % Expectation Symbol
+\usepackage{graphicx}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{epsfig} % To display images
+\usepackage{amsmath,amssymb}
 \usepackage[linesnumbered,ruled]{algorithm2e}
-\usepackage{booktabs}
-\usepackage{hyperref}
-\usepackage[normalem]{ulem}
-\usepackage{footnote}
-\usepackage[misc,geometry]{ifsym} 
-\makesavenoteenv{tabular}
-\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{multirow}
+%\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage[space]{cite}
+% correct bad hyphenation here
+\hyphenation{}
 
-%% Other
-\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
 
+\usepackage[labelformat=simple]{subcaption}
 \renewcommand\thesubfigure{(\alph{subfigure})}
-\let\OldTexttrademark\texttrademark
-\renewcommand{\texttrademark}{\OldTexttrademark\xspace}%
-\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
-%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
-%% for a journal layout:
-%% \documentclass[final,1p,times]{elsarticle}
-%% \documentclass[final,1p,times,twocolumn]{elsarticle}
-%% \documentclass[final,3p,times]{elsarticle}
-%% \documentclass[final,3p,times,twocolumn]{elsarticle}
-%% \documentclass[final,5p,times]{elsarticle}
-%% \documentclass[final,5p,times,twocolumn]{elsarticle}
-
-%\usepackage{authblk}
-
-%% Use the option review to obtain double line spacing
-%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
-
-%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
-%% for a journal layout:
-%% \documentclass[final,1p,times]{elsarticle}
-%% \documentclass[final,1p,times,twocolumn]{elsarticle}
-%% \documentclass[final,3p,times]{elsarticle}
-%% \documentclass[final,3p,times,twocolumn]{elsarticle}
-%% \documentclass[final,5p,times]{elsarticle}
-%% \documentclass[final,5p,times,twocolumn]{elsarticle}
-
-%% For including figures, graphicx.sty has been loaded in
-%% elsarticle.cls. If you prefer to use the old commands
-%% please give \usepackage{epsfig}
-\usepackage{epsfig}
-%% The amssymb package provides various useful mathematical symbols
-\usepackage{amssymb}
-%% The amsthm package provides extended theorem environments
-%% \usepackage{amsthm}
+\usepackage[font=scriptsize]{subcaption}
+%\documentclass{article}
+%\usepackage[utf8]{inputenc}
+%
+%\usepackage{graphicx} 	  %% The graphicx package provides the includegraphics command.
+%\usepackage{amssymb} 	%% The amssymb package provides various useful mathematical symbols
+%\usepackage{color}
+%\usepackage{amsmath}
+%\usepackage{mathtools}
+%\usepackage{fullpage}
+%\usepackage{algorithmic}
+%\DeclareMathOperator*{\argmin}{argmin}
+%\DeclareMathOperator*{\argmax}{argmax}
+%\algsetup{linenosize=\small}
+%\usepackage[table,xcdraw]{xcolor}
+%\usepackage{multirow}
+%\usepackage[super]{nth}
+%\usepackage{graphicx,adjustbox}
+%\usepackage{caption}
+%\usepackage[labelformat=simple]{subcaption}
+%\usepackage{comment}
+%\usepackage{setspace}
+%\usepackage{textcomp}
+%\usepackage{xspace}
+%\usepackage{siunitx}
+%\usepackage{epsfig}
+%\usepackage{epstopdf}
+%\usepackage{soul}
+%\usepackage{url}
+%\usepackage{tablefootnote}
+%\DeclareMathOperator{\E}{\mathbb{E}} % Expectation Symbol
+%\usepackage[linesnumbered,ruled]{algorithm2e}
+%\usepackage{booktabs}
+%\usepackage{hyperref}
+%\usepackage[normalem]{ulem}
+%\usepackage{footnote}
+%\usepackage[misc,geometry]{ifsym} 
+%\makesavenoteenv{tabular}
+%\usepackage[utf8]{inputenc}
+%%% Other
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+%\renewcommand\thesubfigure{(\alph{subfigure})}
+%\let\OldTexttrademark\texttrademark
+%\renewcommand{\texttrademark}{\OldTexttrademark\xspace}%
+%\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+%\usepackage{epsfig}
 
 \begin{document}
+		\setcounter{page}{63}
+	
 		\title{Collaborative Spatial Reuse in Wireless Networks via Selfish Multi-Armed Bandits}
 		\author{Francesc Wilhelmi, Cristina~Cano, Gergely~Neu, Boris~Bellalta,\\ Anders~Jonsson, and Sergio~Barrachina-Mu\~noz}
 		\date{ }

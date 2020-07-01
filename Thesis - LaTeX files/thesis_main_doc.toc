@@ -4,27 +4,26 @@
 \contentsline {chapter}{\numberline {1}{\MakeUppercase { Introduction}}}{1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}
 \contentsline {section}{\numberline {1.2}Contributions}{2}
-\contentsline {subsection}{\numberline {1.2.1}Contributions to the Research Community}{2}
-\contentsline {subsection}{\numberline {1.2.2}Contributions to Standardization}{3}
-\contentsline {section}{\numberline {1.3}Document Structure}{3}
+\contentsline {section}{\numberline {1.3}Open Access Remarks and Standardization Activities}{3}
+\contentsline {section}{\numberline {1.4}Document Structure}{4}
 \contentsline {chapter}{\numberline {2}{\MakeUppercase { Spatial Reuse in IEEE 802.11 WLANs}}}{5}
 \contentsline {section}{\numberline {2.1}Related Work}{5}
 \contentsline {section}{\numberline {2.2}Spatial Reuse in IEEE 802.11ax}{6}
 \contentsline {subsection}{\numberline {2.2.1}OBSS/PD-based Spatial Reuse}{7}
-\contentsline {subsection}{\numberline {2.2.2}Parametrized Spatial Reuse}{7}
-\contentsline {section}{\numberline {2.3}Spatial Reuse in IEEE 802.11be}{8}
+\contentsline {subsection}{\numberline {2.2.2}Parametrized Spatial Reuse}{8}
+\contentsline {section}{\numberline {2.3}Spatial Reuse in IEEE 802.11be}{9}
 \contentsline {chapter}{\numberline {3}{\MakeUppercase { Machine Learning in WLANs}}}{11}
 \contentsline {section}{\numberline {3.1}Architectural Aspects for ML-Enabled Communications}{12}
 \contentsline {subsection}{\numberline {3.1.1}Computation Paradigms}{12}
 \contentsline {subsection}{\numberline {3.1.2}Machine-Learning-Aware Network Architecture}{13}
 \contentsline {section}{\numberline {3.2}Multi-Armed Bandits in Communications}{14}
-\contentsline {section}{\numberline {3.3}Multi-Armed Bandits for Decentralized Spatial Reuse: Between ML and Game Theory}{18}
+\contentsline {section}{\numberline {3.3}Multi-Armed Bandits for Decentralized Spatial Reuse: Between ML and Game Theory}{17}
 \contentsline {chapter}{\numberline {4}{\MakeUppercase { Methodology and Enablers}}}{21}
-\contentsline {section}{\numberline {4.1}Spatial Reuse through Continuous Time Markov Networks}{21}
+\contentsline {section}{\numberline {4.1}Spatial Reuse in Continuous Time Markov Networks}{21}
 \contentsline {subsection}{\numberline {4.1.1}IEEE 802.11ax OBSS/PD-based Spatial Reuse}{23}
 \contentsline {subsection}{\numberline {4.1.2}IEEE 802.11be Coordinated Spatial Reuse}{23}
-\contentsline {section}{\numberline {4.2}Simulation of Sequential Learning for Spatial Reuse}{24}
-\contentsline {subsection}{\numberline {4.2.1}Spatial Reuse Implementation}{24}
+\contentsline {section}{\numberline {4.2}Spatial Reuse in the Komondor Simulator}{24}
+\contentsline {subsection}{\numberline {4.2.1}Spatial Reuse Implementation}{25}
 \contentsline {subsection}{\numberline {4.2.2}Agents-based Implementation}{26}
 \contentsline {chapter}{\numberline {5}{\MakeUppercase { Main Findings}}}{29}
 \contentsline {chapter}{\numberline {6}{\MakeUppercase { Concluding Remarks}}}{37}

@@ -78,45 +78,45 @@ Warning--empty year in itu2019architecture
 Warning--empty author in itu2019data
 Warning--empty journal in itu2019data
 Warning--empty year in itu2019data
-You've used 174 entries,
+You've used 175 entries,
             1791 wiz_defined-function locations,
-            1276 strings with 37931 characters,
-and the built_in function-call counts, 49569 in all, are:
-= -- 4753
-> -- 1999
-< -- 82
-+ -- 733
-- -- 559
-* -- 3217
-:= -- 7202
-add.period$ -- 580
-call.type$ -- 174
-change.case$ -- 171
+            1281 strings with 38149 characters,
+and the built_in function-call counts, 49952 in all, are:
+= -- 4795
+> -- 2007
+< -- 84
++ -- 736
+- -- 561
+* -- 3238
+:= -- 7249
+add.period$ -- 584
+call.type$ -- 175
+change.case$ -- 172
 chr.to.int$ -- 0
-cite$ -- 187
-duplicate$ -- 2340
-empty$ -- 4813
-format.name$ -- 559
-if$ -- 11562
+cite$ -- 188
+duplicate$ -- 2361
+empty$ -- 4851
+format.name$ -- 561
+if$ -- 11659
 int.to.chr$ -- 0
-int.to.str$ -- 174
-missing$ -- 171
-newline$ -- 867
-num.names$ -- 166
-pop$ -- 670
+int.to.str$ -- 175
+missing$ -- 172
+newline$ -- 872
+num.names$ -- 167
+pop$ -- 675
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1287
+skip$ -- 1303
 stack$ -- 0
-substring$ -- 3740
-swap$ -- 837
-text.length$ -- 82
+substring$ -- 3772
+swap$ -- 849
+text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 13
-while$ -- 524
-width$ -- 177
-write$ -- 1929
+while$ -- 528
+width$ -- 178
+write$ -- 1942
 (There were 20 error messages)

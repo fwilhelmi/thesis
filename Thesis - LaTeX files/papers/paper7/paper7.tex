@@ -12,8 +12,9 @@
 \usepackage[noadjust]{cite}
 \renewcommand{\citepunct}{,\penalty\citepunctpenalty\,}
 \renewcommand{\citedash}{--}% optionally
-
+\usepackage[a4paper, total={6in, 10in}]{geometry}
 \begin{document}
+\setcounter{page}{162}
 \title{A Flexible Machine Learning-Aware Architecture\\ for Future WLANs}
 \author{Francesc~Wilhelmi,~Sergio~Barrachina-Mu\~noz,~Boris~Bellalta,\\~Cristina~Cano,~Anders~Jonsson,~and~Vishnu~Ram}
 \date{ }
@@ -22,20 +23,6 @@
 \begin{abstract}
 Lots of hopes have been placed on Machine Learning (ML) as a key enabler of future wireless networks. By taking advantage of large volumes of data, ML is expected to deal with the ever-increasing complexity of networking problems. Unfortunately, current networks are not yet prepared to support the ensuing requirements of ML-based applications in terms of data collection, processing, and output distribution. This article points out the architectural requirements that are needed to pervasively include ML as part of future wireless networks operation. Specifically, we look into Wireless Local Area Networks (WLANs), which, due to their nature can be found in multiple forms, ranging from cloud-based to edge-computing-like deployments. In particular, we propose to adopt the International Telecommunications Union (ITU) unified architecture for 5G and beyond. Based on ITU's architecture, we provide insights on the main requirements and the major challenges of introducing ML to the multiple modalities of WLANs. Finally, we showcase the superiority of the architecture through an ML-enabled use case for future networks.
 \end{abstract}
-
-\begin{table*}[t!]
-	\caption{Machine learning methods, algorithms, potential networking applications, and examples of input data.}
-	\label{table:ml_taxonomy}
-	\centering
-	\scriptsize
-	\begin{tabular}{|p{.09\textwidth}|p{.28\textwidth}|p{.25\textwidth}|p{.25\textwidth}|}
-		\hline
-		\textbf{ML method} & \textbf{Algorithms} & \textbf{Potential applications} & \textbf{Examples of input data} \\\hline
-		SL & Linear classifiers, regression methods such as Autoregressive Integrated Moving Average (ARIMA), neural networks, hidden Markov models, random forest, support vector machines, k-nearest neighbors, principal component analysis &Traffic forecasting, mobility pattern prediction, flow classification, routing, anomaly detection, spectrum management, failure detection, QoE prediction & IP traffic matrices, temporal user location, availability of routing paths, application data, channel measurements, performance metrics \\\hline
-		UL & Clustering, mixture models, generative models, non-negative matrix factorization, evolutionary algorithms & Traffic classification, virtual topology design, path computation, intruder detection, signal separation& IP traffic matrices, historical end-to-end bit-rate, received symbols \\\hline
-		RL & Monte Carlo, Q-learning, State-Action-Reward-State-Action (SARSA), deep Q network, actor-critic, multi-armed bandits, learning automaton, Markov decision processes & Power control, rate adaptation, routing, channel selection, spatial reuse, smart caching, traffic offloading, cognitive channel access, energy harvesting, energy efficiency & Channel measurements, link status, performance metrics (e.g., throughput, delay), server occupation, power consumption \\\hline
-	\end{tabular}
-\end{table*}
 
 \section{Introduction}
 Wireless communications have reached a point where a paradigm shift is required to satisfy the increasing needs of next-generation applications \cite{osseiran2014scenarios}. Based on the current trend, Artificial Intelligence (AI), and more precisely Machine Learning (ML), is expected to conduct a revolution, especially regarding the network planning, operation, and management of the 5th and 6th generations (5G/6G) of mobile communications. 
@@ -56,10 +43,10 @@ To enable the integration of ML-based approaches into the different modalities o
 
 The main contributions of this paper are as follows:
 \begin{itemize}
-	\item We devise and discuss the potential of ML-enabled future communications. Then, we focus on IEEE 802.11 WLANs and provide a set of use cases. 
-	\item We provide an overview of the ITU's ML-aware architecture for 5G networks and beyond.
-	\item We adopt the module-based ITU's architecture and provide a realization for IEEE 802.11 WLANs, thus pointing out the major technical challenges and opportunities.
-	\item We depict the potential advantages of ML-based approaches enabled by the architecture through numerical results in a particular use case.	
+\item We devise and discuss the potential of ML-enabled future communications. Then, we focus on IEEE 802.11 WLANs and provide a set of use cases. 
+\item We provide an overview of the ITU's ML-aware architecture for 5G networks and beyond.
+\item We adopt the module-based ITU's architecture and provide a realization for IEEE 802.11 WLANs, thus pointing out the major technical challenges and opportunities.
+\item We depict the potential advantages of ML-based approaches enabled by the architecture through numerical results in a particular use case.	
 \end{itemize}
 
 % ----------------------------------
@@ -81,6 +68,20 @@ In 5G, the previous concepts are referred to as Enhanced Mobile Broadband (eMBB)
 To meet the abovementioned strict requirements, not only a technological innovation is required (e.g., use of more spectrum or improve multiple-antennas technologies), but a paradigm shift is necessary when designing novel solutions for network planning, operation, and management. In particular, intelligent wireless networks need to be empowered with cognitive and context-aware capabilities, which may require additional infrastructure such as environmental sensors and cameras. To that end, ML is expected to be important during the lifetime of 5G and will become pervasive - as included from the beginning in their conception - in 6G networks. 
 
 The actual utility of ML lies in those problems that are hard to solve by hand-programming due to their underlying complex patterns (e.g., network traffic prediction). Formally, a machine is said to learn if it improves the performance $\mathbb{P}$ obtained from undertaking task $\mathbb{T}$, based on the gathered experience $\mathbb{E}$ \cite{mitchell1997machine}. Different ML techniques have been categorized in multiple ways, but the most common taxonomy differentiates between supervised learning (labeled data is used for training), unsupervised learning (no labels are used on input data), and reinforcement learning (exploration-exploitation trade-off with label/unlabeled data). Table \ref{table:ml_taxonomy} provides a list of algorithms and potential networking applications for each type of ML techniques, as well as some examples of input data to be used by these methods. For further details, we address the interested reader to \cite{jiang2016machine, zhang2019deep, usama2019unsupervised}, which survey a plethora of ML-based applications for networking.
+
+\begin{table*}[ht!]
+\caption{Machine learning methods, algorithms, potential networking applications, and examples of input data.}
+\label{table:ml_taxonomy}
+\centering
+\scriptsize
+\begin{tabular}{|p{.09\textwidth}|p{.28\textwidth}|p{.25\textwidth}|p{.25\textwidth}|}
+\hline
+\textbf{ML method} & \textbf{Algorithms} & \textbf{Potential applications} & \textbf{Examples of input data} \\\hline
+SL & Linear classifiers, regression methods such as Autoregressive Integrated Moving Average (ARIMA), neural networks, hidden Markov models, random forest, support vector machines, k-nearest neighbors, principal component analysis &Traffic forecasting, mobility pattern prediction, flow classification, routing, anomaly detection, spectrum management, failure detection, QoE prediction & IP traffic matrices, temporal user location, availability of routing paths, application data, channel measurements, performance metrics \\\hline
+UL & Clustering, mixture models, generative models, non-negative matrix factorization, evolutionary algorithms & Traffic classification, virtual topology design, path computation, intruder detection, signal separation& IP traffic matrices, historical end-to-end bit-rate, received symbols \\\hline
+RL & Monte Carlo, Q-learning, State-Action-Reward-State-Action (SARSA), deep Q network, actor-critic, multi-armed bandits, learning automaton, Markov decision processes & Power control, rate adaptation, routing, channel selection, spatial reuse, smart caching, traffic offloading, cognitive channel access, energy harvesting, energy efficiency & Channel measurements, link status, performance metrics (e.g., throughput, delay), server occupation, power consumption \\\hline
+\end{tabular}
+\end{table*}
 
 % 1 - Architectural proposals	
 Apart from the specific ML solutions to problems in communications, some efforts have been made towards enabling AI-aware networking in more general terms. In particular, several architectural proposals have been provided so far \cite{bi2015wireless,chih2017big,wang2018machine}. Most of the referenced works agree in the necessary steps for enabling big data analytics in cellular deployments: (1) data collection, (2) data preparation, (3) data analysis, and (4) decision making. Nevertheless, none of these works provide architectural guidelines to introduce ML to wireless networks. In this regard, the ITU's architecture looks deeper into the ML operation and targets the actual procedures involving information gathering, processing, and communication. Besides, the ITU-T provides a data handling framework for ML-aware networks \cite{itu2019data}, which defines processes concerning data collection, processing, and output distribution. 

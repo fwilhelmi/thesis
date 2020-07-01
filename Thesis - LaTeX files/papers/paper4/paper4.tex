@@ -26,31 +26,26 @@
 \usepackage[]{moresize}
 \usepackage{soul}
 \usepackage{enumitem}   
-
 %% Tikz libraries
 \usepackage{tikz}
 \usepackage{tkz-tab}
 \usetikzlibrary{automata,arrows,positioning,calc}
 \usetikzlibrary{shapes,snakes}
-
 %% Useful packages
 \usepackage{tabularx,booktabs}
 \newcolumntype{C}{>{\centering\arraybackslash}X} % centered version of "X" type
 \newcolumntype{b}{X}
 \newcolumntype{s}{>{\hsize=.5\hsize}X}
 \newcolumntype{v}{>{\hsize=.3\hsize}X}
-
 \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
-
  \pdfoutput=1
-
-
 \hyphenation{CSMA/CA}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+%\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+%		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-		T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
-	
+		\setcounter{page}{106}
 	\title{Komondor: a Wireless Network Simulator for Next-Generation High-Density WLANs}
 
 	\author{Sergio Barrachina-Muñoz, Francesc Wilhelmi\thanks{The contribution of the first two authors is the same.},\\ Ioannis Selinis, and Boris Bellalta}
@@ -73,7 +68,7 @@
 	
 	\begin{figure}[t]
 		\centering	
-		\includegraphics[width=0.75\columnwidth]{map_central.png}
+		\includegraphics[width=0.65\columnwidth]{map_central.png}
 		\caption{Dense scenario composed of 25 WLANs. Note that each WLAN has its own channel allocation and DCB policy.}
 		\label{fig:map_dense}
 	\end{figure}
@@ -138,7 +133,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.7\columnwidth]{cost_component.png}
+		\includegraphics[width=0.4\columnwidth]{cost_component.png}
 		\caption{COST component. While inports and outports allow to directly communicate with other components, timers trigger events specific to the component.}
 		\label{fig:cost}
 	\end{figure}	
@@ -164,7 +159,7 @@
 	
 	\begin{figure}[t]
 		\centering
-		\includegraphics[width=0.9\columnwidth]{komondor_flowchart_helvetica.png}
+		\includegraphics[width=0.65\columnwidth]{komondor_flowchart_helvetica.png}
 		\caption{Komondor execution flowchart.}
 		\label{fig:komondor_flowchart}
 	\end{figure}		
@@ -282,16 +277,17 @@
 	% s1
 	\begin{figure}[t]
 		\centering		
-		\includegraphics[width=0.8\columnwidth]{results_scenario_1.png}
+		\includegraphics[width=0.6\columnwidth]{results_scenario_1.png}
 		\caption{Average throughput experienced by the WLAN of \textit{Scenario 1}, for $N_{\text{agg}} = 1$ and $N_{\text{agg}} = 64$. Results obtained from each simulation tool are shown.}
 		\label{fig:results_simple_scenarios}
 	\end{figure}
 	
 	\begin{figure*}[ht!]
+		\centering
 		% first row: 4 subfigures
-		\begin{subfigure}{0.225\textwidth}
+		\begin{subfigure}{0.35\textwidth}
 			\includegraphics[width=\linewidth]{toy_scenario_2a.pdf}
-			\caption{Topology of \textit{Scenario 2a.}} \label{fig:x_a}
+			\caption{Topology of \textit{Sce2a.}} \label{fig:x_a}
 		\end{subfigure}
 		\hspace{0.1mm}
 		\begin{subfigure}{0.24\textwidth}
@@ -304,26 +300,24 @@
 			\node[state]    (S4)[below of = S3, yshift=0.3cm]		{$\text{C}$};
 			\node[state, draw=white]    (S99)[right of = S3, xshift=-0.3cm]		{};
 			\node[state, draw=white]    (S999)[left of = S1, xshift=0.3cm]		{};
-			
 			\path
 			(S1) edge[bend left] (S2)
 			(S1) edge (S3)
 			(S1) edge[bend right] (S4);
-			
 			\end{tikzpicture}
-			\caption{CTMN of \textit{Scenario 2a.}} \label{fig:c_a}
+			\caption{CTMN of \textit{Sce2a.}} \label{fig:c_a}
 		\end{subfigure}
-		\hspace*{\fill}
-		\begin{subfigure}{0.225\textwidth}
+		%\hspace*{\fill}
+		\\
+		\begin{subfigure}{0.35\textwidth}
 			\includegraphics[width=\linewidth]{toy_scenario_2b.pdf}
-			\caption{Topology of \textit{Scenario 2b}.} \label{fig:x_b}
+			\caption{Topology of \textit{Sce2b}.} \label{fig:x_b}
 		\end{subfigure}
 		\hspace{0.1mm}
 		\begin{subfigure}{0.24\textwidth}
 			\begin{tikzpicture}[<->,>=stealth',shorten >=1pt,auto,node distance=1.8cm,
 			semithick]
 			\tikzstyle{every state}=[fill=white,draw=black,thick,text=black,scale=0.72]
-			
 			\node[state, label=above left:2b]    (S1)                    {$\emptyset$};
 			\node[state]    (S3)[right of = S1, xshift=-0.3cm]		{$\text{B}$};
 			\node[state]    (S2)[above of = S3, yshift=-0.3cm]		{$\text{A}$};
@@ -331,25 +325,22 @@
 			\node[state]    (S6)[right of = S3, xshift=-0.3cm]		{$\text{A}\text{C}$};
 			\node[state, draw=white]    (S99)[right of = S6, xshift=-0.885cm]		{};
 			\node[state, draw=white]    (S999)[left of = S1, xshift=0.885cm]		{};
-			
 			\path
-			
 			(S1) edge[bend left] (S2)
 			(S1) edge (S3)
 			(S1) edge[bend right] (S4)
 			(S2) edge (S6)
 			(S4) edge (S6);
 			\end{tikzpicture}
-			\caption{CTMN of \textit{Scenario 2b}.} \label{fig:c_b}
+			\caption{CTMN of \textit{Sce2b}.} \label{fig:c_b}
 		\end{subfigure}
-		
 		% 2nd row: 3 more subfigures
-		\vspace*{2mm}
-		\begin{subfigure}{0.225\textwidth}
+		\\%\vspace*{5mm}
+		\begin{subfigure}{0.35\textwidth}
 			\includegraphics[width=\linewidth]{toy_scenario_2c.pdf}
-			\caption{Topology of \textit{Scenario 2c}.} \label{fig:x_c}
+			\caption{Topology of \textit{Sce2c}.} \label{fig:x_c}
 		\end{subfigure}
-		\hspace*{\fill}
+		%\hspace*{\fill}
 		\begin{subfigure}{0.24\textwidth}
 			\begin{tikzpicture}[<->,>=stealth',shorten >=1pt,auto,node distance=1.8cm,
 			semithick]
@@ -398,14 +389,15 @@
 			(S7) edge (S8);
 			
 			\end{tikzpicture}
-			\caption{CTMN of \textit{Scenario 2c}.} \label{fig:c_c}
+			\caption{CTMN of \textit{Sce2c}.} \label{fig:c_c}
 		\end{subfigure}
-		\hspace*{\fill}
-		\begin{subfigure}{0.225\textwidth}
+		\\
+		%\hspace*{\fill}
+		\begin{subfigure}{0.35\textwidth}
 			\includegraphics[width=\linewidth]{toy_scenario_2d.pdf}
-			\caption{Topology of \textit{Scenario 2d}.} \label{fig:x_d}
+			\caption{Topology of \textit{Sce2d}.} \label{fig:x_d}
 		\end{subfigure}
-		\hspace*{\fill}
+		%\hspace*{\fill}
 		\begin{subfigure}{0.24\textwidth}
 			\begin{tikzpicture}[<->,>=stealth',shorten >=1pt,auto,node distance=1.8cm,
 			semithick]
@@ -453,7 +445,7 @@
 			
 			(S7) edge (S8);
 			\end{tikzpicture}
-			\caption{CTMN of \textit{Scenario 2d}.} \label{fig:c_d}
+			\caption{CTMN of \textit{Sce2d}.} \label{fig:c_d}
 		\end{subfigure}
 		\caption{Topologies and corresponding CTMNs of scenarios 2a-2d. The yellow and blue arrows represent the area of interference from transmitters in WLANs A and C, respectively, whereby medium contention is forced.}
 		\label{fig:complex_scenarios}
@@ -482,7 +474,7 @@
 	% s2
 	\begin{figure}[t]
 		\centering	
-		\includegraphics[width=1\columnwidth]{results_scenario_2.png}
+		\includegraphics[width=.8\columnwidth]{results_scenario_2.png}
 		\caption{Average throughput experienced by each WLAN in scenarios 2a-2d. $N_{\text{agg}} = 1$ and $N_{\text{agg}}=64$ are represented through solid bars and dashed lines, respectively.}
 		\label{fig:results_complex_scenarios}
 	\end{figure}
@@ -496,7 +488,7 @@
 	
 	\begin{figure}[t]
 		\centering	
-		\includegraphics[width=1\columnwidth]{results_scenario_3.png}
+		\includegraphics[width=.8\columnwidth]{results_scenario_3.png}
 		\caption{Throughput (average and aggregate) and collision probability vs. number of overlapping WLANs. Only some ns-3 points are plotted for the sake of visualization.}
 		\label{fig:results_high_density_scenarios_throughput}
 	\end{figure}
@@ -524,14 +516,14 @@
 	
 	\begin{figure}[t]
 		\centering	
-		\includegraphics[width=1\columnwidth]{results_scenario_3_perf.png}
+		\includegraphics[width=.8\columnwidth]{results_scenario_3_perf.png}
 		\caption{Execution time and number of generated events vs. number of overlapping WLANs.}
 		\label{fig:results_high_density_scenarios_time}
 	\end{figure}
 	
 	\begin{figure}[h]
 		\centering	
-		\includegraphics[width=0.95\columnwidth]{channel_allocation.png}
+		\includegraphics[width=0.9\columnwidth]{channel_allocation.png}
 		\caption{Scenarios with different DCB capabilities.} %Some of the DCB scenarios already validated.
 		\label{fig:channel_allocation}
 	\end{figure}
@@ -544,11 +536,11 @@
 	
 	\begin{figure}[t!]
 		\centering
-		\begin{subfigure}[b]{0.6\columnwidth}			\includegraphics[width=0.9\textwidth]{wlan_agents.pdf}
+		\begin{subfigure}[b]{0.4\columnwidth}			\includegraphics[width=\textwidth]{wlan_agents.pdf}
 			\caption{Agents embedded to APs}
 			\label{fig:wlan_agents}
-		\end{subfigure}
-		\begin{subfigure}[b]{1\columnwidth}
+		\end{subfigure}%
+		\begin{subfigure}[b]{.6\columnwidth}
 		\includegraphics[width=\textwidth]{agents_operation.png}
 			\caption{Learning operation followed by agents}
 			\label{fig:agents_operation}

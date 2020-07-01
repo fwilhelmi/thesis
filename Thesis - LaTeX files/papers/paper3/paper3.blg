@@ -1,53 +1,61 @@
 This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper3.aux
-The style file: abbrvnat.bst
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 Warning--entry type for "tgax2017draft" isn't style-file defined
 --line 155 of file references.bib
-Warning--to sort, need author or key in ieee2015qam
-Warning--to sort, need author or key in tgax2017draft
-Warning--empty author in ieee2015qam
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in hartland2006multi
+Warning--empty author in ieee2015qam
+
+Done.
 You've used 32 entries,
-            2773 wiz_defined-function locations,
-            777 strings with 10423 characters,
-and the built_in function-call counts, 16349 in all, are:
-= -- 1533
-> -- 829
-< -- 27
-+ -- 286
-- -- 252
-* -- 1276
-:= -- 2361
-add.period$ -- 102
+            4087 wiz_defined-function locations,
+            1003 strings with 13160 characters,
+and the built_in function-call counts, 26142 in all, are:
+= -- 2128
+> -- 569
+< -- 262
++ -- 328
+- -- 84
+* -- 1231
+:= -- 3781
+add.period$ -- 73
 call.type$ -- 32
-change.case$ -- 179
-chr.to.int$ -- 30
-cite$ -- 70
-duplicate$ -- 778
-empty$ -- 1392
-format.name$ -- 296
-if$ -- 3547
-int.to.chr$ -- 3
-int.to.str$ -- 1
-missing$ -- 30
-newline$ -- 165
-num.names$ -- 120
-pop$ -- 388
+change.case$ -- 32
+chr.to.int$ -- 630
+cite$ -- 34
+duplicate$ -- 1832
+empty$ -- 2081
+format.name$ -- 106
+if$ -- 6148
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 290
+newline$ -- 119
+num.names$ -- 30
+pop$ -- 655
 preamble$ -- 1
-purify$ -- 147
-quote$ -- 0
-skip$ -- 611
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2028
 stack$ -- 0
-substring$ -- 802
-swap$ -- 150
-text.length$ -- 12
+substring$ -- 1504
+swap$ -- 1545
+text.length$ -- 52
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 352
-warning$ -- 4
-while$ -- 154
-width$ -- 0
-write$ -- 419
-(There were 5 warnings)
+top$ -- 5
+type$ -- 32
+warning$ -- 2
+while$ -- 134
+width$ -- 34
+write$ -- 326
+(There were 3 warnings)
