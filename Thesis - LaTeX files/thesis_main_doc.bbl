@@ -49,6 +49,15 @@ Marco Giordani, Michele Polese, Marco Mezzavilla, Sundeep Rangan, and Michele
 \newblock Toward 6g networks: Use cases and technologies.
 \newblock {\em IEEE Communications Magazine}, 58(3):55--61, 2020.
 
+\bibitem{itu2019architecture}
+{ITU-T Rec. Y.3172, ``Architectural framework for machine learning in future
+  networks including IMT-2020", 2019}.
+
+\bibitem{itu2020sandbox}
+{ML5G-O-035, FG ML5G Technical Specification ``Machine Learning Sandbox for
+  future networks including IMT-2020: requirements and architecture
+  framework'', 2020}.
+
 \bibitem{kim2006improving}
 Tae-Suk Kim, Hyuk Lim, and Jennifer~C Hou.
 \newblock Improving spatial reuse through tuning transmit power, carrier sense
@@ -757,10 +766,6 @@ ETSI GS ZSM 002~V0.13.5 (2019-07).
   Architecture"}.
 \newblock 2019.
 
-\bibitem{itu2019architecture}
-{ITU-T Rec. Y.3172, ``Architectural framework for machine learning in future
-  networks including IMT-2020", 2019}.
-
 \bibitem{itu2019data}
 {ITU-T Rec. Y.3174, ``Framework for data handling to enable machine learning in
   future networks including IMT-2020", 2019}.
@@ -1080,6 +1085,12 @@ Boris Bellalta, Alessandro Zocca, Cristina Cano, Alessandro Checco, Jaume
 Boris Bellalta.
 \newblock {Throughput Analysis in High Density WLANs}.
 \newblock {\em IEEE Communications Letters}, 21(3):592--595, 2017.
+
+\bibitem{chen2005sense}
+Gilbert Chen, Joel Branch, Michael Pflug, Lijuan Zhu, and Boleslaw Szymanski.
+\newblock Sense: a wireless sensor network simulator.
+\newblock In {\em Advances in pervasive computing and networking}, pages
+  249--267. Springer, 2005.
 
 \bibitem{gawlowicz2019ns}
 Piotr Gaw{\l}owicz and Anatolij Zubow.
