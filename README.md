@@ -3,4 +3,4 @@ This repository includes all the material used to write my PhD thesis, entitled 
 
 Deposit date: 16 July 2020.
 
-Presentation date: To be defined.
+Presentation date: 7 October 2020.
