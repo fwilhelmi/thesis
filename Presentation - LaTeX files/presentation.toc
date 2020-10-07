@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Spatial Reuse}{11}{0}{1}
+\beamer@sectionintoc {2}{Machine Learning for Spatial Reuse}{27}{0}{2}
+\beamer@sectionintoc {3}{Methodology and Enablers}{44}{0}{3}
+\beamer@sectionintoc {4}{Main Findings}{65}{0}{4}
+\beamer@sectionintoc {5}{Conclusions}{78}{0}{5}
+\beamer@sectionintoc {8}{Back-up content}{85}{1}{6}

@@ -1,0 +1,212 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{BMWB19}
+
+\bibitem[AMTS11]{anandkumar2011distributed}
+Animashree Anandkumar, Nithin Michael, Ao~Kevin Tang, and Ananthram Swami,
+  \emph{Distributed algorithms for learning and cognitive medium access with
+  logarithmic regret}, IEEE Journal on Selected Areas in Communications
+  \textbf{29} (2011), no.~4, 731--745.
+
+\bibitem[ART{\etalchar{+}}16]{afifi2016throughput}
+Wessam Afifi, Enrico-Henrik Rantala, Esa Tuomaala, Sayantan Choudhury, and
+  Marwan Krunz, \emph{Throughput-fairness tradeoff evaluation for
+  next-generation wlans with adaptive clear channel assessment}, 2016 IEEE
+  International Conference on Communications (ICC), IEEE, 2016, pp.~1--6.
+
+\bibitem[Bia00]{bianchi2000performance}
+Giuseppe Bianchi, \emph{Performance analysis of the ieee 802.11 distributed
+  coordination function}, IEEE Journal on selected areas in communications
+  \textbf{18} (2000), no.~3, 535--547.
+
+\bibitem[BMWB19]{barrachina2019dynamic}
+Sergio Barrachina-Mu{\~n}oz, Francesc Wilhelmi, and Boris Bellalta,
+  \emph{Dynamic channel bonding in spatially distributed high-density wlans},
+  IEEE Transactions on Mobile Computing \textbf{19} (2019), no.~4, 821--835.
+
+\bibitem[CB20]{carrascosa2020multi}
+Marc Carrascosa and Boris Bellalta, \emph{Multi-armed bandits for decentralized
+  ap selection in enterprise wlans}, arXiv preprint arXiv:2001.00392 (2020).
+
+\bibitem[CC07]{chang2007power}
+Chih-Yung Chang and Hsu-Ruey Chang, \emph{Power control and fairness mac
+  mechanisms for 802.11 wlans}, Computer communications \textbf{30} (2007),
+  no.~7, 1527--1537.
+
+\bibitem[{Che}05]{chevillat2005dynamic}
+{Chevillat, Pierre and Jelitto, Jens and Truong, Hong Linh}, \emph{{Dynamic
+  data rate and transmit power adjustment in IEEE 802.11 wireless LANs}},
+  {International Journal of Wireless Information Networks} \textbf{{12}}
+  ({2005}), no.~{3}, {123--145}.
+
+\bibitem[CKC15]{coucheney2015multi}
+Pierre Coucheney, Kinda Khawam, and Johanne Cohen, \emph{Multi-armed bandit for
+  distributed inter-cell interference coordination}, 2015 IEEE International
+  Conference on Communications (ICC), IEEE, 2015, pp.~3323--3328.
+
+\bibitem[CN18]{cano2018wireless}
+Cristina Cano and Gergely Neu, \emph{Wireless optimisation via convex bandits:
+  Unlicensed lte/wifi coexistence}, Proceedings of the 2018 Workshop on Network
+  Meets AI \& ML, 2018, pp.~41--47.
+
+\bibitem[CP14]{combes2014dynamic}
+Richard Combes and Alexandre Proutiere, \emph{Dynamic rate and channel
+  selection in cognitive radio systems}, IEEE Journal on Selected Areas in
+  Communications \textbf{33} (2014), no.~5, 910--921.
+
+\bibitem[DJD17]{daher2017cognitive}
+Tony Daher, Sana~Ben Jemaa, and Laurent Decreusefond, \emph{Cognitive
+  management of self-organized radio networks based on multi armed bandit},
+  2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile
+  Radio Communications (PIMRC), IEEE, 2017, pp.~1--5.
+
+\bibitem[GRC03]{guo2003spatial}
+Xingang Guo, Sumit Roy, and W~Steven Conner, \emph{Spatial reuse in wireless
+  ad-hoc networks}, 2003 IEEE 58th Vehicular Technology Conference. VTC
+  2003-Fall (IEEE Cat. No. 03CH37484), vol.~3, IEEE, 2003, pp.~1437--1442.
+
+\bibitem[{ITU}19]{y3172}
+{ITU-T}, \emph{{ITU-T Y.3172 Recommendation “Architectural framework for
+  machine learning in future networks including IMT-2020”}}.
+
+\bibitem[IYY{\etalchar{+}}19]{iwata2019analysis}
+Motoki Iwata, Koji Yamamoto, Bo~Yin, Takayuki Nishio, Masahiro Morikura, and
+  Hirantha Abeysekera, \emph{Analysis of inversely proportional carrier sense
+  threshold and transmission power setting based on received power for ieee
+  802.11 ax}, 2019 16th IEEE Annual Consumer Communications \& Networking
+  Conference (CCNC), IEEE, 2019, pp.~1--6.
+
+\bibitem[{Jas}19]{csr}
+{Jason Yuchen Guo, Guogang Huang, Ross Jian Yu \& Peter Loc},
+  \emph{{11-18-1926-02-0eht-terminology-for-ap-coordination}}.
+
+\bibitem[JCH]{jamil2016novel}
+Imad Jamil, Laurent Cariou, and Jean-Fran H{\'e}lard, \emph{{Novel
+  learning-based spatial reuse optimization in dense WLAN deployments}}.
+
+\bibitem[JCH14]{jamil2014improving}
+Imad Jamil, Laurent Cariou, and Jean-Francois Helard, \emph{Improving the
+  capacity of future ieee 802.11 high efficiency wlans}, 2014 21st
+  International Conference on Telecommunications (ICT), IEEE, 2014,
+  pp.~303--307.
+
+\bibitem[JCH15a]{jamil2015efficient}
+Imad Jamil, Laurent Cariou, and Jean-Fran{\c{c}}ois H{\'e}lard, \emph{Efficient
+  mac protocols optimization for future high density wlans}, 2015 IEEE Wireless
+  Communications and Networking Conference (WCNC), IEEE, 2015, pp.~1054--1059.
+
+\bibitem[JCH15b]{jamil2015preserving}
+Imad Jamil, Laurent Cariou, and Jean-Francois Helard, \emph{Preserving fairness
+  in super dense wlans}, 2015 IEEE International Conference on Communication
+  Workshop (ICCW), IEEE, 2015, pp.~2276--2281.
+
+\bibitem[LCC{\etalchar{+}}11]{li2011achieving}
+Wei Li, Yong Cui, Xiuzhen Cheng, Mznah~A Al-Rodhaan, and Abdullah Al-Dhelaan,
+  \emph{{Achieving proportional fairness via AP power control in multi-rate
+  WLANs}}, IEEE Transactions on Wireless Communications \textbf{10} (2011),
+  no.~11, 3784--3792.
+
+\bibitem[LLL{\etalchar{+}}14]{li2014energy}
+Yuan Li, Ke~Li, Wenwen Li, Yan Zhang, Min Sheng, and Jianxiang Chu, \emph{An
+  energy-efficient power control approach for ieee 802.11n wireless lans}, 2014
+  IEEE International Conference on Computer and Information Technology, IEEE,
+  2014, pp.~49--53.
+
+\bibitem[MH17]{maghsudi2017distributed}
+Setareh Maghsudi and Ekram Hossain, \emph{Distributed user association in
+  energy harvesting dense small cell networks: A mean-field multi-armed bandit
+  approach}, IEEE Access \textbf{5} (2017), 3513--3523.
+
+\bibitem[MII15]{murakami2015improving}
+Kodai Murakami, Tatsuya Ito, and Susumu Ishihara, \emph{Improving the spatial
+  reuse of ieee 802.11 wlan by adaptive carrier sense threshold of access
+  points based on node positions}, 2015 Eighth International Conference on
+  Mobile Computing and Ubiquitous Networking (ICMU), IEEE, 2015, pp.~132--137.
+
+\bibitem[MPB07]{mhatre2007interference}
+Vivek~P Mhatre, Konstantina Papagiannaki, and Francois Baccelli,
+  \emph{Interference mitigation through power control in high density 802.11
+  wlans}, IEEE INFOCOM 2007-26th IEEE International Conference on Computer
+  Communications, IEEE, 2007, pp.~535--543.
+
+\bibitem[MS14]{maghsudi2014joint}
+Setareh Maghsudi and S{\l}awomir Sta{\'n}czak, \emph{Joint channel selection
+  and power control in infrastructureless wireless networks: A multiplayer
+  multiarmed bandit framework}, IEEE Transactions on Vehicular Technology
+  \textbf{64} (2014), no.~10, 4565--4578.
+
+\bibitem[MS15]{maghsudi2015channel}
+Setareh Maghsudi and Slawomir Stanczak, \emph{Channel selection for
+  network-assisted d2d communication via no-regret bandit learning with
+  calibrated forecasting}, IEEE Transactions on Wireless Communications
+  \textbf{14} (2015), no.~3, 1309--1322.
+
+\bibitem[{Nak}14]{nakahira2014centralized}
+{Nakahira, Toshiro and Ishihara, Koichi and Asai, Yusuke and Takatori, Yasushi
+  and Kudo, Riichi and Mizoguchi, Masato}, \emph{{Centralized control of
+  carrier sense threshold and channel bandwidth in high-density WLANs}},
+  {Microwave Conference (APMC), 2014 Asia-Pacific}, {IEEE}, {2014},
+  pp.~{570--572}.
+
+\bibitem[OB15]{oni2015ap}
+Phillip~B Oni and Steven~D Blostein, \emph{Ap association optimization and cca
+  threshold adjustment in dense wlans}, 2015 IEEE Globecom Workshops (GC
+  Wkshps), IEEE, 2015, pp.~1--6.
+
+\bibitem[Rop18]{ropitault2018evaluation}
+Tanguy Ropitault, \emph{Evaluation of rtot algorithm: A first implementation of
+  obss\_pd-based sr method for ieee 802.11 ax}, 2018 15th IEEE Annual Consumer
+  Communications \& Networking Conference (CCNC), IEEE, 2018, pp.~1--7.
+
+\bibitem[SKVT18]{selinis2018control}
+Ioannis Selinis, Konstantinos Katsaros, Seiamak Vahid, and Rahim Tafazolli,
+  \emph{{Control OBSS/PD Sensitivity Threshold for IEEE 802.11 ax BSS Color}},
+  2018 IEEE 29th Annual International Symposium on Personal, Indoor and Mobile
+  Radio Communications (PIMRC), IEEE, 2018, pp.~1--7.
+
+\bibitem[Smi17]{smith2017dynamic}
+Graham~Kenneth Smith, \emph{Dynamic sensitivity control for wireless devices},
+  March~14 2017, US Patent 9,596,702.
+
+\bibitem[THN{\etalchar{+}}11]{tang2011improving}
+Suhua Tang, Akio Hasegawa, Riichiro Nagareda, Akito Kitaura, Tatsuo Shibata,
+  and Sadao Obana, \emph{{Improving throughput of wireless LANs with transmit
+  power control and slotted channel access}}, Personal Indoor and Mobile Radio
+  Communications (PIMRC), 2011 IEEE 22nd International Symposium on, IEEE,
+  2011, pp.~834--838.
+
+\bibitem[TYH{\etalchar{+}}14]{tang2014joint}
+Suhua Tang, Hiroyuki Yomo, Akio Hasegawa, Tatsuo Shibata, and Masayoshi Ohashi,
+  \emph{Joint transmit power control and rate adaptation for wireless lans},
+  Wireless personal communications \textbf{74} (2014), no.~2, 469--486.
+
+\bibitem[YYN{\etalchar{+}}17]{yamamoto2017analysis}
+Koji Yamamoto, Xuedan Yang, Takayuki Nishio, Masahiro Morikura, and Hirantha
+  Abeysekera, \emph{Analysis of inversely proportional carrier sense threshold
+  and transmission power setting}, 2017 14th IEEE Annual Consumer
+  Communications \& Networking Conference (CCNC), IEEE, 2017, pp.~13--18.
+
+\bibitem[ZQKJ20]{zhao2020non}
+Yapeng Zhao, Hua Qian, Kai Kang, and Yanliang Jin, \emph{A non-stationary
+  bandit strategy for rate adaptation with delayed feedback}, IEEE Access
+  (2020).
+
+\bibitem[ZWL{\etalchar{+}}16]{zhao2016stochastic}
+Xiaoguang Zhao, Xiangming Wen, Tao Lei, Zhaoming Lu, and Biao Zhang, \emph{On
+  stochastic geometry analysis of dense wlan with dynamic carrier sense
+  threshold and rate control}, 2016 19th International Symposium on Wireless
+  Personal Multimedia Communications (WPMC), IEEE, 2016, pp.~211--216.
+
+\bibitem[ZZNZ08]{zhu2008optimal}
+Yanfeng Zhu, Qian Zhang, Zhisheng Niu, and Jing Zhu, \emph{{On optimal
+  QoS-aware physical carrier sensing for IEEE 802.11 based WLANs: Theoretical
+  analysis and protocol design}}, IEEE transactions on wireless communications
+  \textbf{7} (2008), no.~4, 1369--1378.
+
+\end{thebibliography}

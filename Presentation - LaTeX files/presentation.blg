@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: presentation.aux
+The style file: amsalpha.bst
+Database file #1: bib.bib
+Repeated entry---line 92 of file bib.bib
+ : @article{barrachina2019dynamic
+ :                               ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 189 of file bib.bib
+ :  author="Jamil, Imad and Cariou, Laurent and H{\'e}lard, Jean-Fran"
+ :                                                                    \c"c"ois",
+I'm skipping whatever remains of this entry
+Warning--missing pages in carrascosa2020multi
+Warning--missing journal name in y3172
+Warning--missing journal, volume, and year in y3172
+Warning--missing pages in y3172
+Warning--missing journal name in csr
+Warning--missing journal, volume, and year in csr
+Warning--missing pages in csr
+Warning--missing journal name in jamil2016novel
+Warning--missing journal, volume, and year in jamil2016novel
+Warning--missing pages in jamil2016novel
+Warning--missing pages in zhao2020non
+You've used 37 entries,
+            2624 wiz_defined-function locations,
+            761 strings with 12432 characters,
+and the built_in function-call counts, 17721 in all, are:
+= -- 1713
+> -- 877
+< -- 8
++ -- 313
+- -- 310
+* -- 1437
+:= -- 2748
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 260
+chr.to.int$ -- 36
+cite$ -- 48
+duplicate$ -- 715
+empty$ -- 1310
+format.name$ -- 346
+if$ -- 3696
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 73
+newline$ -- 122
+num.names$ -- 111
+pop$ -- 292
+preamble$ -- 1
+purify$ -- 297
+quote$ -- 0
+skip$ -- 652
+stack$ -- 0
+substring$ -- 1131
+swap$ -- 181
+text.length$ -- 8
+text.prefix$ -- 7
+top$ -- 0
+type$ -- 296
+warning$ -- 11
+while$ -- 185
+width$ -- 40
+write$ -- 421
+(There were 2 error messages)
